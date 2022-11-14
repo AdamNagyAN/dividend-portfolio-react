@@ -41,7 +41,7 @@ const TickerPage: React.FC = () => {
 				dataKey="date"
 				height="h-72"
 				colors={["indigo", "cyan"]}
-				marginTop="mt-4"
+				marginTop="mt-5"
 			/>
 		</Card>
 	);
