@@ -1,4 +1,5 @@
 export const ROUTES = {
+	HOME: '/',
 	LOGIN: '/login',
-	TICKER: `/ticker/:symbol`
+	TICKER: (symbol: string) => `/ticker/${symbol}`,
 };

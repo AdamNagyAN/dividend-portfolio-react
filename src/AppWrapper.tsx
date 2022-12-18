@@ -6,11 +6,7 @@ export interface IAppWrapperProps {
 }
 
 const AppWrapper: React.FC<IAppWrapperProps> = ({ children }) => {
-	return (
-		<BrowserRouter>
-			{children}
-		</BrowserRouter>
-	);
+	return <BrowserRouter>{children}</BrowserRouter>;
 };
 
 export default AppWrapper;

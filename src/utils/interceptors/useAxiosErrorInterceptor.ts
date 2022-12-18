@@ -26,6 +26,6 @@
 
 // export default useAxiosErrorInterceptor;
 
-const test= 'test'
+const test = 'test';
 
-export default  test
+export default test;
