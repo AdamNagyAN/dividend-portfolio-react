@@ -8,6 +8,7 @@ import {
 	Toggle,
 	ToggleItem,
 } from '@tremor/react';
+import { useTranslation } from 'react-i18next';
 
 interface ITickerContainerProps {
 	data: any;
@@ -21,6 +22,7 @@ const TickerContainer: React.FC<ITickerContainerProps> = ({
 	setRange,
 	range,
 }) => {
+	const { t } = useTranslation();
 	const historyPayments = Object.keys(data.events.dividends).map(
 		(it: string) => data.events.dividends[it]
 	);
@@ -36,7 +38,9 @@ const TickerContainer: React.FC<ITickerContainerProps> = ({
 		<Card>
 			<Flex>
 				<Block>
-					<Title>Dividend history of {data.meta.symbol}</Title>
+					<Title>
+						{t('dividend-history.chart-title', { symbol: data.meta.symbol })}
+					</Title>
 				</Block>
 				<Toggle
 					color='zinc'

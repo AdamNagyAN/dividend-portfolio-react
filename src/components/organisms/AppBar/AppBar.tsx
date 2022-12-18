@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Flex } from '@tremor/react';
 import { useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
+import { useTranslation } from 'react-i18next';
 import useDebounce from '../../../utils/input/useDebounce';
 import useSearch from '../../../query/search/useSearch';
 import { ROUTES } from '../../../Routes';
@@ -9,6 +10,7 @@ import InputWithDropdown from '../../molecules/input-with-dropdown/InputWithDrop
 import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
 
 const AppBar: React.FC = () => {
+	const { t } = useTranslation();
 	const { control, watch } = useForm<{ search: string }>();
 	const navigate = useNavigate();
 	const debouncedSearchQuery = useDebounce(watch('search'), 600);
@@ -20,7 +22,7 @@ const AppBar: React.FC = () => {
 	return (
 		<div className='py-2 px-10 bg-violet-900 text-white'>
 			<Flex>
-				<a href='/'>Dividend Investment</a>
+				<a href='/'>{t('brand-name')}</a>
 				<nav>
 					<Flex spaceX='space-x-4'>
 						<Controller
@@ -44,7 +46,7 @@ const AppBar: React.FC = () => {
 						/>
 						<ul>
 							<li>
-								<a href='/'>Portfolio</a>
+								<a href='/'>{t('appbar.portfolio')}</a>
 							</li>
 						</ul>
 					</Flex>

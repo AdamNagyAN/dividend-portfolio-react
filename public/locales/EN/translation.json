@@ -1,0 +1,10 @@
+{
+  "brand-name": "Dividend Investing",
+  "appbar": {
+    "search-text": "Ticker...",
+    "portfolio": "Portfolio"
+  },
+  "dividend-history": {
+    "chart-title": "Dividend history of {{symbol}}"
+  }
+}
