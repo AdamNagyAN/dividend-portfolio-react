@@ -1,13 +1,13 @@
 import { AxiosPromise } from 'axios';
 import axiosBase from '../axiosBase';
+import DividendHistoryResponseDto from './dto/DividendHistoryResponseDto';
 
 const getDividendData = (
-	symbol?: string,
-	interval = '1mo',
-	range = '1y'
-): AxiosPromise<any> => {
+	symbol: string | undefined,
+	timeFrame: string
+): AxiosPromise<DividendHistoryResponseDto> => {
 	return axiosBase.get(
-		`https://query2.finance.yahoo.com/v8/finance/chart/${symbol}?events=div&interval=${interval}&range=${range}`
+		`/api/v1/symbol/${symbol}/dividend-history?timeFrame=${timeFrame}`
 	);
 };
 
