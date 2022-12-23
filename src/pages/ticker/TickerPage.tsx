@@ -7,12 +7,7 @@ import TickerContainer from './TickerContainer';
 const TickerPage: React.FC = () => {
 	const [range, setRange] = React.useState('max');
 	const { symbol } = useParams<{ symbol: string }>();
-	const { data } = useGetDividend(symbol, '1mo', range);
-	React.useEffect(() => {
-		if (data) {
-			setRange(data?.meta.range ?? 'max');
-		}
-	}, [data?.meta.range, range]);
+	const { data } = useGetDividend(symbol, range);
 	return (
 		<>
 			<AppBar />

@@ -9,9 +9,10 @@ import {
 	ToggleItem,
 } from '@tremor/react';
 import { useTranslation } from 'react-i18next';
+import DividendHistoryResponseDto from '../../service/dividend/dto/DividendHistoryResponseDto';
 
 interface ITickerContainerProps {
-	data: any;
+	data: DividendHistoryResponseDto;
 	// eslint-disable-next-line no-unused-vars
 	setRange: (value: string) => void;
 	range: string;
@@ -22,32 +23,26 @@ const TickerContainer: React.FC<ITickerContainerProps> = ({
 	setRange,
 	range,
 }) => {
+	const { historicalDividends, validTimeFrames, symbol } = data;
 	const { t } = useTranslation();
-	const historyPayments = Object.keys(data.events.dividends).map(
-		(it: string) => data.events.dividends[it]
-	);
 
-	const ranges = data.meta.validRanges;
-
-	const transformedHistoryPayments = historyPayments.map(it => ({
-		amount: it.amount,
-		date: new Date(it.date * 1000).toLocaleDateString(),
+	const transformedHistoryPayments = historicalDividends.map(it => ({
+		amount: it.adjDividend,
+		date: it.date,
 	}));
 
 	return (
 		<Card>
 			<Flex>
 				<Block>
-					<Title>
-						{t('dividend-history.chart-title', { symbol: data.meta.symbol })}
-					</Title>
+					<Title>{t('dividend-history.chart-title', { symbol })}</Title>
 				</Block>
 				<Toggle
 					color='zinc'
 					defaultValue={range}
 					handleSelect={value => setRange(value)}
 				>
-					{ranges.map((it: string) => (
+					{validTimeFrames.map((it: string) => (
 						<ToggleItem value={it} text={it} />
 					))}
 				</Toggle>
@@ -60,6 +55,7 @@ const TickerContainer: React.FC<ITickerContainerProps> = ({
 				height='h-72'
 				colors={['indigo', 'cyan']}
 				marginTop='mt-4'
+				autoMinValue
 			/>
 		</Card>
 	);
