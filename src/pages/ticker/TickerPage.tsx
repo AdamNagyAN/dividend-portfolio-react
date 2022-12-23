@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { useParams } from 'react-router-dom';
 import useGetDividend from '../../query/dividend/useGetDividend';
-import AppBar from '../../components/organisms/AppBar/AppBar';
+import AppBar from '../../components/organisms/appbar/AppBar';
 import TickerContainer from './TickerContainer';
+import 'styled-components/macro';
 
 const TickerPage: React.FC = () => {
 	const [range, setRange] = React.useState('max');

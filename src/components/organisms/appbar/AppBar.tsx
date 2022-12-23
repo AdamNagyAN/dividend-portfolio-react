@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Flex } from '@tremor/react';
+import { Flex, Subtitle, Text } from '@tremor/react';
 import { useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
@@ -8,6 +8,7 @@ import useSearch from '../../../query/search/useSearch';
 import { ROUTES } from '../../../Routes';
 import InputWithDropdown from '../../molecules/input-with-dropdown/InputWithDropdown';
 import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
+import 'styled-components/macro';
 
 const AppBar: React.FC = () => {
 	const { t } = useTranslation();
@@ -20,9 +21,11 @@ const AppBar: React.FC = () => {
 		navigate(ROUTES.TICKER(symbol));
 	};
 	return (
-		<div className='py-2 px-10 bg-violet-900 text-white'>
+		<div className='py-3 px-10 bg-white text-black'>
 			<Flex>
-				<a href='/'>{t('brand-name')}</a>
+				<a className='uppercase font-medium text-md' href='/'>
+					{t('brand-name')}
+				</a>
 				<nav>
 					<Flex spaceX='space-x-4'>
 						<Controller
@@ -37,18 +40,18 @@ const AppBar: React.FC = () => {
 										data &&
 										data.length !== 0 &&
 										data.map((it: any) => (
-											<DropdownItem onClick={() => onSelectSymbol(it.symbol)}>
-												{it.symbol}
+											<DropdownItem
+												tw='flex flex-col justify-items-start items-start'
+												onClick={() => onSelectSymbol(it.symbol)}
+											>
+												<Subtitle>{it.symbol}</Subtitle>
+												<Text>{it.shortname}</Text>
 											</DropdownItem>
 										))}
 								</InputWithDropdown>
 							)}
 						/>
-						<ul>
-							<li>
-								<a href='/'>{t('appbar.portfolio')}</a>
-							</li>
-						</ul>
+						<a href='/'>Nagy Adam</a>
 					</Flex>
 				</nav>
 			</Flex>
