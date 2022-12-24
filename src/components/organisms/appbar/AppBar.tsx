@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 //	eslint-disable-next-line
+import tw from 'twin.macro';
 import { BellIcon } from '@heroicons/react/24/outline';
 import useDebounce from '../../../utils/input/useDebounce';
 import useSearch from '../../../query/search/useSearch';
@@ -12,6 +13,9 @@ import InputWithDropdown from '../../molecules/input-with-dropdown/InputWithDrop
 import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
 import 'styled-components/macro';
 import IconButton from '../../molecules/buttons/IconButton';
+
+const NavContainer = tw.div`py-3 px-10 bg-white text-black`;
+const Brand = tw.a`uppercase font-medium text-lg`;
 
 const AppBar: React.FC = () => {
 	const { t } = useTranslation();
@@ -25,11 +29,9 @@ const AppBar: React.FC = () => {
 	};
 
 	return (
-		<div className='py-3 px-10 bg-white text-black'>
+		<NavContainer>
 			<Flex>
-				<a className='uppercase font-medium text-md' href='/'>
-					{t('brand-name')}
-				</a>
+				<Brand href='/'>{t('brand-name')}</Brand>
 				<nav>
 					<Flex spaceX='space-x-4'>
 						<Controller
@@ -62,7 +64,7 @@ const AppBar: React.FC = () => {
 					</Flex>
 				</nav>
 			</Flex>
-		</div>
+		</NavContainer>
 	);
 };
 

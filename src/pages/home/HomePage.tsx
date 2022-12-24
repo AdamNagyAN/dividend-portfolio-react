@@ -1,14 +1,13 @@
 import * as React from 'react';
 import AppBar from '../../components/organisms/appbar/AppBar';
-import Loader from '../../components/atoms/loader/Loader';
+import Footer from '../../components/organisms/footer/Footer';
 
-interface IHomePage {}
-
-const HomePage: React.FC<IHomePage> = () => {
+const HomePage: React.FC = () => {
 	return (
 		<>
 			<AppBar />
-			<Loader />
+			<div className='min-h-screen' />
+			<Footer />
 		</>
 	);
 };

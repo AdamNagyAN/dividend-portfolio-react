@@ -4,16 +4,16 @@ import useGetDividend from '../../query/dividend/useGetDividend';
 import AppBar from '../../components/organisms/appbar/AppBar';
 import TickerContainer from './TickerContainer';
 import 'styled-components/macro';
+import Footer from '../../components/organisms/footer/Footer';
 
 const TickerPage: React.FC = () => {
 	const [range, setRange] = React.useState('max');
 	const { symbol } = useParams<{ symbol: string }>();
 	const { data } = useGetDividend(symbol, range);
-	// const data = undefined;
 	return (
 		<>
 			<AppBar />
-			<div className='p-4'>
+			<div className='p-4 min-h-screen'>
 				{data ? (
 					<TickerContainer data={data} setRange={setRange} range={range} />
 				) : (
@@ -27,6 +27,7 @@ const TickerPage: React.FC = () => {
 					</div>
 				)}
 			</div>
+			<Footer />
 		</>
 	);
 };
