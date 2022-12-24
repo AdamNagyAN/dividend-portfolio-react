@@ -3,12 +3,15 @@ import { Flex, Subtitle, Text } from '@tremor/react';
 import { useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
+//	eslint-disable-next-line
+import { BellIcon } from '@heroicons/react/24/outline';
 import useDebounce from '../../../utils/input/useDebounce';
 import useSearch from '../../../query/search/useSearch';
 import { ROUTES } from '../../../Routes';
 import InputWithDropdown from '../../molecules/input-with-dropdown/InputWithDropdown';
 import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
 import 'styled-components/macro';
+import IconButton from '../../molecules/buttons/IconButton';
 
 const AppBar: React.FC = () => {
 	const { t } = useTranslation();
@@ -16,10 +19,11 @@ const AppBar: React.FC = () => {
 	const navigate = useNavigate();
 	const debouncedSearchQuery = useDebounce(watch('search'), 600);
 
-	const { data, isLoading } = useSearch(debouncedSearchQuery);
+	const { data, isLoading, isFetching } = useSearch(debouncedSearchQuery);
 	const onSelectSymbol = (symbol: string) => {
 		navigate(ROUTES.TICKER(symbol));
 	};
+
 	return (
 		<div className='py-3 px-10 bg-white text-black'>
 			<Flex>
@@ -35,12 +39,14 @@ const AppBar: React.FC = () => {
 								<InputWithDropdown
 									inputProps={{ placeholder: 'Ticker...', value, onChange }}
 									showDropdown={!isLoading && data}
+									isLoading={isFetching}
 								>
 									{!isLoading &&
 										data &&
 										data.length !== 0 &&
 										data.map((it: any) => (
 											<DropdownItem
+												key={it.symbol}
 												tw='flex flex-col justify-items-start items-start'
 												onClick={() => onSelectSymbol(it.symbol)}
 											>
@@ -51,6 +57,7 @@ const AppBar: React.FC = () => {
 								</InputWithDropdown>
 							)}
 						/>
+						<IconButton icon={<BellIcon />} />
 						<a href='/'>Nagy Adam</a>
 					</Flex>
 				</nav>
