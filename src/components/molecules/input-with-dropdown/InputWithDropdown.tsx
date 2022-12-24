@@ -1,11 +1,13 @@
 import * as React from 'react';
 import tw from 'twin.macro';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/solid';
+import Loader from '../../atoms/loader/Loader';
 
 export interface IInputWithDropdownProps {
 	inputProps?: React.InputHTMLAttributes<HTMLInputElement>;
 	children?: React.ReactNode;
 	showDropdown?: boolean;
+	isLoading?: boolean;
 }
 
 const Container = tw.div`relative`;
@@ -17,6 +19,7 @@ const InputWithDropdown: React.FC<IInputWithDropdownProps> = ({
 	inputProps,
 	children,
 	showDropdown = true,
+	isLoading = false,
 }) => {
 	const [isFocused, setIsFocused] = React.useState(false);
 	return (
@@ -29,6 +32,11 @@ const InputWithDropdown: React.FC<IInputWithDropdownProps> = ({
 				<MagnifyingGlassIcon className='w-[1.5rem] mx-3 stroke-gray-700 opacity-70 stroke-[0.3px]' />
 				<TextField type='text' {...inputProps} />
 			</TextFieldContainer>
+			{isLoading && (
+				<Dropdown className='h-32'>
+					<Loader />
+				</Dropdown>
+			)}
 			{isFocused && showDropdown && <Dropdown>{children}</Dropdown>}
 		</Container>
 	);
