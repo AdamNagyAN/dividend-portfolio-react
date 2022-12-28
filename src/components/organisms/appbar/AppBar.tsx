@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Flex, Subtitle, Text } from '@tremor/react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
-//	eslint-disable-next-line
 import tw from 'twin.macro';
 import { BellIcon } from '@heroicons/react/24/outline';
 import useDebounce from '../../../utils/input/useDebounce';
@@ -16,12 +15,16 @@ import IconButton from '../../molecules/buttons/IconButton';
 
 const NavContainer = tw.div`py-3 px-10 bg-white text-black`;
 const Brand = tw.a`uppercase font-medium text-lg`;
+const StyledLink = tw(
+	Link
+)`uppercase font-semibold text-sm hover:bg-gray-100 px-4 py-2 rounded-md`;
 
 const AppBar: React.FC = () => {
 	const { t } = useTranslation();
 	const { control, watch } = useForm<{ search: string }>();
 	const navigate = useNavigate();
 	const debouncedSearchQuery = useDebounce(watch('search'), 600);
+	const isLogged = false;
 
 	const { data, isLoading, isFetching } = useSearch(debouncedSearchQuery);
 	const onSelectSymbol = (symbol: string) => {
@@ -31,7 +34,12 @@ const AppBar: React.FC = () => {
 	return (
 		<NavContainer>
 			<Flex>
-				<Brand href='/'>{t('brand-name')}</Brand>
+				<Brand href={ROUTES.HOME} className='hidden lg:block'>
+					{t('brand-name')}
+				</Brand>
+				<Brand href={ROUTES.HOME} className='block lg:hidden'>
+					{t('brand-short-name')}
+				</Brand>
 				<nav>
 					<Flex spaceX='space-x-4'>
 						<Controller
@@ -59,8 +67,16 @@ const AppBar: React.FC = () => {
 								</InputWithDropdown>
 							)}
 						/>
-						<IconButton icon={<BellIcon />} />
-						<a href='/'>Nagy Adam</a>
+						{isLogged && (
+							<>
+								<IconButton icon={<BellIcon />} />
+								<Subtitle color='neutral'>Nagy Adam</Subtitle>
+							</>
+						)}
+						<Flex spaceX='space-x-1'>
+							<StyledLink to={ROUTES.LOGIN}>{t('appbar.login')}</StyledLink>
+							<StyledLink to={ROUTES.LOGIN}>{t('appbar.signup')}</StyledLink>
+						</Flex>
 					</Flex>
 				</nav>
 			</Flex>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { BrowserRouter } from 'react-router-dom';
+import { SnackbarProvider } from './components/molecules/snackbar/SnackbarProvider';
 
 export type IAppLevelProvidersProps = {
 	children: React.ReactNode;
@@ -8,7 +10,11 @@ export type IAppLevelProvidersProps = {
 const AppLevelProviders: React.FC<IAppLevelProvidersProps> = ({ children }) => {
 	const queryClient = new QueryClient();
 	return (
-		<QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+		<BrowserRouter>
+			<QueryClientProvider client={queryClient}>
+				<SnackbarProvider>{children}</SnackbarProvider>
+			</QueryClientProvider>
+		</BrowserRouter>
 	);
 };
 

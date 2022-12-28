@@ -1,12 +1,14 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import useAxiosErrorInterceptor from './utils/interceptors/useAxiosErrorInterceptor';
 
 export interface IAppWrapperProps {
 	children: React.ReactNode;
 }
 
 const AppWrapper: React.FC<IAppWrapperProps> = ({ children }) => {
-	return <BrowserRouter>{children}</BrowserRouter>;
+	useAxiosErrorInterceptor();
+	// eslint-disable-next-line react/jsx-no-useless-fragment
+	return <>{children}</>;
 };
 
 export default AppWrapper;
