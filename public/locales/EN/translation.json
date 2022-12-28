@@ -1,8 +1,11 @@
 {
   "brand-name": "Dividend Investing",
+  "brand-short-name": "DI",
   "appbar": {
     "search-text": "Ticker...",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "login": "Log In",
+    "signup": "Sign Up"
   },
   "dividend-history": {
     "chart-title": "Dividend history of {{symbol}}"
