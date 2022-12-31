@@ -7,7 +7,7 @@ const getDividendData = (
 	timeFrame: string
 ): AxiosPromise<DividendHistoryResponseDto> => {
 	return axiosBase.get(
-		`/api/v1/symbol/${symbol}/dividend-history?timeFrame=${timeFrame}`
+		`/v1/symbol/${symbol}/dividend-history?timeFrame=${timeFrame}`
 	);
 };
 

@@ -1,6 +1,10 @@
 {
   "brand-name": "Dividend Investing",
   "brand-short-name": "DI",
+  "validation": {
+    "required": "The field is required!",
+    "email": "Wrong email address!"
+  },
   "appbar": {
     "search-text": "Ticker...",
     "portfolio": "Portfolio",
@@ -9,5 +13,13 @@
   },
   "dividend-history": {
     "chart-title": "Dividend history of {{symbol}}"
+  },
+  "login": {
+    "title": "Log In",
+    "email": "E-Mail",
+    "password": "Password",
+    "login": "Log In",
+    "dont-have-account": "Don't have an account?",
+    "sign-up": "Sign Up"
   }
 }

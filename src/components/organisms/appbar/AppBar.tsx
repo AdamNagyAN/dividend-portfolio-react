@@ -14,7 +14,7 @@ import 'styled-components/macro';
 import IconButton from '../../molecules/buttons/IconButton';
 
 const NavContainer = tw.div`py-3 px-10 bg-white text-black`;
-const Brand = tw.a`uppercase font-medium text-lg`;
+const Brand = tw(Link)`uppercase font-medium text-lg`;
 const StyledLink = tw(
 	Link
 )`uppercase font-semibold text-sm hover:bg-gray-100 px-4 py-2 rounded-md`;
@@ -34,10 +34,10 @@ const AppBar: React.FC = () => {
 	return (
 		<NavContainer>
 			<Flex>
-				<Brand href={ROUTES.HOME} className='hidden lg:block'>
+				<Brand to={ROUTES.HOME} className='hidden lg:block'>
 					{t('brand-name')}
 				</Brand>
-				<Brand href={ROUTES.HOME} className='block lg:hidden'>
+				<Brand to={ROUTES.HOME} className='block lg:hidden'>
 					{t('brand-short-name')}
 				</Brand>
 				<nav>

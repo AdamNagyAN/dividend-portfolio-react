@@ -23,8 +23,9 @@ const Snackbar: React.FC<ISnackbarProps> = ({
 			<div className='relative p-6'>
 				<IconButton
 					className='absolute right-4 top-4'
-					icon={<XMarkIcon />}
+					icon={<XMarkIcon className='w-5 h-5 m-1' />}
 					onClick={onClose}
+					variant='icon'
 				/>
 				<p className='font-medium'>{title}</p>
 				{message && <p className='pt-2'>{message}</p>}

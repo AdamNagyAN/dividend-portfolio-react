@@ -2,7 +2,6 @@
 const path = require('path');
 const jsonServer = require('json-server');
 const pause = require('connect-pause');
-const fs = require('fs');
 
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'mock-db.json'));
@@ -15,6 +14,10 @@ const lowdb = router.db;
 
 server.post('/example', (req, res) => {
 	res.send(lowdb.get('example'));
+});
+
+server.get('/v1/symbol/:symbol/dividend-history', (req, res) => {
+	res.send(lowdb.get('dividend-history'));
 });
 
 server.use(router);
