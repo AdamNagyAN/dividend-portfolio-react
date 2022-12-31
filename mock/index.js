@@ -2,7 +2,6 @@
 const path = require('path');
 const jsonServer = require('json-server');
 const pause = require('connect-pause');
-const fs = require('fs');
 
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'mock-db.json'));
@@ -15,6 +14,17 @@ const lowdb = router.db;
 
 server.post('/example', (req, res) => {
 	res.send(lowdb.get('example'));
+});
+
+server.post('/v1/auth/login', (req, res) => {
+	res.send({
+		token:
+			'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hZ3lAYWRhbS5jb20iLCJuYW1lIjoiTmFneSDDgWTDoW1zIiwicm9sZXMiOlsiQURNSU4iXX0.JkoBi2Kg56xNW8YSf9LiuoXgAFTGhvobwv12k_bCNfQ',
+	});
+});
+
+server.get('/v1/symbol/:symbol/dividend-history', (req, res) => {
+	res.send(lowdb.get('dividend-history'));
 });
 
 server.use(router);

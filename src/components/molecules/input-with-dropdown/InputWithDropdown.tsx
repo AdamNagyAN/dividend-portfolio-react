@@ -22,22 +22,26 @@ const InputWithDropdown: React.FC<IInputWithDropdownProps> = ({
 	isLoading = false,
 }) => {
 	const [isFocused, setIsFocused] = React.useState(false);
+
 	return (
-		<Container
-			tabIndex={0}
-			onFocus={() => setIsFocused(true)}
-			onBlur={() => setIsFocused(false)}
-		>
+		<Container onClick={() => setIsFocused(true)}>
 			<TextFieldContainer>
 				<MagnifyingGlassIcon className='w-[1.5rem] mx-3 stroke-gray-700 opacity-70 stroke-[0.3px]' />
-				<TextField type='text' {...inputProps} />
+				<TextField
+					type='text'
+					{...inputProps}
+					onFocus={() => setIsFocused(true)}
+					onBlur={() => setIsFocused(false)}
+				/>
 			</TextFieldContainer>
 			{isLoading && (
 				<Dropdown className='h-32'>
 					<Loader />
 				</Dropdown>
 			)}
-			{isFocused && showDropdown && <Dropdown>{children}</Dropdown>}
+			{isFocused && showDropdown && (
+				<Dropdown onMouseDown={e => e.preventDefault()}>{children}</Dropdown>
+			)}
 		</Container>
 	);
 };

@@ -10,6 +10,7 @@ const TickerPage: React.FC = () => {
 	const [range, setRange] = React.useState('max');
 	const { symbol } = useParams<{ symbol: string }>();
 	const { data } = useGetDividend(symbol, range);
+
 	return (
 		<>
 			<AppBar />

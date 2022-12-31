@@ -1,4 +1,4 @@
-interface UserDataDto {
+export interface UserDataDto {
 	code: string;
 	email: string;
 	name: string;
