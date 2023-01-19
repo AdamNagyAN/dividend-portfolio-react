@@ -33,8 +33,7 @@ const ButtonBody = styled.div(
 );
 
 const IconButton: React.FC<IIconButton> = props => {
-	const { icon, text, className, variant, loading, onClick, ...otherProps } =
-		props;
+	const { icon, text, className, variant, loading, ...otherProps } = props;
 	const handleOnClick = () => {};
 	return (
 		<button
