@@ -1,17 +1,30 @@
 import React from 'react';
 import axiosBase from 'service/axiosBase';
 import { AxiosError } from 'axios';
+import { useNavigate } from 'react-router-dom';
 import { useSnackbar } from '../../components/molecules/snackbar/SnackbarProvider';
+import { ROUTES } from '../../Routes';
+import { useAuthContextDispatch } from '../../context/AuthContext';
+import { AuthContextActionTypes } from '../../context/AuthReducer';
 
 const useAxiosErrorInterceptor = (): void => {
 	const snackbar = useSnackbar();
+	const navigate = useNavigate();
+	const dispatch = useAuthContextDispatch();
 	const interceptor = React.useCallback(
 		(error: AxiosError) => {
-			snackbar({
-				title: error.message,
-				message: 'Hiba történt!',
-				open: true,
-			});
+			if (error.response?.status === 401) {
+				dispatch({
+					type: AuthContextActionTypes.LOG_OUT,
+				});
+				navigate(ROUTES.LOGIN);
+			} else {
+				snackbar({
+					title: error.message,
+					message: 'Hiba történt!',
+					open: true,
+				});
+			}
 			return Promise.reject(error);
 		},
 		[snackbar]

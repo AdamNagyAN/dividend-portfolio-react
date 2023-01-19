@@ -10,6 +10,7 @@ import {
 } from '@tremor/react';
 import { useTranslation } from 'react-i18next';
 import DividendHistoryResponseDto from '../../service/dividend/dto/DividendHistoryResponseDto';
+import useTitle from '../../utils/hooks/useTitle';
 
 interface ITickerContainerProps {
 	data: DividendHistoryResponseDto;
@@ -25,6 +26,7 @@ const TickerContainer: React.FC<ITickerContainerProps> = ({
 }) => {
 	const { historicalDividends, validTimeFrames, symbol } = data;
 	const { t } = useTranslation();
+	useTitle(t('page-title', { value: symbol.toUpperCase() }));
 
 	const transformedHistoryPayments = historicalDividends.map(it => ({
 		amount: it.adjDividend,

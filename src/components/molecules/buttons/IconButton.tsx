@@ -25,16 +25,24 @@ const ButtonBody = styled.div(
 		tw`rounded-md flex items-center justify-center`,
 		$variant === 'icon' && tw`hover:bg-gray-100 bg-white focus:bg-gray-100`,
 		$variant === 'primary' &&
-			tw`text-white hover:bg-indigo-800 bg-indigo-600 focus:bg-gray-100`,
+			tw`text-white hover:bg-indigo-800 bg-indigo-600 focus:bg-indigo-800`,
+		$variant === 'secondary' &&
+			tw`text-black hover:bg-gray-50 bg-white focus:bg-gray-100`,
 		loading && tw`bg-gray-400 hover:bg-gray-400 cursor-default`,
 	]
 );
 
 const IconButton: React.FC<IIconButton> = props => {
-	const { icon, text, className, variant, loading, ...otherProps } = props;
+	const { icon, text, className, variant, loading, onClick, ...otherProps } =
+		props;
+	const handleOnClick = () => {};
 	return (
-		// eslint-disable-next-line react/button-has-type
-		<button type='submit' className={className} {...otherProps}>
+		<button
+			type='submit'
+			className={className}
+			onClick={handleOnClick}
+			{...otherProps}
+		>
 			<ButtonBody $variant={variant} loading={loading}>
 				{icon && icon}
 				{loading && <Loader className='mr-2' size={6} />}

@@ -1,5 +1,5 @@
 interface LoginResponseDto {
-	userToken: string;
+	token: string;
 }
 
 export default LoginResponseDto;

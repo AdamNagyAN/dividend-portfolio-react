@@ -13,22 +13,18 @@ interface AuthContextState {
 export const AuthContext = React.createContext<AuthContextState>({
 	state: {},
 	dispatch: () => {
-		throw Error('AppContext dispatch only usable with provided function');
+		throw Error('AuthContext dispatch only usable with provided function');
 	},
 });
 
 const initialState: AuthContextDataState = {};
-
-const localInitialState: AuthContextDataState = {
-	userToken: 'mockToken',
-};
 
 export const AuthContextProvider: React.FC<{ children: React.ReactNode }> = ({
 	children,
 }) => {
 	const [state, dispatch] = React.useReducer(
 		authContextDataReducer,
-		process.env.NODE_ENV === 'development' ? localInitialState : initialState
+		initialState
 	);
 	const contextValue = React.useMemo(() => {
 		return { state, dispatch };

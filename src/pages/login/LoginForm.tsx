@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { yupResolver } from '@hookform/resolvers/yup';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { loginSchema, LoginValues } from './Login.schema';
 import TextField from '../../components/atoms/text-field/TextField';
 import IconButton from '../../components/molecules/buttons/IconButton';
@@ -9,48 +10,48 @@ import HelperText from '../../components/atoms/helper-text/HelperText';
 import Link from '../../components/atoms/link/Link';
 import { ROUTES } from '../../Routes';
 import { AuthContextActionTypes } from '../../context/AuthReducer';
-import {
-	useAuthContextDispatch,
-	useAuthContextState,
-} from '../../context/AuthContext';
+import { useAuthContextDispatch } from '../../context/AuthContext';
 import useLogin from '../../query/auth/useLogin';
+import parseJwt from '../../utils/jwt/parseJwt';
+import SessionStorageUtils from '../../utils/storage/SessionStorageUtils';
 
-interface ILoginForm {}
+export interface LocationState {
+	from: {
+		pathname: string;
+	};
+}
 
-const LoginForm: React.FC<ILoginForm> = () => {
+const LoginForm: React.FC = () => {
 	const { t } = useTranslation();
-	const { userToken } = useAuthContextState();
+	const location = useLocation();
+	const navigate = useNavigate();
 	const dispatch = useAuthContextDispatch();
-	const { data, isLoading, mutateAsync } = useLogin();
+	const { isLoading, mutateAsync } = useLogin();
 	const {
 		control,
 		handleSubmit,
 		formState: { errors },
 	} = useForm<LoginValues>({
-		resolver: yupResolver(loginSchema(t)),
+		resolver: yupResolver(loginSchema()),
 		mode: 'onBlur',
 		reValidateMode: 'onChange',
 	});
 
 	const onSubmit = async (formValues: LoginValues) => {
-		const response = await mutateAsync(formValues);
-		localStorage.setItem('internalUserToken', response.data.userToken);
-		dispatch({
-			type: AuthContextActionTypes.SET_USER_TOKEN,
-			value: response.data.userToken,
-		});
-	};
+		const {
+			data: { token },
+		} = await mutateAsync(formValues);
+		SessionStorageUtils.setAuthToken(token);
 
-	// const jwt = React.useMemo(() => {
-	// 	return parseJwt(internalUserToken);
-	// }, [internalUserToken]);
-	//
-	// React.useEffect(() => {
-	// 	dispatch({
-	// 		type: AuthContextActionTypes.SET_USER_DATA,
-	// 		value: jwt,
-	// 	});
-	// }, [jwt]);
+		dispatch({
+			type: AuthContextActionTypes.SET_STATE,
+			userToken: token,
+			userData: parseJwt(token),
+		});
+		const from = (location.state as LocationState)?.from;
+
+		navigate(from || ROUTES.HOME);
+	};
 
 	return (
 		<form
@@ -91,7 +92,14 @@ const LoginForm: React.FC<ILoginForm> = () => {
 			<IconButton
 				text={t('login.login') ?? ''}
 				loading={isLoading}
+				disabled={isLoading}
 				className='bg-indigo-600'
+			/>
+			<IconButton
+				type='button'
+				text={t('login.with-google') ?? ''}
+				variant='secondary'
+				disabled
 			/>
 			<HelperText>
 				{t('login.dont-have-account')}{' '}
