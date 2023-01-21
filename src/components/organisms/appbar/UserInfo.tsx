@@ -21,6 +21,9 @@ const UserInfo: React.FC<IUserInfoProps> = () => {
 	const { userData } = useAuthContextState();
 	const dispatch = useAuthContextDispatch();
 	const [isShowDropdown, setIsShowDropdown] = React.useState(false);
+
+	const concatenatedName = [userData?.firstname, userData?.lastname].join(' ');
+
 	const onLogOut = () => {
 		dispatch({
 			type: AuthContextActionTypes.LOG_OUT,
@@ -36,7 +39,7 @@ const UserInfo: React.FC<IUserInfoProps> = () => {
 				onMouseLeave={() => setIsShowDropdown(false)}
 				onBlur={() => setIsShowDropdown(false)}
 			>
-				<span>{userData?.name ?? t('appbar.unknown-user')}</span>
+				<span>{concatenatedName ?? t('appbar.unknown-user')}</span>
 				{isShowDropdown && (
 					<Dropdown>
 						<DropdownItem

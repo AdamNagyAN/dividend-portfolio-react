@@ -1,7 +1,8 @@
 export interface UserDataDto {
 	code: string;
 	email: string;
-	name: string;
+	firstname: string;
+	lastname: string;
 }
 
 const b64DecodeUnicode = (str: string) =>

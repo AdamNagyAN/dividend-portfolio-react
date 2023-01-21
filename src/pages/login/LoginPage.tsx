@@ -14,7 +14,7 @@ const LoginPage: React.FC = () => {
 		<>
 			<AppBar />
 			<section id='login'>
-				<div className='container px-5 py-24 mx-auto flex flex-wrap items-center min-h-screen flex-col'>
+				<div className='container px-5 py-24 mx-auto flex flex-wrap items-center flex-col'>
 					<Title>{t('login.title')}</Title>
 					<LoginForm />
 				</div>

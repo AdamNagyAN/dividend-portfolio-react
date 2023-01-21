@@ -11,7 +11,6 @@ const HomePage: React.FC = () => {
 	return (
 		<>
 			<AppBar />
-			<div className='min-h-screen' />
 			<Footer />
 		</>
 	);

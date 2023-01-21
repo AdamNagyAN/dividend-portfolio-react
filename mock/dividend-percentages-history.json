@@ -1,0 +1,6048 @@
+{
+  "dividend-percentage": {
+    "historicalDividendPercentages": [
+      {
+        "date": "2017-01-19",
+        "dividendPercentage": 3.8761030649575527
+      },
+      {
+        "date": "2017-01-20",
+        "dividendPercentage": 3.875432593000564
+      },
+      {
+        "date": "2017-01-23",
+        "dividendPercentage": 3.8824855176573836
+      },
+      {
+        "date": "2017-01-24",
+        "dividendPercentage": 3.849789365391699
+      },
+      {
+        "date": "2017-01-25",
+        "dividendPercentage": 3.821221491320735
+      },
+      {
+        "date": "2017-01-26",
+        "dividendPercentage": 3.8438437449032072
+      },
+      {
+        "date": "2017-01-27",
+        "dividendPercentage": 3.937077037199429
+      },
+      {
+        "date": "2017-01-30",
+        "dividendPercentage": 4.006438919692363
+      },
+      {
+        "date": "2017-01-31",
+        "dividendPercentage": 4.023349870199369
+      },
+      {
+        "date": "2017-02-01",
+        "dividendPercentage": 4.036036036036037
+      },
+      {
+        "date": "2017-02-02",
+        "dividendPercentage": 3.992514071762892
+      },
+      {
+        "date": "2017-02-03",
+        "dividendPercentage": 3.944703706964868
+      },
+      {
+        "date": "2017-02-06",
+        "dividendPercentage": 3.9653034882642024
+      },
+      {
+        "date": "2017-02-07",
+        "dividendPercentage": 4.0219050545103245
+      },
+      {
+        "date": "2017-02-08",
+        "dividendPercentage": 4.0150563897641804
+      },
+      {
+        "date": "2017-02-09",
+        "dividendPercentage": 3.990735720813545
+      },
+      {
+        "date": "2017-02-10",
+        "dividendPercentage": 3.9628481920517955
+      },
+      {
+        "date": "2017-02-13",
+        "dividendPercentage": 3.9329293676436006
+      },
+      {
+        "date": "2017-02-14",
+        "dividendPercentage": 3.9815145035953035
+      },
+      {
+        "date": "2017-02-15",
+        "dividendPercentage": 3.9797459358621308
+      },
+      {
+        "date": "2017-02-16",
+        "dividendPercentage": 4.047705095771594
+      },
+      {
+        "date": "2017-02-17",
+        "dividendPercentage": 4.060545562212535
+      },
+      {
+        "date": "2017-02-21",
+        "dividendPercentage": 4.010025026763113
+      },
+      {
+        "date": "2017-02-22",
+        "dividendPercentage": 4.05870639768182
+      },
+      {
+        "date": "2017-02-23",
+        "dividendPercentage": 4.0353090623845
+      },
+      {
+        "date": "2017-02-24",
+        "dividendPercentage": 4.068289028288531
+      },
+      {
+        "date": "2017-02-27",
+        "dividendPercentage": 4.008948545861299
+      },
+      {
+        "date": "2017-02-28",
+        "dividendPercentage": 3.9822222222222226
+      },
+      {
+        "date": "2017-03-01",
+        "dividendPercentage": 3.9339656814356965
+      },
+      {
+        "date": "2017-03-02",
+        "dividendPercentage": 3.9520112565983485
+      },
+      {
+        "date": "2017-03-03",
+        "dividendPercentage": 3.945398398624437
+      },
+      {
+        "date": "2017-03-06",
+        "dividendPercentage": 3.9586463543102655
+      },
+      {
+        "date": "2017-03-07",
+        "dividendPercentage": 4.006797316998433
+      },
+      {
+        "date": "2017-03-08",
+        "dividendPercentage": 4.087218282207662
+      },
+      {
+        "date": "2017-03-09",
+        "dividendPercentage": 4.071246782340542
+      },
+      {
+        "date": "2017-03-10",
+        "dividendPercentage": 4.0502666662122175
+      },
+      {
+        "date": "2017-03-13",
+        "dividendPercentage": 4.096936517547993
+      },
+      {
+        "date": "2017-03-14",
+        "dividendPercentage": 4.1728762651557725
+      },
+      {
+        "date": "2017-03-15",
+        "dividendPercentage": 4.1146217151346915
+      },
+      {
+        "date": "2017-03-16",
+        "dividendPercentage": 4.153532318250211
+      },
+      {
+        "date": "2017-03-17",
+        "dividendPercentage": 4.160475482912332
+      },
+      {
+        "date": "2017-03-20",
+        "dividendPercentage": 4.161248219905324
+      },
+      {
+        "date": "2017-03-21",
+        "dividendPercentage": 4.1466123274101045
+      },
+      {
+        "date": "2017-03-22",
+        "dividendPercentage": 4.133222660145979
+      },
+      {
+        "date": "2017-03-23",
+        "dividendPercentage": 4.153147191439311
+      },
+      {
+        "date": "2017-03-24",
+        "dividendPercentage": 4.148532348338409
+      },
+      {
+        "date": "2017-03-27",
+        "dividendPercentage": 4.215280431080923
+      },
+      {
+        "date": "2017-03-28",
+        "dividendPercentage": 4.180274408514966
+      },
+      {
+        "date": "2017-03-29",
+        "dividendPercentage": 4.145461275099473
+      },
+      {
+        "date": "2017-03-30",
+        "dividendPercentage": 4.156615366084759
+      },
+      {
+        "date": "2017-03-31",
+        "dividendPercentage": 4.172487542912708
+      },
+      {
+        "date": "2017-04-03",
+        "dividendPercentage": 4.155844040189869
+      },
+      {
+        "date": "2017-04-04",
+        "dividendPercentage": 4.122952176589282
+      },
+      {
+        "date": "2017-04-05",
+        "dividendPercentage": 4.123711378163765
+      },
+      {
+        "date": "2017-04-06",
+        "dividendPercentage": 4.0991856153427975
+      },
+      {
+        "date": "2017-04-07",
+        "dividendPercentage": 4.1153775113413795
+      },
+      {
+        "date": "2017-04-10",
+        "dividendPercentage": 4.093941332358585
+      },
+      {
+        "date": "2017-04-11",
+        "dividendPercentage": 4.111223234732282
+      },
+      {
+        "date": "2017-04-12",
+        "dividendPercentage": 4.111223234732282
+      },
+      {
+        "date": "2017-04-13",
+        "dividendPercentage": 4.222431747830948
+      },
+      {
+        "date": "2017-04-17",
+        "dividendPercentage": 4.2196478142535145
+      },
+      {
+        "date": "2017-04-18",
+        "dividendPercentage": 4.239212717638153
+      },
+      {
+        "date": "2017-04-19",
+        "dividendPercentage": 4.2981865787723335
+      },
+      {
+        "date": "2017-04-20",
+        "dividendPercentage": 4.271548558492045
+      },
+      {
+        "date": "2017-04-21",
+        "dividendPercentage": 4.271141236258378
+      },
+      {
+        "date": "2017-04-24",
+        "dividendPercentage": 4.229207967525725
+      },
+      {
+        "date": "2017-04-25",
+        "dividendPercentage": 4.197507611800592
+      },
+      {
+        "date": "2017-04-26",
+        "dividendPercentage": 4.22322767301607
+      },
+      {
+        "date": "2017-04-27",
+        "dividendPercentage": 4.247653320871781
+      },
+      {
+        "date": "2017-04-28",
+        "dividendPercentage": 4.198688028079327
+      },
+      {
+        "date": "2017-05-01",
+        "dividendPercentage": 4.229607330619474
+      },
+      {
+        "date": "2017-05-02",
+        "dividendPercentage": 4.252088038609643
+      },
+      {
+        "date": "2017-05-03",
+        "dividendPercentage": 4.197901010139609
+      },
+      {
+        "date": "2017-05-04",
+        "dividendPercentage": 4.274401379150872
+      },
+      {
+        "date": "2017-05-05",
+        "dividendPercentage": 4.234804761935866
+      },
+      {
+        "date": "2017-05-08",
+        "dividendPercentage": 4.199475065616798
+      },
+      {
+        "date": "2017-05-09",
+        "dividendPercentage": 4.263418266779249
+      },
+      {
+        "date": "2017-05-10",
+        "dividendPercentage": 4.206572769953052
+      },
+      {
+        "date": "2017-05-11",
+        "dividendPercentage": 4.218058602938129
+      },
+      {
+        "date": "2017-05-12",
+        "dividendPercentage": 4.228010609928376
+      },
+      {
+        "date": "2017-05-15",
+        "dividendPercentage": 4.192793714418226
+      },
+      {
+        "date": "2017-05-16",
+        "dividendPercentage": 4.177156177156178
+      },
+      {
+        "date": "2017-05-17",
+        "dividendPercentage": 4.278892195192709
+      },
+      {
+        "date": "2017-05-18",
+        "dividendPercentage": 4.259769977365599
+      },
+      {
+        "date": "2017-05-19",
+        "dividendPercentage": 4.205783070008912
+      },
+      {
+        "date": "2017-05-22",
+        "dividendPercentage": 4.221635764559864
+      },
+      {
+        "date": "2017-05-23",
+        "dividendPercentage": 4.215677168034549
+      },
+      {
+        "date": "2017-05-24",
+        "dividendPercentage": 4.217661417645817
+      },
+      {
+        "date": "2017-05-25",
+        "dividendPercentage": 4.262201462637224
+      },
+      {
+        "date": "2017-05-26",
+        "dividendPercentage": 4.278074825457652
+      },
+      {
+        "date": "2017-05-30",
+        "dividendPercentage": 4.30520861628308
+      },
+      {
+        "date": "2017-05-31",
+        "dividendPercentage": 4.3293388771935
+      },
+      {
+        "date": "2017-06-01",
+        "dividendPercentage": 4.296537958085872
+      },
+      {
+        "date": "2017-06-02",
+        "dividendPercentage": 4.344874363835959
+      },
+      {
+        "date": "2017-06-05",
+        "dividendPercentage": 4.341505875733969
+      },
+      {
+        "date": "2017-06-06",
+        "dividendPercentage": 4.300662461373955
+      },
+      {
+        "date": "2017-06-07",
+        "dividendPercentage": 4.317240174922623
+      },
+      {
+        "date": "2017-06-08",
+        "dividendPercentage": 4.307692307692308
+      },
+      {
+        "date": "2017-06-09",
+        "dividendPercentage": 4.210526236644244
+      },
+      {
+        "date": "2017-06-12",
+        "dividendPercentage": 4.1466123274101045
+      },
+      {
+        "date": "2017-06-13",
+        "dividendPercentage": 4.143161124844941
+      },
+      {
+        "date": "2017-06-14",
+        "dividendPercentage": 4.2026267204995635
+      },
+      {
+        "date": "2017-06-15",
+        "dividendPercentage": 4.213298143265342
+      },
+      {
+        "date": "2017-06-16",
+        "dividendPercentage": 4.134748576552813
+      },
+      {
+        "date": "2017-06-19",
+        "dividendPercentage": 4.1689931525125
+      },
+      {
+        "date": "2017-06-20",
+        "dividendPercentage": 4.2073627665093145
+      },
+      {
+        "date": "2017-06-21",
+        "dividendPercentage": 4.287491708058029
+      },
+      {
+        "date": "2017-06-22",
+        "dividendPercentage": 4.289133679917675
+      },
+      {
+        "date": "2017-06-23",
+        "dividendPercentage": 4.2666666666666675
+      },
+      {
+        "date": "2017-06-26",
+        "dividendPercentage": 4.301901328038231
+      },
+      {
+        "date": "2017-06-27",
+        "dividendPercentage": 4.304794849620448
+      },
+      {
+        "date": "2017-06-28",
+        "dividendPercentage": 4.296125856311142
+      },
+      {
+        "date": "2017-06-29",
+        "dividendPercentage": 4.302727498000553
+      },
+      {
+        "date": "2017-06-30",
+        "dividendPercentage": 4.294066820778936
+      },
+      {
+        "date": "2017-07-03",
+        "dividendPercentage": 4.214487181152761
+      },
+      {
+        "date": "2017-07-05",
+        "dividendPercentage": 4.282163899383563
+      },
+      {
+        "date": "2017-07-06",
+        "dividendPercentage": 4.3151608553265275
+      },
+      {
+        "date": "2017-07-07",
+        "dividendPercentage": 4.3289207523223645
+      },
+      {
+        "date": "2017-07-10",
+        "dividendPercentage": 4.347826044761005
+      },
+      {
+        "date": "2017-07-11",
+        "dividendPercentage": 4.344452938000788
+      },
+      {
+        "date": "2017-07-12",
+        "dividendPercentage": 4.31225338639189
+      },
+      {
+        "date": "2017-07-13",
+        "dividendPercentage": 4.302314538624255
+      },
+      {
+        "date": "2017-07-14",
+        "dividendPercentage": 4.28954415378123
+      },
+      {
+        "date": "2017-07-17",
+        "dividendPercentage": 4.299011652423104
+      },
+      {
+        "date": "2017-07-18",
+        "dividendPercentage": 4.31932120787388
+      },
+      {
+        "date": "2017-07-19",
+        "dividendPercentage": 4.288722997211593
+      },
+      {
+        "date": "2017-07-20",
+        "dividendPercentage": 4.2817548776188925
+      },
+      {
+        "date": "2017-07-21",
+        "dividendPercentage": 4.338983050847458
+      },
+      {
+        "date": "2017-07-24",
+        "dividendPercentage": 4.341085397512173
+      },
+      {
+        "date": "2017-07-25",
+        "dividendPercentage": 4.291598853257964
+      },
+      {
+        "date": "2017-07-26",
+        "dividendPercentage": 4.261795920991365
+      },
+      {
+        "date": "2017-07-27",
+        "dividendPercentage": 4.222033698783964
+      },
+      {
+        "date": "2017-07-28",
+        "dividendPercentage": 4.143544095166184
+      },
+      {
+        "date": "2017-07-31",
+        "dividendPercentage": 4.102939754502431
+      },
+      {
+        "date": "2017-08-01",
+        "dividendPercentage": 4.044051309298171
+      },
+      {
+        "date": "2017-08-02",
+        "dividendPercentage": 4.0557668301264425
+      },
+      {
+        "date": "2017-08-03",
+        "dividendPercentage": 4.093941332358585
+      },
+      {
+        "date": "2017-08-04",
+        "dividendPercentage": 4.068658577162306
+      },
+      {
+        "date": "2017-08-07",
+        "dividendPercentage": 4.0808890880022695
+      },
+      {
+        "date": "2017-08-08",
+        "dividendPercentage": 4.059809770001084
+      },
+      {
+        "date": "2017-08-09",
+        "dividendPercentage": 4.040039715393992
+      },
+      {
+        "date": "2017-08-10",
+        "dividendPercentage": 4.068658577162306
+      },
+      {
+        "date": "2017-08-11",
+        "dividendPercentage": 4.101437221419833
+      },
+      {
+        "date": "2017-08-14",
+        "dividendPercentage": 4.121056058513992
+      },
+      {
+        "date": "2017-08-15",
+        "dividendPercentage": 4.126370083816893
+      },
+      {
+        "date": "2017-08-16",
+        "dividendPercentage": 4.193186229621349
+      },
+      {
+        "date": "2017-08-17",
+        "dividendPercentage": 4.229607330619474
+      },
+      {
+        "date": "2017-08-18",
+        "dividendPercentage": 4.2073627665093145
+      },
+      {
+        "date": "2017-08-21",
+        "dividendPercentage": 4.235205182786966
+      },
+      {
+        "date": "2017-08-22",
+        "dividendPercentage": 4.21210977611781
+      },
+      {
+        "date": "2017-08-23",
+        "dividendPercentage": 4.202232396564747
+      },
+      {
+        "date": "2017-08-24",
+        "dividendPercentage": 4.169769095871759
+      },
+      {
+        "date": "2017-08-25",
+        "dividendPercentage": 4.139332787415705
+      },
+      {
+        "date": "2017-08-28",
+        "dividendPercentage": 4.157386708289037
+      },
+      {
+        "date": "2017-08-29",
+        "dividendPercentage": 4.153532318250211
+      },
+      {
+        "date": "2017-08-30",
+        "dividendPercentage": 4.15854439361707
+      },
+      {
+        "date": "2017-08-31",
+        "dividendPercentage": 4.1627949034716165
+      },
+      {
+        "date": "2017-09-01",
+        "dividendPercentage": 4.119161380670074
+      },
+      {
+        "date": "2017-09-05",
+        "dividendPercentage": 4.0935671766526465
+      },
+      {
+        "date": "2017-09-06",
+        "dividendPercentage": 4.007514053068127
+      },
+      {
+        "date": "2017-09-07",
+        "dividendPercentage": 4.007155527536077
+      },
+      {
+        "date": "2017-09-08",
+        "dividendPercentage": 4.044051309298171
+      },
+      {
+        "date": "2017-09-11",
+        "dividendPercentage": 3.9815145035953035
+      },
+      {
+        "date": "2017-09-12",
+        "dividendPercentage": 3.9825762998057836
+      },
+      {
+        "date": "2017-09-13",
+        "dividendPercentage": 3.9236293571553693
+      },
+      {
+        "date": "2017-09-14",
+        "dividendPercentage": 3.9143731912898176
+      },
+      {
+        "date": "2017-09-15",
+        "dividendPercentage": 3.9082265700486762
+      },
+      {
+        "date": "2017-09-18",
+        "dividendPercentage": 3.889226427828346
+      },
+      {
+        "date": "2017-09-19",
+        "dividendPercentage": 3.850782322529907
+      },
+      {
+        "date": "2017-09-20",
+        "dividendPercentage": 3.849789365391699
+      },
+      {
+        "date": "2017-09-21",
+        "dividendPercentage": 3.84648404012635
+      },
+      {
+        "date": "2017-09-22",
+        "dividendPercentage": 3.8195924305602147
+      },
+      {
+        "date": "2017-09-25",
+        "dividendPercentage": 3.796932007745267
+      },
+      {
+        "date": "2017-09-26",
+        "dividendPercentage": 3.812117183767457
+      },
+      {
+        "date": "2017-09-27",
+        "dividendPercentage": 3.814389199175544
+      },
+      {
+        "date": "2017-09-28",
+        "dividendPercentage": 3.8088759443408624
+      },
+      {
+        "date": "2017-09-29",
+        "dividendPercentage": 3.8127659574468087
+      },
+      {
+        "date": "2017-10-02",
+        "dividendPercentage": 3.815038746487269
+      },
+      {
+        "date": "2017-10-03",
+        "dividendPercentage": 3.802410456628756
+      },
+      {
+        "date": "2017-10-04",
+        "dividendPercentage": 3.8101717331149567
+      },
+      {
+        "date": "2017-10-05",
+        "dividendPercentage": 3.778040077955135
+      },
+      {
+        "date": "2017-10-06",
+        "dividendPercentage": 3.828078303239155
+      },
+      {
+        "date": "2017-10-09",
+        "dividendPercentage": 3.805963841695386
+      },
+      {
+        "date": "2017-10-10",
+        "dividendPercentage": 3.771043675815396
+      },
+      {
+        "date": "2017-10-11",
+        "dividendPercentage": 3.7542947497813675
+      },
+      {
+        "date": "2017-10-12",
+        "dividendPercentage": 3.7602820527134635
+      },
+      {
+        "date": "2017-10-13",
+        "dividendPercentage": 3.7596507633551277
+      },
+      {
+        "date": "2017-10-16",
+        "dividendPercentage": 3.729293358760344
+      },
+      {
+        "date": "2017-10-17",
+        "dividendPercentage": 3.7265013830768483
+      },
+      {
+        "date": "2017-10-18",
+        "dividendPercentage": 3.791790033147863
+      },
+      {
+        "date": "2017-10-19",
+        "dividendPercentage": 3.790186221409126
+      },
+      {
+        "date": "2017-10-20",
+        "dividendPercentage": 3.7761294991244907
+      },
+      {
+        "date": "2017-10-23",
+        "dividendPercentage": 3.766921718658034
+      },
+      {
+        "date": "2017-10-24",
+        "dividendPercentage": 3.7574435018675634
+      },
+      {
+        "date": "2017-10-25",
+        "dividendPercentage": 3.7825058462933834
+      },
+      {
+        "date": "2017-10-26",
+        "dividendPercentage": 3.7825058462933834
+      },
+      {
+        "date": "2017-10-27",
+        "dividendPercentage": 3.9457459578496925
+      },
+      {
+        "date": "2017-10-30",
+        "dividendPercentage": 3.9164262952742925
+      },
+      {
+        "date": "2017-10-31",
+        "dividendPercentage": 3.865734781825307
+      },
+      {
+        "date": "2017-11-01",
+        "dividendPercentage": 3.8654011412355285
+      },
+      {
+        "date": "2017-11-02",
+        "dividendPercentage": 3.8845052651607523
+      },
+      {
+        "date": "2017-11-03",
+        "dividendPercentage": 3.8959910234975395
+      },
+      {
+        "date": "2017-11-06",
+        "dividendPercentage": 3.8277511634676085
+      },
+      {
+        "date": "2017-11-07",
+        "dividendPercentage": 3.821221491320735
+      },
+      {
+        "date": "2017-11-08",
+        "dividendPercentage": 3.8398903546737015
+      },
+      {
+        "date": "2017-11-09",
+        "dividendPercentage": 3.821221491320735
+      },
+      {
+        "date": "2017-11-10",
+        "dividendPercentage": 3.8231780167264042
+      },
+      {
+        "date": "2017-11-13",
+        "dividendPercentage": 3.8215472876853895
+      },
+      {
+        "date": "2017-11-14",
+        "dividendPercentage": 3.831679846590487
+      },
+      {
+        "date": "2017-11-15",
+        "dividendPercentage": 3.8471447964056202
+      },
+      {
+        "date": "2017-11-16",
+        "dividendPercentage": 3.9102731954263774
+      },
+      {
+        "date": "2017-11-17",
+        "dividendPercentage": 3.905500862222133
+      },
+      {
+        "date": "2017-11-20",
+        "dividendPercentage": 3.9051603564752417
+      },
+      {
+        "date": "2017-11-21",
+        "dividendPercentage": 3.8899019517218365
+      },
+      {
+        "date": "2017-11-22",
+        "dividendPercentage": 3.8650675915773416
+      },
+      {
+        "date": "2017-11-24",
+        "dividendPercentage": 3.845163439272793
+      },
+      {
+        "date": "2017-11-27",
+        "dividendPercentage": 3.875767934103917
+      },
+      {
+        "date": "2017-11-28",
+        "dividendPercentage": 3.8471447964056202
+      },
+      {
+        "date": "2017-11-29",
+        "dividendPercentage": 3.8231780167264042
+      },
+      {
+        "date": "2017-11-30",
+        "dividendPercentage": 3.7650223340620617
+      },
+      {
+        "date": "2017-12-01",
+        "dividendPercentage": 3.748640218414523
+      },
+      {
+        "date": "2017-12-04",
+        "dividendPercentage": 3.707381784421774
+      },
+      {
+        "date": "2017-12-05",
+        "dividendPercentage": 3.721239336500036
+      },
+      {
+        "date": "2017-12-06",
+        "dividendPercentage": 3.745506197261883
+      },
+      {
+        "date": "2017-12-07",
+        "dividendPercentage": 3.7448801407225654
+      },
+      {
+        "date": "2017-12-08",
+        "dividendPercentage": 3.735823944893662
+      },
+      {
+        "date": "2017-12-11",
+        "dividendPercentage": 3.720312302280557
+      },
+      {
+        "date": "2017-12-12",
+        "dividendPercentage": 3.7433155080213907
+      },
+      {
+        "date": "2017-12-13",
+        "dividendPercentage": 3.7355123822229634
+      },
+      {
+        "date": "2017-12-14",
+        "dividendPercentage": 3.748013082473129
+      },
+      {
+        "date": "2017-12-15",
+        "dividendPercentage": 3.741752182199478
+      },
+      {
+        "date": "2017-12-18",
+        "dividendPercentage": 3.7426901522812908
+      },
+      {
+        "date": "2017-12-19",
+        "dividendPercentage": 3.7383178817863114
+      },
+      {
+        "date": "2017-12-20",
+        "dividendPercentage": 3.705848322490267
+      },
+      {
+        "date": "2017-12-21",
+        "dividendPercentage": 3.5891684024996
+      },
+      {
+        "date": "2017-12-22",
+        "dividendPercentage": 3.5845734457215532
+      },
+      {
+        "date": "2017-12-26",
+        "dividendPercentage": 3.55611993436768
+      },
+      {
+        "date": "2017-12-27",
+        "dividendPercentage": 3.5682993970139534
+      },
+      {
+        "date": "2017-12-28",
+        "dividendPercentage": 3.567446988892388
+      },
+      {
+        "date": "2017-12-29",
+        "dividendPercentage": 3.5785605307363126
+      },
+      {
+        "date": "2018-01-02",
+        "dividendPercentage": 3.5115221271120536
+      },
+      {
+        "date": "2018-01-03",
+        "dividendPercentage": 3.486110165983588
+      },
+      {
+        "date": "2018-01-04",
+        "dividendPercentage": 3.496994742822616
+      },
+      {
+        "date": "2018-01-05",
+        "dividendPercentage": 3.5027364581276554
+      },
+      {
+        "date": "2018-01-08",
+        "dividendPercentage": 3.4855675988918353
+      },
+      {
+        "date": "2018-01-09",
+        "dividendPercentage": 3.504380585243448
+      },
+      {
+        "date": "2018-01-10",
+        "dividendPercentage": 3.482045593594106
+      },
+      {
+        "date": "2018-01-11",
+        "dividendPercentage": 3.379346581764909
+      },
+      {
+        "date": "2018-01-12",
+        "dividendPercentage": 3.35329326257665
+      },
+      {
+        "date": "2018-01-16",
+        "dividendPercentage": 3.393682425334536
+      },
+      {
+        "date": "2018-01-17",
+        "dividendPercentage": 3.384708345537108
+      },
+      {
+        "date": "2018-01-18",
+        "dividendPercentage": 3.4045141243107877
+      },
+      {
+        "date": "2018-01-19",
+        "dividendPercentage": 3.4120334330837756
+      },
+      {
+        "date": "2018-01-22",
+        "dividendPercentage": 3.3796017407906116
+      },
+      {
+        "date": "2018-01-23",
+        "dividendPercentage": 3.419325189457329
+      },
+      {
+        "date": "2018-01-24",
+        "dividendPercentage": 3.4096963498721093
+      },
+      {
+        "date": "2018-01-25",
+        "dividendPercentage": 3.4290089596177102
+      },
+      {
+        "date": "2018-01-26",
+        "dividendPercentage": 3.414894375868674
+      },
+      {
+        "date": "2018-01-29",
+        "dividendPercentage": 3.486924143428523
+      },
+      {
+        "date": "2018-01-30",
+        "dividendPercentage": 3.577417466004533
+      },
+      {
+        "date": "2018-01-31",
+        "dividendPercentage": 3.573992877127928
+      },
+      {
+        "date": "2018-02-01",
+        "dividendPercentage": 3.5677311459743573
+      },
+      {
+        "date": "2018-02-02",
+        "dividendPercentage": 3.778040077955135
+      },
+      {
+        "date": "2018-02-05",
+        "dividendPercentage": 3.977978938608269
+      },
+      {
+        "date": "2018-02-06",
+        "dividendPercentage": 3.8231780167264042
+      },
+      {
+        "date": "2018-02-07",
+        "dividendPercentage": 3.885853032475904
+      },
+      {
+        "date": "2018-02-08",
+        "dividendPercentage": 3.989314230027224
+      },
+      {
+        "date": "2018-02-09",
+        "dividendPercentage": 3.947136563876652
+      },
+      {
+        "date": "2018-02-12",
+        "dividendPercentage": 3.930514021832409
+      },
+      {
+        "date": "2018-02-13",
+        "dividendPercentage": 3.9544531383665538
+      },
+      {
+        "date": "2018-02-14",
+        "dividendPercentage": 3.9426208908550793
+      },
+      {
+        "date": "2018-02-15",
+        "dividendPercentage": 3.9811606147797085
+      },
+      {
+        "date": "2018-02-16",
+        "dividendPercentage": 3.9950062778224207
+      },
+      {
+        "date": "2018-02-20",
+        "dividendPercentage": 4.036763271667961
+      },
+      {
+        "date": "2018-02-21",
+        "dividendPercentage": 4.107830627321303
+      },
+      {
+        "date": "2018-02-22",
+        "dividendPercentage": 4.076804113903031
+      },
+      {
+        "date": "2018-02-23",
+        "dividendPercentage": 3.979039132393255
+      },
+      {
+        "date": "2018-02-26",
+        "dividendPercentage": 3.9092496319240775
+      },
+      {
+        "date": "2018-02-27",
+        "dividendPercentage": 3.943314814335756
+      },
+      {
+        "date": "2018-02-28",
+        "dividendPercentage": 4.00285925666296
+      },
+      {
+        "date": "2018-03-01",
+        "dividendPercentage": 3.9985719029045708
+      },
+      {
+        "date": "2018-03-02",
+        "dividendPercentage": 4.012898638596369
+      },
+      {
+        "date": "2018-03-05",
+        "dividendPercentage": 3.959345930899763
+      },
+      {
+        "date": "2018-03-06",
+        "dividendPercentage": 3.9419268993941596
+      },
+      {
+        "date": "2018-03-07",
+        "dividendPercentage": 3.9353479949173575
+      },
+      {
+        "date": "2018-03-08",
+        "dividendPercentage": 3.9523600168038824
+      },
+      {
+        "date": "2018-03-09",
+        "dividendPercentage": 3.8218733678393337
+      },
+      {
+        "date": "2018-03-12",
+        "dividendPercentage": 3.8359448254478568
+      },
+      {
+        "date": "2018-03-13",
+        "dividendPercentage": 3.8468143898919323
+      },
+      {
+        "date": "2018-03-14",
+        "dividendPercentage": 3.891253467156783
+      },
+      {
+        "date": "2018-03-15",
+        "dividendPercentage": 3.8761030649575527
+      },
+      {
+        "date": "2018-03-16",
+        "dividendPercentage": 3.8821489795121495
+      },
+      {
+        "date": "2018-03-19",
+        "dividendPercentage": 3.9336201943420863
+      },
+      {
+        "date": "2018-03-20",
+        "dividendPercentage": 3.9126637554585155
+      },
+      {
+        "date": "2018-03-21",
+        "dividendPercentage": 3.8277511634676085
+      },
+      {
+        "date": "2018-03-22",
+        "dividendPercentage": 3.940193595607571
+      },
+      {
+        "date": "2018-03-23",
+        "dividendPercentage": 3.9653034882642024
+      },
+      {
+        "date": "2018-03-26",
+        "dividendPercentage": 3.8838318835514847
+      },
+      {
+        "date": "2018-03-27",
+        "dividendPercentage": 3.9072037708981764
+      },
+      {
+        "date": "2018-03-28",
+        "dividendPercentage": 3.9964318286606932
+      },
+      {
+        "date": "2018-03-29",
+        "dividendPercentage": 3.9284461247944047
+      },
+      {
+        "date": "2018-04-02",
+        "dividendPercentage": 3.9914469706245006
+      },
+      {
+        "date": "2018-04-03",
+        "dividendPercentage": 3.9014194217291758
+      },
+      {
+        "date": "2018-04-04",
+        "dividendPercentage": 3.913347207022698
+      },
+      {
+        "date": "2018-04-05",
+        "dividendPercentage": 3.8195924305602147
+      },
+      {
+        "date": "2018-04-06",
+        "dividendPercentage": 3.90379916514815
+      },
+      {
+        "date": "2018-04-09",
+        "dividendPercentage": 3.862734854386925
+      },
+      {
+        "date": "2018-04-10",
+        "dividendPercentage": 3.769457362548715
+      },
+      {
+        "date": "2018-04-11",
+        "dividendPercentage": 3.7568134171907763
+      },
+      {
+        "date": "2018-04-12",
+        "dividendPercentage": 3.7574435018675634
+      },
+      {
+        "date": "2018-04-13",
+        "dividendPercentage": 3.735823944893662
+      },
+      {
+        "date": "2018-04-16",
+        "dividendPercentage": 3.711681948094829
+      },
+      {
+        "date": "2018-04-17",
+        "dividendPercentage": 3.688457135587495
+      },
+      {
+        "date": "2018-04-18",
+        "dividendPercentage": 3.6181553868518823
+      },
+      {
+        "date": "2018-04-19",
+        "dividendPercentage": 3.621372594142532
+      },
+      {
+        "date": "2018-04-20",
+        "dividendPercentage": 3.6628240317688507
+      },
+      {
+        "date": "2018-04-23",
+        "dividendPercentage": 3.6251820096264447
+      },
+      {
+        "date": "2018-04-24",
+        "dividendPercentage": 3.65594904801739
+      },
+      {
+        "date": "2018-04-25",
+        "dividendPercentage": 3.6505866716868756
+      },
+      {
+        "date": "2018-04-26",
+        "dividendPercentage": 3.606504559599867
+      },
+      {
+        "date": "2018-04-27",
+        "dividendPercentage": 3.5381455487724165
+      },
+      {
+        "date": "2018-04-30",
+        "dividendPercentage": 3.5808488243877488
+      },
+      {
+        "date": "2018-05-01",
+        "dividendPercentage": 3.588018552074175
+      },
+      {
+        "date": "2018-05-02",
+        "dividendPercentage": 3.57000563503077
+      },
+      {
+        "date": "2018-05-03",
+        "dividendPercentage": 3.555273334572283
+      },
+      {
+        "date": "2018-05-04",
+        "dividendPercentage": 3.5688680281117504
+      },
+      {
+        "date": "2018-05-07",
+        "dividendPercentage": 3.5857210887510633
+      },
+      {
+        "date": "2018-05-08",
+        "dividendPercentage": 3.539543335703564
+      },
+      {
+        "date": "2018-05-09",
+        "dividendPercentage": 3.4804225957083395
+      },
+      {
+        "date": "2018-05-10",
+        "dividendPercentage": 3.4777206618223517
+      },
+      {
+        "date": "2018-05-11",
+        "dividendPercentage": 3.4504005992113553
+      },
+      {
+        "date": "2018-05-14",
+        "dividendPercentage": 3.4358463335826857
+      },
+      {
+        "date": "2018-05-15",
+        "dividendPercentage": 3.4530598330098727
+      },
+      {
+        "date": "2018-05-16",
+        "dividendPercentage": 3.4578574167622325
+      },
+      {
+        "date": "2018-05-17",
+        "dividendPercentage": 3.4605281614112693
+      },
+      {
+        "date": "2018-05-18",
+        "dividendPercentage": 3.503832289192615
+      },
+      {
+        "date": "2018-05-21",
+        "dividendPercentage": 3.4629358994718995
+      },
+      {
+        "date": "2018-05-22",
+        "dividendPercentage": 3.493722326872724
+      },
+      {
+        "date": "2018-05-23",
+        "dividendPercentage": 3.480963562104823
+      },
+      {
+        "date": "2018-05-24",
+        "dividendPercentage": 3.538425056958969
+      },
+      {
+        "date": "2018-05-25",
+        "dividendPercentage": 3.6664210873816008
+      },
+      {
+        "date": "2018-05-29",
+        "dividendPercentage": 3.6905840982830886
+      },
+      {
+        "date": "2018-05-30",
+        "dividendPercentage": 3.579418230124058
+      },
+      {
+        "date": "2018-05-31",
+        "dividendPercentage": 3.6041833402047465
+      },
+      {
+        "date": "2018-06-01",
+        "dividendPercentage": 3.617279024905596
+      },
+      {
+        "date": "2018-06-04",
+        "dividendPercentage": 3.6643218769127786
+      },
+      {
+        "date": "2018-06-05",
+        "dividendPercentage": 3.650289163604111
+      },
+      {
+        "date": "2018-06-06",
+        "dividendPercentage": 3.6310586066880846
+      },
+      {
+        "date": "2018-06-07",
+        "dividendPercentage": 3.5286704751785645
+      },
+      {
+        "date": "2018-06-08",
+        "dividendPercentage": 3.543182481126503
+      },
+      {
+        "date": "2018-06-11",
+        "dividendPercentage": 3.51207280514382
+      },
+      {
+        "date": "2018-06-12",
+        "dividendPercentage": 3.5253383140488155
+      },
+      {
+        "date": "2018-06-13",
+        "dividendPercentage": 3.5256158023136854
+      },
+      {
+        "date": "2018-06-14",
+        "dividendPercentage": 3.541221981800301
+      },
+      {
+        "date": "2018-06-15",
+        "dividendPercentage": 3.611738119866671
+      },
+      {
+        "date": "2018-06-18",
+        "dividendPercentage": 3.556402289780088
+      },
+      {
+        "date": "2018-06-19",
+        "dividendPercentage": 3.5685836899109153
+      },
+      {
+        "date": "2018-06-20",
+        "dividendPercentage": 3.575704337331756
+      },
+      {
+        "date": "2018-06-21",
+        "dividendPercentage": 3.6544580685034043
+      },
+      {
+        "date": "2018-06-22",
+        "dividendPercentage": 3.5811351491788197
+      },
+      {
+        "date": "2018-06-25",
+        "dividendPercentage": 3.6538618085485544
+      },
+      {
+        "date": "2018-06-26",
+        "dividendPercentage": 3.6082473064353318
+      },
+      {
+        "date": "2018-06-27",
+        "dividendPercentage": 3.5555555555555554
+      },
+      {
+        "date": "2018-06-28",
+        "dividendPercentage": 3.5651757579125976
+      },
+      {
+        "date": "2018-06-29",
+        "dividendPercentage": 3.543462785731235
+      },
+      {
+        "date": "2018-07-02",
+        "dividendPercentage": 3.6056338028169015
+      },
+      {
+        "date": "2018-07-03",
+        "dividendPercentage": 3.591758111318253
+      },
+      {
+        "date": "2018-07-05",
+        "dividendPercentage": 3.6134859586993238
+      },
+      {
+        "date": "2018-07-06",
+        "dividendPercentage": 3.6088287708138296
+      },
+      {
+        "date": "2018-07-09",
+        "dividendPercentage": 3.5558378213483266
+      },
+      {
+        "date": "2018-07-10",
+        "dividendPercentage": 3.5112470730071976
+      },
+      {
+        "date": "2018-07-11",
+        "dividendPercentage": 3.626943093270963
+      },
+      {
+        "date": "2018-07-12",
+        "dividendPercentage": 3.605343576286117
+      },
+      {
+        "date": "2018-07-13",
+        "dividendPercentage": 3.611738119866671
+      },
+      {
+        "date": "2018-07-16",
+        "dividendPercentage": 3.6428686702829243
+      },
+      {
+        "date": "2018-07-17",
+        "dividendPercentage": 3.6748419760530893
+      },
+      {
+        "date": "2018-07-18",
+        "dividendPercentage": 3.6863326231081435
+      },
+      {
+        "date": "2018-07-19",
+        "dividendPercentage": 3.682090962144998
+      },
+      {
+        "date": "2018-07-20",
+        "dividendPercentage": 3.6640223357493005
+      },
+      {
+        "date": "2018-07-23",
+        "dividendPercentage": 3.6924090712534565
+      },
+      {
+        "date": "2018-07-24",
+        "dividendPercentage": 3.617279024905596
+      },
+      {
+        "date": "2018-07-25",
+        "dividendPercentage": 3.5868694381606177
+      },
+      {
+        "date": "2018-07-26",
+        "dividendPercentage": 3.614360716765488
+      },
+      {
+        "date": "2018-07-27",
+        "dividendPercentage": 3.556402289780088
+      },
+      {
+        "date": "2018-07-30",
+        "dividendPercentage": 3.50465456458336
+      },
+      {
+        "date": "2018-07-31",
+        "dividendPercentage": 3.547952883850944
+      },
+      {
+        "date": "2018-08-01",
+        "dividendPercentage": 3.57285272807124
+      },
+      {
+        "date": "2018-08-02",
+        "dividendPercentage": 3.619909443763584
+      },
+      {
+        "date": "2018-08-03",
+        "dividendPercentage": 3.611446909840059
+      },
+      {
+        "date": "2018-08-06",
+        "dividendPercentage": 3.6041833402047465
+      },
+      {
+        "date": "2018-08-07",
+        "dividendPercentage": 3.578846461096022
+      },
+      {
+        "date": "2018-08-08",
+        "dividendPercentage": 3.6164030581951017
+      },
+      {
+        "date": "2018-08-09",
+        "dividendPercentage": 3.6562474794437896
+      },
+      {
+        "date": "2018-08-10",
+        "dividendPercentage": 3.6322362131420864
+      },
+      {
+        "date": "2018-08-13",
+        "dividendPercentage": 3.6589349287988417
+      },
+      {
+        "date": "2018-08-14",
+        "dividendPercentage": 3.654756018033024
+      },
+      {
+        "date": "2018-08-15",
+        "dividendPercentage": 3.798541566923155
+      },
+      {
+        "date": "2018-08-16",
+        "dividendPercentage": 3.807581036628216
+      },
+      {
+        "date": "2018-08-17",
+        "dividendPercentage": 3.8030559303126674
+      },
+      {
+        "date": "2018-08-20",
+        "dividendPercentage": 3.804670912951168
+      },
+      {
+        "date": "2018-08-21",
+        "dividendPercentage": 3.798541566923155
+      },
+      {
+        "date": "2018-08-22",
+        "dividendPercentage": 3.7672385430077124
+      },
+      {
+        "date": "2018-08-23",
+        "dividendPercentage": 3.793395491844124
+      },
+      {
+        "date": "2018-08-24",
+        "dividendPercentage": 3.764389483835149
+      },
+      {
+        "date": "2018-08-27",
+        "dividendPercentage": 3.7224761732027623
+      },
+      {
+        "date": "2018-08-28",
+        "dividendPercentage": 3.7376939451218596
+      },
+      {
+        "date": "2018-08-29",
+        "dividendPercentage": 3.7265013830768483
+      },
+      {
+        "date": "2018-08-30",
+        "dividendPercentage": 3.739253880965761
+      },
+      {
+        "date": "2018-08-31",
+        "dividendPercentage": 3.781867328903152
+      },
+      {
+        "date": "2018-09-04",
+        "dividendPercentage": 3.768822988925138
+      },
+      {
+        "date": "2018-09-05",
+        "dividendPercentage": 3.7672385430077124
+      },
+      {
+        "date": "2018-09-06",
+        "dividendPercentage": 3.887876319850483
+      },
+      {
+        "date": "2018-09-07",
+        "dividendPercentage": 3.9092496319240775
+      },
+      {
+        "date": "2018-09-10",
+        "dividendPercentage": 3.913347207022698
+      },
+      {
+        "date": "2018-09-11",
+        "dividendPercentage": 3.8949748885839393
+      },
+      {
+        "date": "2018-09-12",
+        "dividendPercentage": 3.8690732889794175
+      },
+      {
+        "date": "2018-09-13",
+        "dividendPercentage": 3.852106521441793
+      },
+      {
+        "date": "2018-09-14",
+        "dividendPercentage": 3.8166639244333944
+      },
+      {
+        "date": "2018-09-17",
+        "dividendPercentage": 3.8124414294538096
+      },
+      {
+        "date": "2018-09-18",
+        "dividendPercentage": 3.792432162679222
+      },
+      {
+        "date": "2018-09-19",
+        "dividendPercentage": 3.748640218414523
+      },
+      {
+        "date": "2018-09-20",
+        "dividendPercentage": 3.7514654790062885
+      },
+      {
+        "date": "2018-09-21",
+        "dividendPercentage": 3.698505829237328
+      },
+      {
+        "date": "2018-09-24",
+        "dividendPercentage": 3.6535637664272445
+      },
+      {
+        "date": "2018-09-25",
+        "dividendPercentage": 3.631352752743307
+      },
+      {
+        "date": "2018-09-26",
+        "dividendPercentage": 3.6736368267397337
+      },
+      {
+        "date": "2018-09-27",
+        "dividendPercentage": 3.658038673487069
+      },
+      {
+        "date": "2018-09-28",
+        "dividendPercentage": 3.663722633821742
+      },
+      {
+        "date": "2018-10-01",
+        "dividendPercentage": 3.601575718317998
+      },
+      {
+        "date": "2018-10-02",
+        "dividendPercentage": 3.5914703157202235
+      },
+      {
+        "date": "2018-10-03",
+        "dividendPercentage": 3.5751337255627442
+      },
+      {
+        "date": "2018-10-04",
+        "dividendPercentage": 3.585434259754324
+      },
+      {
+        "date": "2018-10-05",
+        "dividendPercentage": 3.574563096232936
+      },
+      {
+        "date": "2018-10-08",
+        "dividendPercentage": 3.588593514533596
+      },
+      {
+        "date": "2018-10-09",
+        "dividendPercentage": 3.5325658413499452
+      },
+      {
+        "date": "2018-10-10",
+        "dividendPercentage": 3.654159929105383
+      },
+      {
+        "date": "2018-10-11",
+        "dividendPercentage": 3.782825297644178
+      },
+      {
+        "date": "2018-10-12",
+        "dividendPercentage": 3.804024890991549
+      },
+      {
+        "date": "2018-10-15",
+        "dividendPercentage": 3.8310243914652915
+      },
+      {
+        "date": "2018-10-16",
+        "dividendPercentage": 3.8124414294538096
+      },
+      {
+        "date": "2018-10-17",
+        "dividendPercentage": 3.8195924305602147
+      },
+      {
+        "date": "2018-10-18",
+        "dividendPercentage": 3.813739645750067
+      },
+      {
+        "date": "2018-10-19",
+        "dividendPercentage": 3.7921110867793395
+      },
+      {
+        "date": "2018-10-22",
+        "dividendPercentage": 3.822199503644737
+      },
+      {
+        "date": "2018-10-23",
+        "dividendPercentage": 3.9506172142748293
+      },
+      {
+        "date": "2018-10-24",
+        "dividendPercentage": 4.064966918292051
+      },
+      {
+        "date": "2018-10-25",
+        "dividendPercentage": 4.0150563897641804
+      },
+      {
+        "date": "2018-10-26",
+        "dividendPercentage": 4.016856487194984
+      },
+      {
+        "date": "2018-10-29",
+        "dividendPercentage": 4.11273294776462
+      },
+      {
+        "date": "2018-10-30",
+        "dividendPercentage": 4.041497592088365
+      },
+      {
+        "date": "2018-10-31",
+        "dividendPercentage": 4.012539113075878
+      },
+      {
+        "date": "2018-11-01",
+        "dividendPercentage": 4.029864244487978
+      },
+      {
+        "date": "2018-11-02",
+        "dividendPercentage": 3.9048199100979724
+      },
+      {
+        "date": "2018-11-05",
+        "dividendPercentage": 3.766604947593662
+      },
+      {
+        "date": "2018-11-06",
+        "dividendPercentage": 3.767872098101395
+      },
+      {
+        "date": "2018-11-07",
+        "dividendPercentage": 3.706461395554032
+      },
+      {
+        "date": "2018-11-08",
+        "dividendPercentage": 3.7533511749886803
+      },
+      {
+        "date": "2018-11-09",
+        "dividendPercentage": 3.748640218414523
+      },
+      {
+        "date": "2018-11-12",
+        "dividendPercentage": 3.816338732569544
+      },
+      {
+        "date": "2018-11-13",
+        "dividendPercentage": 3.8838318835514847
+      },
+      {
+        "date": "2018-11-14",
+        "dividendPercentage": 3.8714137238903072
+      },
+      {
+        "date": "2018-11-15",
+        "dividendPercentage": 3.8306969772731168
+      },
+      {
+        "date": "2018-11-16",
+        "dividendPercentage": 3.762808731107152
+      },
+      {
+        "date": "2018-11-19",
+        "dividendPercentage": 3.7514654790062885
+      },
+      {
+        "date": "2018-11-20",
+        "dividendPercentage": 3.858742529866366
+      },
+      {
+        "date": "2018-11-21",
+        "dividendPercentage": 3.810495874797993
+      },
+      {
+        "date": "2018-11-23",
+        "dividendPercentage": 3.9436620412616556
+      },
+      {
+        "date": "2018-11-26",
+        "dividendPercentage": 3.8963296948252824
+      },
+      {
+        "date": "2018-11-27",
+        "dividendPercentage": 3.8885513747812817
+      },
+      {
+        "date": "2018-11-28",
+        "dividendPercentage": 3.7921110867793395
+      },
+      {
+        "date": "2018-11-29",
+        "dividendPercentage": 3.769457362548715
+      },
+      {
+        "date": "2018-11-30",
+        "dividendPercentage": 3.766604947593662
+      },
+      {
+        "date": "2018-12-03",
+        "dividendPercentage": 3.7126046857148367
+      },
+      {
+        "date": "2018-12-04",
+        "dividendPercentage": 3.821221491320735
+      },
+      {
+        "date": "2018-12-06",
+        "dividendPercentage": 3.8650675915773416
+      },
+      {
+        "date": "2018-12-07",
+        "dividendPercentage": 3.8791238008333853
+      },
+      {
+        "date": "2018-12-10",
+        "dividendPercentage": 3.8976856812652576
+      },
+      {
+        "date": "2018-12-11",
+        "dividendPercentage": 3.879795584309383
+      },
+      {
+        "date": "2018-12-12",
+        "dividendPercentage": 3.8747620513381245
+      },
+      {
+        "date": "2018-12-13",
+        "dividendPercentage": 3.864067554527039
+      },
+      {
+        "date": "2018-12-14",
+        "dividendPercentage": 3.935693508992472
+      },
+      {
+        "date": "2018-12-17",
+        "dividendPercentage": 3.983992992014042
+      },
+      {
+        "date": "2018-12-18",
+        "dividendPercentage": 4.082376600735859
+      },
+      {
+        "date": "2018-12-19",
+        "dividendPercentage": 4.154687857652085
+      },
+      {
+        "date": "2018-12-20",
+        "dividendPercentage": 4.267479397957343
+      },
+      {
+        "date": "2018-12-21",
+        "dividendPercentage": 4.299011652423104
+      },
+      {
+        "date": "2018-12-24",
+        "dividendPercentage": 4.436082868325237
+      },
+      {
+        "date": "2018-12-26",
+        "dividendPercentage": 4.171710626424347
+      },
+      {
+        "date": "2018-12-27",
+        "dividendPercentage": 4.098060739114527
+      },
+      {
+        "date": "2018-12-28",
+        "dividendPercentage": 4.123331723454548
+      },
+      {
+        "date": "2018-12-31",
+        "dividendPercentage": 4.118025515966306
+      },
+      {
+        "date": "2019-01-02",
+        "dividendPercentage": 4.047339343258843
+      },
+      {
+        "date": "2019-01-03",
+        "dividendPercentage": 4.126370083816893
+      },
+      {
+        "date": "2019-01-04",
+        "dividendPercentage": 4.042591589965711
+      },
+      {
+        "date": "2019-01-07",
+        "dividendPercentage": 3.990735720813545
+      },
+      {
+        "date": "2019-01-08",
+        "dividendPercentage": 4.008231296633211
+      },
+      {
+        "date": "2019-01-09",
+        "dividendPercentage": 3.9551515128935693
+      },
+      {
+        "date": "2019-01-10",
+        "dividendPercentage": 3.948876261318897
+      },
+      {
+        "date": "2019-01-11",
+        "dividendPercentage": 3.980806788867898
+      },
+      {
+        "date": "2019-01-14",
+        "dividendPercentage": 4.010025026763113
+      },
+      {
+        "date": "2019-01-15",
+        "dividendPercentage": 3.9957187657228306
+      },
+      {
+        "date": "2019-01-16",
+        "dividendPercentage": 4.021543913437273
+      },
+      {
+        "date": "2019-01-17",
+        "dividendPercentage": 4.0014291175547445
+      },
+      {
+        "date": "2019-01-18",
+        "dividendPercentage": 3.917111027792839
+      },
+      {
+        "date": "2019-01-22",
+        "dividendPercentage": 3.9878940355312107
+      },
+      {
+        "date": "2019-01-23",
+        "dividendPercentage": 4.0219050545103245
+      },
+      {
+        "date": "2019-01-24",
+        "dividendPercentage": 3.9467887596372346
+      },
+      {
+        "date": "2019-01-25",
+        "dividendPercentage": 3.9568980395963784
+      },
+      {
+        "date": "2019-01-28",
+        "dividendPercentage": 3.993937844235319
+      },
+      {
+        "date": "2019-01-29",
+        "dividendPercentage": 4.006080586495921
+      },
+      {
+        "date": "2019-01-30",
+        "dividendPercentage": 3.964250881085729
+      },
+      {
+        "date": "2019-01-31",
+        "dividendPercentage": 3.9075446330999632
+      },
+      {
+        "date": "2019-02-01",
+        "dividendPercentage": 3.7847426598443192
+      },
+      {
+        "date": "2019-02-04",
+        "dividendPercentage": 3.741439848696173
+      },
+      {
+        "date": "2019-02-05",
+        "dividendPercentage": 3.7495814257721443
+      },
+      {
+        "date": "2019-02-06",
+        "dividendPercentage": 3.768506151627847
+      },
+      {
+        "date": "2019-02-07",
+        "dividendPercentage": 3.789224296983229
+      },
+      {
+        "date": "2019-02-08",
+        "dividendPercentage": 3.8101717331149567
+      },
+      {
+        "date": "2019-02-11",
+        "dividendPercentage": 3.8306969772731168
+      },
+      {
+        "date": "2019-02-12",
+        "dividendPercentage": 3.7735848738747912
+      },
+      {
+        "date": "2019-02-13",
+        "dividendPercentage": 3.7467592205402696
+      },
+      {
+        "date": "2019-02-14",
+        "dividendPercentage": 3.7914690659624557
+      },
+      {
+        "date": "2019-02-15",
+        "dividendPercentage": 3.7536657520513743
+      },
+      {
+        "date": "2019-02-19",
+        "dividendPercentage": 3.754924210123615
+      },
+      {
+        "date": "2019-02-20",
+        "dividendPercentage": 3.724642531797826
+      },
+      {
+        "date": "2019-02-21",
+        "dividendPercentage": 3.7602820527134635
+      },
+      {
+        "date": "2019-02-22",
+        "dividendPercentage": 3.752408105807925
+      },
+      {
+        "date": "2019-02-25",
+        "dividendPercentage": 3.745193017592551
+      },
+      {
+        "date": "2019-02-26",
+        "dividendPercentage": 3.7352008715157434
+      },
+      {
+        "date": "2019-02-27",
+        "dividendPercentage": 3.7308460404589274
+      },
+      {
+        "date": "2019-02-28",
+        "dividendPercentage": 3.7464458313021276
+      },
+      {
+        "date": "2019-03-01",
+        "dividendPercentage": 3.6712284165469837
+      },
+      {
+        "date": "2019-03-04",
+        "dividendPercentage": 3.6685226743730106
+      },
+      {
+        "date": "2019-03-05",
+        "dividendPercentage": 3.633709111576697
+      },
+      {
+        "date": "2019-03-06",
+        "dividendPercentage": 3.6266494262660847
+      },
+      {
+        "date": "2019-03-07",
+        "dividendPercentage": 3.673937942038085
+      },
+      {
+        "date": "2019-03-08",
+        "dividendPercentage": 3.6836045794210355
+      },
+      {
+        "date": "2019-03-11",
+        "dividendPercentage": 3.6240089720754987
+      },
+      {
+        "date": "2019-03-12",
+        "dividendPercentage": 3.6158191506728143
+      },
+      {
+        "date": "2019-03-13",
+        "dividendPercentage": 3.593486862813618
+      },
+      {
+        "date": "2019-03-14",
+        "dividendPercentage": 3.5955056756903003
+      },
+      {
+        "date": "2019-03-15",
+        "dividendPercentage": 3.5751337255627442
+      },
+      {
+        "date": "2019-03-18",
+        "dividendPercentage": 3.5589451118274176
+      },
+      {
+        "date": "2019-03-19",
+        "dividendPercentage": 3.575989811430315
+      },
+      {
+        "date": "2019-03-20",
+        "dividendPercentage": 3.592910360206747
+      },
+      {
+        "date": "2019-03-21",
+        "dividendPercentage": 3.5595105390154895
+      },
+      {
+        "date": "2019-03-22",
+        "dividendPercentage": 3.6396134093626915
+      },
+      {
+        "date": "2019-03-25",
+        "dividendPercentage": 3.645536688465593
+      },
+      {
+        "date": "2019-03-26",
+        "dividendPercentage": 3.609119558747754
+      },
+      {
+        "date": "2019-03-27",
+        "dividendPercentage": 3.648505548916805
+      },
+      {
+        "date": "2019-03-28",
+        "dividendPercentage": 3.6416843677861577
+      },
+      {
+        "date": "2019-03-29",
+        "dividendPercentage": 3.636954050982302
+      },
+      {
+        "date": "2019-04-01",
+        "dividendPercentage": 3.5857210887510633
+      },
+      {
+        "date": "2019-04-02",
+        "dividendPercentage": 3.5860081645721604
+      },
+      {
+        "date": "2019-04-03",
+        "dividendPercentage": 3.616111095456543
+      },
+      {
+        "date": "2019-04-04",
+        "dividendPercentage": 3.589743503451679
+      },
+      {
+        "date": "2019-04-05",
+        "dividendPercentage": 3.543743134689814
+      },
+      {
+        "date": "2019-04-08",
+        "dividendPercentage": 3.536469845279444
+      },
+      {
+        "date": "2019-04-09",
+        "dividendPercentage": 3.5685836899109153
+      },
+      {
+        "date": "2019-04-10",
+        "dividendPercentage": 3.57000563503077
+      },
+      {
+        "date": "2019-04-11",
+        "dividendPercentage": 3.5558378213483266
+      },
+      {
+        "date": "2019-04-12",
+        "dividendPercentage": 3.7408149007879947
+      },
+      {
+        "date": "2019-04-15",
+        "dividendPercentage": 3.7289828843764186
+      },
+      {
+        "date": "2019-04-16",
+        "dividendPercentage": 3.6972848674966556
+      },
+      {
+        "date": "2019-04-17",
+        "dividendPercentage": 3.7249522838185487
+      },
+      {
+        "date": "2019-04-18",
+        "dividendPercentage": 3.7376939451218596
+      },
+      {
+        "date": "2019-04-22",
+        "dividendPercentage": 3.6751434999976462
+      },
+      {
+        "date": "2019-04-23",
+        "dividendPercentage": 3.671529347767481
+      },
+      {
+        "date": "2019-04-24",
+        "dividendPercentage": 3.7876226224858187
+      },
+      {
+        "date": "2019-04-25",
+        "dividendPercentage": 3.799830300257332
+      },
+      {
+        "date": "2019-04-26",
+        "dividendPercentage": 3.8257899884848854
+      },
+      {
+        "date": "2019-04-29",
+        "dividendPercentage": 3.8056404705603093
+      },
+      {
+        "date": "2019-04-30",
+        "dividendPercentage": 3.7314676616936144
+      },
+      {
+        "date": "2019-05-01",
+        "dividendPercentage": 3.8027332790549755
+      },
+      {
+        "date": "2019-05-02",
+        "dividendPercentage": 3.8494587691044537
+      },
+      {
+        "date": "2019-05-03",
+        "dividendPercentage": 3.820243979370103
+      },
+      {
+        "date": "2019-05-06",
+        "dividendPercentage": 3.7837837198685187
+      },
+      {
+        "date": "2019-05-07",
+        "dividendPercentage": 3.7879429387319594
+      },
+      {
+        "date": "2019-05-08",
+        "dividendPercentage": 3.8127659574468087
+      },
+      {
+        "date": "2019-05-09",
+        "dividendPercentage": 3.696674582116106
+      },
+      {
+        "date": "2019-05-10",
+        "dividendPercentage": 3.6724322267797733
+      },
+      {
+        "date": "2019-05-13",
+        "dividendPercentage": 3.719694391901455
+      },
+      {
+        "date": "2019-05-14",
+        "dividendPercentage": 3.6829990437602684
+      },
+      {
+        "date": "2019-05-15",
+        "dividendPercentage": 3.66792208668677
+      },
+      {
+        "date": "2019-05-16",
+        "dividendPercentage": 3.7086091794219573
+      },
+      {
+        "date": "2019-05-17",
+        "dividendPercentage": 3.71722544931693
+      },
+      {
+        "date": "2019-05-20",
+        "dividendPercentage": 3.707381784421774
+      },
+      {
+        "date": "2019-05-21",
+        "dividendPercentage": 3.692104951116036
+      },
+      {
+        "date": "2019-05-22",
+        "dividendPercentage": 3.7156838351165304
+      },
+      {
+        "date": "2019-05-23",
+        "dividendPercentage": 3.8007973920217855
+      },
+      {
+        "date": "2019-05-24",
+        "dividendPercentage": 3.773902820098584
+      },
+      {
+        "date": "2019-05-28",
+        "dividendPercentage": 3.786662222748073
+      },
+      {
+        "date": "2019-05-29",
+        "dividendPercentage": 3.836601965486049
+      },
+      {
+        "date": "2019-05-30",
+        "dividendPercentage": 3.8828220805032614
+      },
+      {
+        "date": "2019-05-31",
+        "dividendPercentage": 3.9350022649978444
+      },
+      {
+        "date": "2019-06-03",
+        "dividendPercentage": 3.8624019977998447
+      },
+      {
+        "date": "2019-06-04",
+        "dividendPercentage": 3.8192667394901942
+      },
+      {
+        "date": "2019-06-05",
+        "dividendPercentage": 3.807904737647179
+      },
+      {
+        "date": "2019-06-06",
+        "dividendPercentage": 3.7122969837587005
+      },
+      {
+        "date": "2019-06-07",
+        "dividendPercentage": 3.687849760754452
+      },
+      {
+        "date": "2019-06-10",
+        "dividendPercentage": 3.6634229809189387
+      },
+      {
+        "date": "2019-06-11",
+        "dividendPercentage": 3.6972848674966556
+      },
+      {
+        "date": "2019-06-12",
+        "dividendPercentage": 3.727431504660429
+      },
+      {
+        "date": "2019-06-13",
+        "dividendPercentage": 3.7052351764044276
+      },
+      {
+        "date": "2019-06-14",
+        "dividendPercentage": 3.7083023542472047
+      },
+      {
+        "date": "2019-06-17",
+        "dividendPercentage": 3.6905840982830886
+      },
+      {
+        "date": "2019-06-18",
+        "dividendPercentage": 3.6443504433417395
+      },
+      {
+        "date": "2019-06-19",
+        "dividendPercentage": 3.645536688465593
+      },
+      {
+        "date": "2019-06-20",
+        "dividendPercentage": 3.6047634664045987
+      },
+      {
+        "date": "2019-06-21",
+        "dividendPercentage": 3.5860081645721604
+      },
+      {
+        "date": "2019-06-24",
+        "dividendPercentage": 3.586582224430959
+      },
+      {
+        "date": "2019-06-25",
+        "dividendPercentage": 3.6234228698109257
+      },
+      {
+        "date": "2019-06-26",
+        "dividendPercentage": 3.6149439199548135
+      },
+      {
+        "date": "2019-06-27",
+        "dividendPercentage": 3.639021983274942
+      },
+      {
+        "date": "2019-06-28",
+        "dividendPercentage": 3.600128518159298
+      },
+      {
+        "date": "2019-07-01",
+        "dividendPercentage": 3.588593514533596
+      },
+      {
+        "date": "2019-07-02",
+        "dividendPercentage": 3.6443504433417395
+      },
+      {
+        "date": "2019-07-03",
+        "dividendPercentage": 3.6319416883979203
+      },
+      {
+        "date": "2019-07-05",
+        "dividendPercentage": 3.626355806812726
+      },
+      {
+        "date": "2019-07-08",
+        "dividendPercentage": 3.6245955279060773
+      },
+      {
+        "date": "2019-07-09",
+        "dividendPercentage": 3.6319416883979203
+      },
+      {
+        "date": "2019-07-10",
+        "dividendPercentage": 3.5714285144861524
+      },
+      {
+        "date": "2019-07-11",
+        "dividendPercentage": 3.571713306226581
+      },
+      {
+        "date": "2019-07-12",
+        "dividendPercentage": 3.55611993436768
+      },
+      {
+        "date": "2019-07-15",
+        "dividendPercentage": 3.56347435918331
+      },
+      {
+        "date": "2019-07-16",
+        "dividendPercentage": 3.590894459908714
+      },
+      {
+        "date": "2019-07-17",
+        "dividendPercentage": 3.6088287708138296
+      },
+      {
+        "date": "2019-07-18",
+        "dividendPercentage": 3.593198588386269
+      },
+      {
+        "date": "2019-07-19",
+        "dividendPercentage": 3.5828534582305385
+      },
+      {
+        "date": "2019-07-22",
+        "dividendPercentage": 3.5751337255627442
+      },
+      {
+        "date": "2019-07-23",
+        "dividendPercentage": 3.5606421872516303
+      },
+      {
+        "date": "2019-07-24",
+        "dividendPercentage": 3.5403824597725424
+      },
+      {
+        "date": "2019-07-25",
+        "dividendPercentage": 3.5660273079525746
+      },
+      {
+        "date": "2019-07-26",
+        "dividendPercentage": 3.6210798284749455
+      },
+      {
+        "date": "2019-07-29",
+        "dividendPercentage": 3.6062141928789946
+      },
+      {
+        "date": "2019-07-30",
+        "dividendPercentage": 3.603024082452118
+      },
+      {
+        "date": "2019-07-31",
+        "dividendPercentage": 3.639021983274942
+      },
+      {
+        "date": "2019-08-01",
+        "dividendPercentage": 3.710452272825117
+      },
+      {
+        "date": "2019-08-02",
+        "dividendPercentage": 3.7107594538865376
+      },
+      {
+        "date": "2019-08-05",
+        "dividendPercentage": 3.7729493645435297
+      },
+      {
+        "date": "2019-08-06",
+        "dividendPercentage": 3.752722493367126
+      },
+      {
+        "date": "2019-08-07",
+        "dividendPercentage": 3.7615449834012598
+      },
+      {
+        "date": "2019-08-08",
+        "dividendPercentage": 3.635478285267915
+      },
+      {
+        "date": "2019-08-09",
+        "dividendPercentage": 3.6595328158721263
+      },
+      {
+        "date": "2019-08-12",
+        "dividendPercentage": 3.6857259476990722
+      },
+      {
+        "date": "2019-08-13",
+        "dividendPercentage": 3.660429803582236
+      },
+      {
+        "date": "2019-08-14",
+        "dividendPercentage": 3.804994119330629
+      },
+      {
+        "date": "2019-08-15",
+        "dividendPercentage": 3.8306969772731168
+      },
+      {
+        "date": "2019-08-16",
+        "dividendPercentage": 3.8684052131664837
+      },
+      {
+        "date": "2019-08-19",
+        "dividendPercentage": 3.8189413318377183
+      },
+      {
+        "date": "2019-08-20",
+        "dividendPercentage": 3.8577457295551296
+      },
+      {
+        "date": "2019-08-21",
+        "dividendPercentage": 3.8004751561030328
+      },
+      {
+        "date": "2019-08-22",
+        "dividendPercentage": 3.805317154370582
+      },
+      {
+        "date": "2019-08-23",
+        "dividendPercentage": 3.8895641604445217
+      },
+      {
+        "date": "2019-08-26",
+        "dividendPercentage": 3.8707448396534447
+      },
+      {
+        "date": "2019-08-27",
+        "dividendPercentage": 3.86773713428754
+      },
+      {
+        "date": "2019-08-28",
+        "dividendPercentage": 3.834631450233135
+      },
+      {
+        "date": "2019-08-29",
+        "dividendPercentage": 3.812117183767457
+      },
+      {
+        "date": "2019-08-30",
+        "dividendPercentage": 3.8056404705603093
+      },
+      {
+        "date": "2019-09-03",
+        "dividendPercentage": 3.853100641260015
+      },
+      {
+        "date": "2019-09-04",
+        "dividendPercentage": 3.8208955223880596
+      },
+      {
+        "date": "2019-09-05",
+        "dividendPercentage": 3.808228526081508
+      },
+      {
+        "date": "2019-09-06",
+        "dividendPercentage": 3.788263084927058
+      },
+      {
+        "date": "2019-09-09",
+        "dividendPercentage": 3.752408105807925
+      },
+      {
+        "date": "2019-09-10",
+        "dividendPercentage": 3.6766516811924776
+      },
+      {
+        "date": "2019-09-11",
+        "dividendPercentage": 3.6939314288747647
+      },
+      {
+        "date": "2019-09-12",
+        "dividendPercentage": 3.689672272931515
+      },
+      {
+        "date": "2019-09-13",
+        "dividendPercentage": 3.6872427983539096
+      },
+      {
+        "date": "2019-09-16",
+        "dividendPercentage": 3.6094101609069416
+      },
+      {
+        "date": "2019-09-17",
+        "dividendPercentage": 3.616111095456543
+      },
+      {
+        "date": "2019-09-18",
+        "dividendPercentage": 3.6076662908680945
+      },
+      {
+        "date": "2019-09-19",
+        "dividendPercentage": 3.622836693422718
+      },
+      {
+        "date": "2019-09-20",
+        "dividendPercentage": 3.603603603603604
+      },
+      {
+        "date": "2019-09-23",
+        "dividendPercentage": 3.5868694381606177
+      },
+      {
+        "date": "2019-09-24",
+        "dividendPercentage": 3.620494643938818
+      },
+      {
+        "date": "2019-09-25",
+        "dividendPercentage": 3.6272366022631917
+      },
+      {
+        "date": "2019-09-26",
+        "dividendPercentage": 3.7283620596417424
+      },
+      {
+        "date": "2019-09-27",
+        "dividendPercentage": 3.7774030991130374
+      },
+      {
+        "date": "2019-09-30",
+        "dividendPercentage": 3.7774030991130374
+      },
+      {
+        "date": "2019-10-01",
+        "dividendPercentage": 3.8617359906605295
+      },
+      {
+        "date": "2019-10-02",
+        "dividendPercentage": 3.9896695699557436
+      },
+      {
+        "date": "2019-10-03",
+        "dividendPercentage": 3.959345930899763
+      },
+      {
+        "date": "2019-10-04",
+        "dividendPercentage": 3.9350022649978444
+      },
+      {
+        "date": "2019-10-07",
+        "dividendPercentage": 3.9555005481988252
+      },
+      {
+        "date": "2019-10-08",
+        "dividendPercentage": 4.010384065977837
+      },
+      {
+        "date": "2019-10-09",
+        "dividendPercentage": 3.959695986916175
+      },
+      {
+        "date": "2019-10-10",
+        "dividendPercentage": 3.909590851194375
+      },
+      {
+        "date": "2019-10-11",
+        "dividendPercentage": 3.8570812938944252
+      },
+      {
+        "date": "2019-10-14",
+        "dividendPercentage": 3.8560853847478054
+      },
+      {
+        "date": "2019-10-15",
+        "dividendPercentage": 3.851775493969143
+      },
+      {
+        "date": "2019-10-16",
+        "dividendPercentage": 3.891929424968036
+      },
+      {
+        "date": "2019-10-17",
+        "dividendPercentage": 3.8838318835514847
+      },
+      {
+        "date": "2019-10-18",
+        "dividendPercentage": 3.9044797612773188
+      },
+      {
+        "date": "2019-10-21",
+        "dividendPercentage": 3.8418660162776264
+      },
+      {
+        "date": "2019-10-22",
+        "dividendPercentage": 3.8030559303126674
+      },
+      {
+        "date": "2019-10-23",
+        "dividendPercentage": 3.7972536752690202
+      },
+      {
+        "date": "2019-10-24",
+        "dividendPercentage": 3.8101717331149567
+      },
+      {
+        "date": "2019-10-25",
+        "dividendPercentage": 3.775174918263671
+      },
+      {
+        "date": "2019-10-28",
+        "dividendPercentage": 3.7812288036488324
+      },
+      {
+        "date": "2019-10-29",
+        "dividendPercentage": 3.792432162679222
+      },
+      {
+        "date": "2019-10-30",
+        "dividendPercentage": 3.8501202831718784
+      },
+      {
+        "date": "2019-10-31",
+        "dividendPercentage": 3.8574134997194207
+      },
+      {
+        "date": "2019-11-01",
+        "dividendPercentage": 3.855089956587988
+      },
+      {
+        "date": "2019-11-04",
+        "dividendPercentage": 3.6851196841325993
+      },
+      {
+        "date": "2019-11-05",
+        "dividendPercentage": 3.673937942038085
+      },
+      {
+        "date": "2019-11-06",
+        "dividendPercentage": 3.736446976873278
+      },
+      {
+        "date": "2019-11-07",
+        "dividendPercentage": 3.6754451035806475
+      },
+      {
+        "date": "2019-11-08",
+        "dividendPercentage": 3.70462250888944
+      },
+      {
+        "date": "2019-11-11",
+        "dividendPercentage": 3.7083023542472047
+      },
+      {
+        "date": "2019-11-12",
+        "dividendPercentage": 3.703703734322948
+      },
+      {
+        "date": "2019-11-13",
+        "dividendPercentage": 3.663722633821742
+      },
+      {
+        "date": "2019-11-14",
+        "dividendPercentage": 3.6733355499617546
+      },
+      {
+        "date": "2019-11-15",
+        "dividendPercentage": 3.713527882240782
+      },
+      {
+        "date": "2019-11-18",
+        "dividendPercentage": 3.7789961085028403
+      },
+      {
+        "date": "2019-11-19",
+        "dividendPercentage": 3.8471447964056202
+      },
+      {
+        "date": "2019-11-20",
+        "dividendPercentage": 3.8179650185091196
+      },
+      {
+        "date": "2019-11-21",
+        "dividendPercentage": 3.7719963906372755
+      },
+      {
+        "date": "2019-11-22",
+        "dividendPercentage": 3.7764478743095644
+      },
+      {
+        "date": "2019-11-25",
+        "dividendPercentage": 3.7844231403384816
+      },
+      {
+        "date": "2019-11-26",
+        "dividendPercentage": 3.80337886235352
+      },
+      {
+        "date": "2019-11-27",
+        "dividendPercentage": 3.7943592783941735
+      },
+      {
+        "date": "2019-11-29",
+        "dividendPercentage": 3.8248101380895627
+      },
+      {
+        "date": "2019-12-02",
+        "dividendPercentage": 3.835616339838622
+      },
+      {
+        "date": "2019-12-03",
+        "dividendPercentage": 3.865734781825307
+      },
+      {
+        "date": "2019-12-04",
+        "dividendPercentage": 3.8310243914652915
+      },
+      {
+        "date": "2019-12-05",
+        "dividendPercentage": 3.8511131462028176
+      },
+      {
+        "date": "2019-12-06",
+        "dividendPercentage": 3.7962883857929266
+      },
+      {
+        "date": "2019-12-09",
+        "dividendPercentage": 3.8192667394901942
+      },
+      {
+        "date": "2019-12-10",
+        "dividendPercentage": 3.8001527169408154
+      },
+      {
+        "date": "2019-12-11",
+        "dividendPercentage": 3.8544264685255154
+      },
+      {
+        "date": "2019-12-12",
+        "dividendPercentage": 3.7707264333090897
+      },
+      {
+        "date": "2019-12-13",
+        "dividendPercentage": 3.797897624600693
+      },
+      {
+        "date": "2019-12-16",
+        "dividendPercentage": 3.7533511749886803
+      },
+      {
+        "date": "2019-12-17",
+        "dividendPercentage": 3.7774030991130374
+      },
+      {
+        "date": "2019-12-18",
+        "dividendPercentage": 3.7789961085028403
+      },
+      {
+        "date": "2019-12-19",
+        "dividendPercentage": 3.792432162679222
+      },
+      {
+        "date": "2019-12-20",
+        "dividendPercentage": 3.7433155080213907
+      },
+      {
+        "date": "2019-12-23",
+        "dividendPercentage": 3.7230947606898575
+      },
+      {
+        "date": "2019-12-24",
+        "dividendPercentage": 3.722785564992042
+      },
+      {
+        "date": "2019-12-26",
+        "dividendPercentage": 3.7147595972596954
+      },
+      {
+        "date": "2019-12-27",
+        "dividendPercentage": 3.7240231822770613
+      },
+      {
+        "date": "2019-12-30",
+        "dividendPercentage": 3.7380059030121973
+      },
+      {
+        "date": "2019-12-31",
+        "dividendPercentage": 3.717533752924509
+      },
+      {
+        "date": "2020-01-02",
+        "dividendPercentage": 3.689368360372231
+      },
+      {
+        "date": "2020-01-03",
+        "dividendPercentage": 3.7021733129134238
+      },
+      {
+        "date": "2020-01-06",
+        "dividendPercentage": 3.7147595972596954
+      },
+      {
+        "date": "2020-01-07",
+        "dividendPercentage": 3.762808731107152
+      },
+      {
+        "date": "2020-01-08",
+        "dividendPercentage": 3.8062872677898207
+      },
+      {
+        "date": "2020-01-09",
+        "dividendPercentage": 3.8124414294538096
+      },
+      {
+        "date": "2020-01-10",
+        "dividendPercentage": 3.847475028384146
+      },
+      {
+        "date": "2020-01-13",
+        "dividendPercentage": 3.8402193094387345
+      },
+      {
+        "date": "2020-01-14",
+        "dividendPercentage": 3.852106521441793
+      },
+      {
+        "date": "2020-01-15",
+        "dividendPercentage": 3.8577457295551296
+      },
+      {
+        "date": "2020-01-16",
+        "dividendPercentage": 3.8326632204009177
+      },
+      {
+        "date": "2020-01-17",
+        "dividendPercentage": 3.8761030649575527
+      },
+      {
+        "date": "2020-01-21",
+        "dividendPercentage": 3.9537552546775268
+      },
+      {
+        "date": "2020-01-22",
+        "dividendPercentage": 3.9681133043735466
+      },
+      {
+        "date": "2020-01-23",
+        "dividendPercentage": 3.961096444935393
+      },
+      {
+        "date": "2020-01-24",
+        "dividendPercentage": 4.005364398844245
+      },
+      {
+        "date": "2020-01-27",
+        "dividendPercentage": 4.0583386543920525
+      },
+      {
+        "date": "2020-01-28",
+        "dividendPercentage": 4.0316773569561555
+      },
+      {
+        "date": "2020-01-29",
+        "dividendPercentage": 4.059073913407432
+      },
+      {
+        "date": "2020-01-30",
+        "dividendPercentage": 4.021543913437273
+      },
+      {
+        "date": "2020-01-31",
+        "dividendPercentage": 4.181444877556887
+      },
+      {
+        "date": "2020-02-03",
+        "dividendPercentage": 4.215280431080923
+      },
+      {
+        "date": "2020-02-04",
+        "dividendPercentage": 4.192793714418226
+      },
+      {
+        "date": "2020-02-05",
+        "dividendPercentage": 4.062386688995164
+      },
+      {
+        "date": "2020-02-06",
+        "dividendPercentage": 4.091697946692811
+      },
+      {
+        "date": "2020-02-07",
+        "dividendPercentage": 4.11235534950697
+      },
+      {
+        "date": "2020-02-10",
+        "dividendPercentage": 4.080517314140475
+      },
+      {
+        "date": "2020-02-11",
+        "dividendPercentage": 4.028414747130786
+      },
+      {
+        "date": "2020-02-12",
+        "dividendPercentage": 3.9985719029045708
+      },
+      {
+        "date": "2020-02-13",
+        "dividendPercentage": 4.01217968790329
+      },
+      {
+        "date": "2020-02-14",
+        "dividendPercentage": 4.069767367918471
+      },
+      {
+        "date": "2020-02-18",
+        "dividendPercentage": 4.06386074136177
+      },
+      {
+        "date": "2020-02-19",
+        "dividendPercentage": 4.045512083177029
+      },
+      {
+        "date": "2020-02-20",
+        "dividendPercentage": 4.079774229665318
+      },
+      {
+        "date": "2020-02-21",
+        "dividendPercentage": 4.109714629672239
+      },
+      {
+        "date": "2020-02-24",
+        "dividendPercentage": 4.278483471287208
+      },
+      {
+        "date": "2020-02-25",
+        "dividendPercentage": 4.448416288833446
+      },
+      {
+        "date": "2020-02-26",
+        "dividendPercentage": 4.569563396883279
+      },
+      {
+        "date": "2020-02-27",
+        "dividendPercentage": 4.759375483672862
+      },
+      {
+        "date": "2020-02-28",
+        "dividendPercentage": 4.7996573730301
+      },
+      {
+        "date": "2020-03-02",
+        "dividendPercentage": 4.638161492417911
+      },
+      {
+        "date": "2020-03-03",
+        "dividendPercentage": 4.746265544509646
+      },
+      {
+        "date": "2020-03-04",
+        "dividendPercentage": 4.5468385724838996
+      },
+      {
+        "date": "2020-03-05",
+        "dividendPercentage": 4.609527634334239
+      },
+      {
+        "date": "2020-03-06",
+        "dividendPercentage": 4.699958036088964
+      },
+      {
+        "date": "2020-03-09",
+        "dividendPercentage": 5.553489662910367
+      },
+      {
+        "date": "2020-03-10",
+        "dividendPercentage": 5.271828479460045
+      },
+      {
+        "date": "2020-03-11",
+        "dividendPercentage": 5.395640195057692
+      },
+      {
+        "date": "2020-03-12",
+        "dividendPercentage": 5.874639237486514
+      },
+      {
+        "date": "2020-03-13",
+        "dividendPercentage": 5.370414897396665
+      },
+      {
+        "date": "2020-03-16",
+        "dividendPercentage": 6.427546905059408
+      },
+      {
+        "date": "2020-03-17",
+        "dividendPercentage": 6.337529881524123
+      },
+      {
+        "date": "2020-03-18",
+        "dividendPercentage": 8.138056460273505
+      },
+      {
+        "date": "2020-03-19",
+        "dividendPercentage": 7.806238156581951
+      },
+      {
+        "date": "2020-03-20",
+        "dividendPercentage": 7.543357594601072
+      },
+      {
+        "date": "2020-03-23",
+        "dividendPercentage": 8.262633562105615
+      },
+      {
+        "date": "2020-03-24",
+        "dividendPercentage": 6.731780312616966
+      },
+      {
+        "date": "2020-03-25",
+        "dividendPercentage": 6.467446505014285
+      },
+      {
+        "date": "2020-03-26",
+        "dividendPercentage": 5.865410023517022
+      },
+      {
+        "date": "2020-03-27",
+        "dividendPercentage": 6.5135214671928106
+      },
+      {
+        "date": "2020-03-30",
+        "dividendPercentage": 6.226546472267401
+      },
+      {
+        "date": "2020-03-31",
+        "dividendPercentage": 6.182721586844075
+      },
+      {
+        "date": "2020-04-01",
+        "dividendPercentage": 6.534422594353052
+      },
+      {
+        "date": "2020-04-02",
+        "dividendPercentage": 5.885443803779147
+      },
+      {
+        "date": "2020-04-03",
+        "dividendPercentage": 5.9645851955187705
+      },
+      {
+        "date": "2020-04-06",
+        "dividendPercentage": 5.5728325111684605
+      },
+      {
+        "date": "2020-04-07",
+        "dividendPercentage": 5.536332316765505
+      },
+      {
+        "date": "2020-04-08",
+        "dividendPercentage": 5.21051389123585
+      },
+      {
+        "date": "2020-04-09",
+        "dividendPercentage": 5.313723290563951
+      },
+      {
+        "date": "2020-04-13",
+        "dividendPercentage": 5.276174524735625
+      },
+      {
+        "date": "2020-04-14",
+        "dividendPercentage": 5.294882339027511
+      },
+      {
+        "date": "2020-04-15",
+        "dividendPercentage": 5.430961460321529
+      },
+      {
+        "date": "2020-04-16",
+        "dividendPercentage": 5.60070022754595
+      },
+      {
+        "date": "2020-04-17",
+        "dividendPercentage": 5.1393829331050345
+      },
+      {
+        "date": "2020-04-20",
+        "dividendPercentage": 5.36077539787005
+      },
+      {
+        "date": "2020-04-21",
+        "dividendPercentage": 5.487506191664701
+      },
+      {
+        "date": "2020-04-22",
+        "dividendPercentage": 5.305542271304067
+      },
+      {
+        "date": "2020-04-23",
+        "dividendPercentage": 5.161290144195042
+      },
+      {
+        "date": "2020-04-24",
+        "dividendPercentage": 5.148833349067157
+      },
+      {
+        "date": "2020-04-27",
+        "dividendPercentage": 4.993869189542629
+      },
+      {
+        "date": "2020-04-28",
+        "dividendPercentage": 4.9827603166384025
+      },
+      {
+        "date": "2020-04-29",
+        "dividendPercentage": 4.734728237114937
+      },
+      {
+        "date": "2020-04-30",
+        "dividendPercentage": 4.869565217391305
+      },
+      {
+        "date": "2020-05-01",
+        "dividendPercentage": 5.008944431821457
+      },
+      {
+        "date": "2020-05-04",
+        "dividendPercentage": 4.8993874693922255
+      },
+      {
+        "date": "2020-05-05",
+        "dividendPercentage": 4.822908868800828
+      },
+      {
+        "date": "2020-05-06",
+        "dividendPercentage": 4.975013715435412
+      },
+      {
+        "date": "2020-05-07",
+        "dividendPercentage": 4.835924059109717
+      },
+      {
+        "date": "2020-05-08",
+        "dividendPercentage": 4.6925735341722685
+      },
+      {
+        "date": "2020-05-11",
+        "dividendPercentage": 4.7981148720751365
+      },
+      {
+        "date": "2020-05-12",
+        "dividendPercentage": 4.917672994899518
+      },
+      {
+        "date": "2020-05-13",
+        "dividendPercentage": 5.050732978040575
+      },
+      {
+        "date": "2020-05-14",
+        "dividendPercentage": 4.975013715435412
+      },
+      {
+        "date": "2020-05-15",
+        "dividendPercentage": 5.024674516613974
+      },
+      {
+        "date": "2020-05-18",
+        "dividendPercentage": 4.84062653136813
+      },
+      {
+        "date": "2020-05-19",
+        "dividendPercentage": 4.998884010302924
+      },
+      {
+        "date": "2020-05-20",
+        "dividendPercentage": 4.81720430107527
+      },
+      {
+        "date": "2020-05-21",
+        "dividendPercentage": 4.867448882361486
+      },
+      {
+        "date": "2020-05-22",
+        "dividendPercentage": 4.962339443534996
+      },
+      {
+        "date": "2020-05-26",
+        "dividendPercentage": 4.8017147437819485
+      },
+      {
+        "date": "2020-05-27",
+        "dividendPercentage": 4.771032912225071
+      },
+      {
+        "date": "2020-05-28",
+        "dividendPercentage": 4.930119788815238
+      },
+      {
+        "date": "2020-05-29",
+        "dividendPercentage": 4.885496343036958
+      },
+      {
+        "date": "2020-06-01",
+        "dividendPercentage": 4.828106424958439
+      },
+      {
+        "date": "2020-06-02",
+        "dividendPercentage": 4.731228118465982
+      },
+      {
+        "date": "2020-06-03",
+        "dividendPercentage": 4.610002058036633
+      },
+      {
+        "date": "2020-06-04",
+        "dividendPercentage": 4.653095187506183
+      },
+      {
+        "date": "2020-06-05",
+        "dividendPercentage": 4.444003659240228
+      },
+      {
+        "date": "2020-06-08",
+        "dividendPercentage": 4.339403416106228
+      },
+      {
+        "date": "2020-06-09",
+        "dividendPercentage": 4.412488962991126
+      },
+      {
+        "date": "2020-06-10",
+        "dividendPercentage": 4.591104640477463
+      },
+      {
+        "date": "2020-06-11",
+        "dividendPercentage": 5.012867684473504
+      },
+      {
+        "date": "2020-06-12",
+        "dividendPercentage": 4.849009685561313
+      },
+      {
+        "date": "2020-06-15",
+        "dividendPercentage": 4.910665189827957
+      },
+      {
+        "date": "2020-06-16",
+        "dividendPercentage": 4.764436932515547
+      },
+      {
+        "date": "2020-06-17",
+        "dividendPercentage": 4.894035340899767
+      },
+      {
+        "date": "2020-06-18",
+        "dividendPercentage": 4.872742987323407
+      },
+      {
+        "date": "2020-06-19",
+        "dividendPercentage": 4.943175712562365
+      },
+      {
+        "date": "2020-06-22",
+        "dividendPercentage": 4.891363899611919
+      },
+      {
+        "date": "2020-06-23",
+        "dividendPercentage": 4.8993874693922255
+      },
+      {
+        "date": "2020-06-24",
+        "dividendPercentage": 5.11182114458947
+      },
+      {
+        "date": "2020-06-25",
+        "dividendPercentage": 5.021858592331114
+      },
+      {
+        "date": "2020-06-26",
+        "dividendPercentage": 5.181586920906627
+      },
+      {
+        "date": "2020-06-29",
+        "dividendPercentage": 5.110071976960693
+      },
+      {
+        "date": "2020-06-30",
+        "dividendPercentage": 5.020732768550955
+      },
+      {
+        "date": "2020-07-01",
+        "dividendPercentage": 5.11298772724306
+      },
+      {
+        "date": "2020-07-02",
+        "dividendPercentage": 5.07303827591526
+      },
+      {
+        "date": "2020-07-06",
+        "dividendPercentage": 5.058146099130632
+      },
+      {
+        "date": "2020-07-07",
+        "dividendPercentage": 5.190592172183807
+      },
+      {
+        "date": "2020-07-08",
+        "dividendPercentage": 5.188187728736254
+      },
+      {
+        "date": "2020-07-09",
+        "dividendPercentage": 5.414551738326124
+      },
+      {
+        "date": "2020-07-10",
+        "dividendPercentage": 5.25636494463106
+      },
+      {
+        "date": "2020-07-13",
+        "dividendPercentage": 5.245901516489426
+      },
+      {
+        "date": "2020-07-14",
+        "dividendPercentage": 5.070741484340498
+      },
+      {
+        "date": "2020-07-15",
+        "dividendPercentage": 5.039937057486074
+      },
+      {
+        "date": "2020-07-16",
+        "dividendPercentage": 5.070167439224
+      },
+      {
+        "date": "2020-07-17",
+        "dividendPercentage": 5.138203804605945
+      },
+      {
+        "date": "2020-07-20",
+        "dividendPercentage": 5.253899563289536
+      },
+      {
+        "date": "2020-07-21",
+        "dividendPercentage": 4.902068113601795
+      },
+      {
+        "date": "2020-07-22",
+        "dividendPercentage": 4.920913829954813
+      },
+      {
+        "date": "2020-07-23",
+        "dividendPercentage": 4.922535876880874
+      },
+      {
+        "date": "2020-07-24",
+        "dividendPercentage": 4.9705981905225185
+      },
+      {
+        "date": "2020-07-27",
+        "dividendPercentage": 4.920913829954813
+      },
+      {
+        "date": "2020-07-28",
+        "dividendPercentage": 5.027494051986377
+      },
+      {
+        "date": "2020-07-29",
+        "dividendPercentage": 4.973909181747531
+      },
+      {
+        "date": "2020-07-30",
+        "dividendPercentage": 5.192998905517523
+      },
+      {
+        "date": "2020-07-31",
+        "dividendPercentage": 5.337145453010592
+      },
+      {
+        "date": "2020-08-03",
+        "dividendPercentage": 5.282396068444667
+      },
+      {
+        "date": "2020-08-04",
+        "dividendPercentage": 5.179789690826447
+      },
+      {
+        "date": "2020-08-05",
+        "dividendPercentage": 5.137614855651887
+      },
+      {
+        "date": "2020-08-06",
+        "dividendPercentage": 5.121755972084647
+      },
+      {
+        "date": "2020-08-07",
+        "dividendPercentage": 5.161290144195042
+      },
+      {
+        "date": "2020-08-10",
+        "dividendPercentage": 4.992755878989551
+      },
+      {
+        "date": "2020-08-11",
+        "dividendPercentage": 4.998884010302924
+      },
+      {
+        "date": "2020-08-12",
+        "dividendPercentage": 4.938271550504062
+      },
+      {
+        "date": "2020-08-13",
+        "dividendPercentage": 4.987753284346471
+      },
+      {
+        "date": "2020-08-14",
+        "dividendPercentage": 4.958494852429328
+      },
+      {
+        "date": "2020-08-17",
+        "dividendPercentage": 4.935551556755037
+      },
+      {
+        "date": "2020-08-18",
+        "dividendPercentage": 5.112404602729817
+      },
+      {
+        "date": "2020-08-19",
+        "dividendPercentage": 5.185785451855371
+      },
+      {
+        "date": "2020-08-20",
+        "dividendPercentage": 5.282396068444667
+      },
+      {
+        "date": "2020-08-21",
+        "dividendPercentage": 5.2656322222465395
+      },
+      {
+        "date": "2020-08-24",
+        "dividendPercentage": 5.137614855651887
+      },
+      {
+        "date": "2020-08-25",
+        "dividendPercentage": 5.201439865370017
+      },
+      {
+        "date": "2020-08-26",
+        "dividendPercentage": 5.28426521920577
+      },
+      {
+        "date": "2020-08-27",
+        "dividendPercentage": 5.276174524735625
+      },
+      {
+        "date": "2020-08-28",
+        "dividendPercentage": 5.231811464386715
+      },
+      {
+        "date": "2020-08-31",
+        "dividendPercentage": 5.337781484570475
+      },
+      {
+        "date": "2020-09-01",
+        "dividendPercentage": 5.392392744525934
+      },
+      {
+        "date": "2020-09-02",
+        "dividendPercentage": 5.385262522292042
+      },
+      {
+        "date": "2020-09-03",
+        "dividendPercentage": 5.4448226232963375
+      },
+      {
+        "date": "2020-09-04",
+        "dividendPercentage": 5.468082509459295
+      },
+      {
+        "date": "2020-09-08",
+        "dividendPercentage": 5.673040323248825
+      },
+      {
+        "date": "2020-09-09",
+        "dividendPercentage": 5.597900857152329
+      },
+      {
+        "date": "2020-09-10",
+        "dividendPercentage": 5.732565432307987
+      },
+      {
+        "date": "2020-09-11",
+        "dividendPercentage": 5.766507767627552
+      },
+      {
+        "date": "2020-09-14",
+        "dividendPercentage": 5.796351328809014
+      },
+      {
+        "date": "2020-09-15",
+        "dividendPercentage": 5.867714626528216
+      },
+      {
+        "date": "2020-09-16",
+        "dividendPercentage": 5.702647803020566
+      },
+      {
+        "date": "2020-09-17",
+        "dividendPercentage": 5.686000689351432
+      },
+      {
+        "date": "2020-09-18",
+        "dividendPercentage": 5.728167826725072
+      },
+      {
+        "date": "2020-09-21",
+        "dividendPercentage": 5.871559402166734
+      },
+      {
+        "date": "2020-09-22",
+        "dividendPercentage": 5.931418058141375
+      },
+      {
+        "date": "2020-09-23",
+        "dividendPercentage": 6.226546472267401
+      },
+      {
+        "date": "2020-09-24",
+        "dividendPercentage": 6.239554056843145
+      },
+      {
+        "date": "2020-09-25",
+        "dividendPercentage": 6.236948176612888
+      },
+      {
+        "date": "2020-09-28",
+        "dividendPercentage": 6.059786284323009
+      },
+      {
+        "date": "2020-09-29",
+        "dividendPercentage": 6.230876043647399
+      },
+      {
+        "date": "2020-09-30",
+        "dividendPercentage": 6.222222222222222
+      },
+      {
+        "date": "2020-10-01",
+        "dividendPercentage": 6.361829206527385
+      },
+      {
+        "date": "2020-10-02",
+        "dividendPercentage": 6.2930185056042
+      },
+      {
+        "date": "2020-10-05",
+        "dividendPercentage": 6.16231112086566
+      },
+      {
+        "date": "2020-10-06",
+        "dividendPercentage": 6.196403615640238
+      },
+      {
+        "date": "2020-10-07",
+        "dividendPercentage": 6.07210634415975
+      },
+      {
+        "date": "2020-10-08",
+        "dividendPercentage": 5.9558627232669155
+      },
+      {
+        "date": "2020-10-09",
+        "dividendPercentage": 6.054054054054054
+      },
+      {
+        "date": "2020-10-12",
+        "dividendPercentage": 6.01261559488349
+      },
+      {
+        "date": "2020-10-13",
+        "dividendPercentage": 6.103542068023377
+      },
+      {
+        "date": "2020-10-14",
+        "dividendPercentage": 6.141192850220406
+      },
+      {
+        "date": "2020-10-15",
+        "dividendPercentage": 6.094408758144232
+      },
+      {
+        "date": "2020-10-16",
+        "dividendPercentage": 6.14624785493549
+      },
+      {
+        "date": "2020-10-19",
+        "dividendPercentage": 6.285073039914043
+      },
+      {
+        "date": "2020-10-20",
+        "dividendPercentage": 6.25
+      },
+      {
+        "date": "2020-10-21",
+        "dividendPercentage": 6.321433343243968
+      },
+      {
+        "date": "2020-10-22",
+        "dividendPercentage": 6.103542068023377
+      },
+      {
+        "date": "2020-10-23",
+        "dividendPercentage": 6.173349869091912
+      },
+      {
+        "date": "2020-10-26",
+        "dividendPercentage": 6.315195762187884
+      },
+      {
+        "date": "2020-10-27",
+        "dividendPercentage": 6.445115625230454
+      },
+      {
+        "date": "2020-10-28",
+        "dividendPercentage": 6.69856489377534
+      },
+      {
+        "date": "2020-10-29",
+        "dividendPercentage": 6.511627623039494
+      },
+      {
+        "date": "2020-10-30",
+        "dividendPercentage": 6.446043165467627
+      },
+      {
+        "date": "2020-11-02",
+        "dividendPercentage": 6.209286037164629
+      },
+      {
+        "date": "2020-11-03",
+        "dividendPercentage": 6.2447729647274315
+      },
+      {
+        "date": "2020-11-04",
+        "dividendPercentage": 6.242162724348449
+      },
+      {
+        "date": "2020-11-05",
+        "dividendPercentage": 6.210147022596993
+      },
+      {
+        "date": "2020-11-06",
+        "dividendPercentage": 6.296556393631585
+      },
+      {
+        "date": "2020-11-09",
+        "dividendPercentage": 5.642317238228785
+      },
+      {
+        "date": "2020-11-10",
+        "dividendPercentage": 5.393042012760323
+      },
+      {
+        "date": "2020-11-11",
+        "dividendPercentage": 5.432937247549567
+      },
+      {
+        "date": "2020-11-12",
+        "dividendPercentage": 5.553489662910367
+      },
+      {
+        "date": "2020-11-13",
+        "dividendPercentage": 5.395640195057692
+      },
+      {
+        "date": "2020-11-16",
+        "dividendPercentage": 5.035971279630973
+      },
+      {
+        "date": "2020-11-17",
+        "dividendPercentage": 5.147058764395005
+      },
+      {
+        "date": "2020-11-18",
+        "dividendPercentage": 5.31561468101109
+      },
+      {
+        "date": "2020-11-19",
+        "dividendPercentage": 5.225708437220048
+      },
+      {
+        "date": "2020-11-20",
+        "dividendPercentage": 5.222053791560161
+      },
+      {
+        "date": "2020-11-23",
+        "dividendPercentage": 4.921454519624898
+      },
+      {
+        "date": "2020-11-24",
+        "dividendPercentage": 4.6852121516875505
+      },
+      {
+        "date": "2020-11-25",
+        "dividendPercentage": 4.862166321490844
+      },
+      {
+        "date": "2020-11-27",
+        "dividendPercentage": 4.906363046903145
+      },
+      {
+        "date": "2020-11-30",
+        "dividendPercentage": 5.138793301215875
+      },
+      {
+        "date": "2020-12-01",
+        "dividendPercentage": 5.122927562821987
+      },
+      {
+        "date": "2020-12-02",
+        "dividendPercentage": 4.984978135585464
+      },
+      {
+        "date": "2020-12-03",
+        "dividendPercentage": 4.988863975873142
+      },
+      {
+        "date": "2020-12-04",
+        "dividendPercentage": 4.8027444768733325
+      },
+      {
+        "date": "2020-12-07",
+        "dividendPercentage": 4.936095087349162
+      },
+      {
+        "date": "2020-12-08",
+        "dividendPercentage": 4.894035340899767
+      },
+      {
+        "date": "2020-12-09",
+        "dividendPercentage": 4.953560261973458
+      },
+      {
+        "date": "2020-12-10",
+        "dividendPercentage": 4.799143112997175
+      },
+      {
+        "date": "2020-12-11",
+        "dividendPercentage": 4.845862785695926
+      },
+      {
+        "date": "2020-12-14",
+        "dividendPercentage": 5.008944431821457
+      },
+      {
+        "date": "2020-12-15",
+        "dividendPercentage": 5.012867684473504
+      },
+      {
+        "date": "2020-12-16",
+        "dividendPercentage": 5.05130217496218
+      },
+      {
+        "date": "2020-12-17",
+        "dividendPercentage": 5.067299849912913
+      },
+      {
+        "date": "2020-12-18",
+        "dividendPercentage": 5.138203804605945
+      },
+      {
+        "date": "2020-12-21",
+        "dividendPercentage": 5.203856671104969
+      },
+      {
+        "date": "2020-12-22",
+        "dividendPercentage": 5.31057366867504
+      },
+      {
+        "date": "2020-12-23",
+        "dividendPercentage": 5.228147853234967
+      },
+      {
+        "date": "2020-12-24",
+        "dividendPercentage": 5.2502049630796925
+      },
+      {
+        "date": "2020-12-28",
+        "dividendPercentage": 5.276796106553685
+      },
+      {
+        "date": "2020-12-29",
+        "dividendPercentage": 5.294882339027511
+      },
+      {
+        "date": "2020-12-30",
+        "dividendPercentage": 5.2502049630796925
+      },
+      {
+        "date": "2020-12-31",
+        "dividendPercentage": 5.304914338836507
+      },
+      {
+        "date": "2021-01-04",
+        "dividendPercentage": 5.288631865052909
+      },
+      {
+        "date": "2021-01-05",
+        "dividendPercentage": 5.149425287356323
+      },
+      {
+        "date": "2021-01-06",
+        "dividendPercentage": 4.988863975873142
+      },
+      {
+        "date": "2021-01-07",
+        "dividendPercentage": 4.9656394927328815
+      },
+      {
+        "date": "2021-01-08",
+        "dividendPercentage": 4.918752636830202
+      },
+      {
+        "date": "2021-01-11",
+        "dividendPercentage": 4.890829801109821
+      },
+      {
+        "date": "2021-01-12",
+        "dividendPercentage": 4.7996573730301
+      },
+      {
+        "date": "2021-01-13",
+        "dividendPercentage": 4.8042895442359255
+      },
+      {
+        "date": "2021-01-14",
+        "dividendPercentage": 4.691590840749625
+      },
+      {
+        "date": "2021-01-15",
+        "dividendPercentage": 4.864806379185857
+      },
+      {
+        "date": "2021-01-19",
+        "dividendPercentage": 4.740239027822685
+      },
+      {
+        "date": "2021-01-20",
+        "dividendPercentage": 4.697001615548384
+      },
+      {
+        "date": "2021-01-21",
+        "dividendPercentage": 4.869035868513513
+      },
+      {
+        "date": "2021-01-22",
+        "dividendPercentage": 4.883898237744526
+      },
+      {
+        "date": "2021-01-25",
+        "dividendPercentage": 4.928492740847245
+      },
+      {
+        "date": "2021-01-26",
+        "dividendPercentage": 5.013428771112033
+      },
+      {
+        "date": "2021-01-27",
+        "dividendPercentage": 5.079365252132606
+      },
+      {
+        "date": "2021-01-28",
+        "dividendPercentage": 5.032577118599544
+      },
+      {
+        "date": "2021-01-29",
+        "dividendPercentage": 5.2582161475897715
+      },
+      {
+        "date": "2021-02-01",
+        "dividendPercentage": 5.184584877463957
+      },
+      {
+        "date": "2021-02-02",
+        "dividendPercentage": 5.145876525290065
+      },
+      {
+        "date": "2021-02-03",
+        "dividendPercentage": 5.035971279630973
+      },
+      {
+        "date": "2021-02-04",
+        "dividendPercentage": 5.03370786516854
+      },
+      {
+        "date": "2021-02-05",
+        "dividendPercentage": 5.019045372640705
+      },
+      {
+        "date": "2021-02-08",
+        "dividendPercentage": 4.897245138918503
+      },
+      {
+        "date": "2021-02-09",
+        "dividendPercentage": 4.925241918703188
+      },
+      {
+        "date": "2021-02-10",
+        "dividendPercentage": 4.842196438895259
+      },
+      {
+        "date": "2021-02-11",
+        "dividendPercentage": 4.868507005058912
+      },
+      {
+        "date": "2021-02-12",
+        "dividendPercentage": 4.84062653136813
+      },
+      {
+        "date": "2021-02-16",
+        "dividendPercentage": 4.810480129189739
+      },
+      {
+        "date": "2021-02-17",
+        "dividendPercentage": 4.67055889638363
+      },
+      {
+        "date": "2021-02-18",
+        "dividendPercentage": 4.715789473684211
+      },
+      {
+        "date": "2021-02-19",
+        "dividendPercentage": 4.676409039360887
+      },
+      {
+        "date": "2021-02-22",
+        "dividendPercentage": 4.553308309313023
+      },
+      {
+        "date": "2021-02-23",
+        "dividendPercentage": 4.496637694368294
+      },
+      {
+        "date": "2021-02-24",
+        "dividendPercentage": 4.336463156257151
+      },
+      {
+        "date": "2021-02-25",
+        "dividendPercentage": 4.377137359592328
+      },
+      {
+        "date": "2021-02-26",
+        "dividendPercentage": 4.48
+      },
+      {
+        "date": "2021-03-01",
+        "dividendPercentage": 4.390004770504515
+      },
+      {
+        "date": "2021-03-02",
+        "dividendPercentage": 4.373291597553854
+      },
+      {
+        "date": "2021-03-03",
+        "dividendPercentage": 4.324741937435736
+      },
+      {
+        "date": "2021-03-04",
+        "dividendPercentage": 4.287081339712919
+      },
+      {
+        "date": "2021-03-05",
+        "dividendPercentage": 4.110091743119266
+      },
+      {
+        "date": "2021-03-08",
+        "dividendPercentage": 4.082004555808656
+      },
+      {
+        "date": "2021-03-09",
+        "dividendPercentage": 4.091324200913243
+      },
+      {
+        "date": "2021-03-10",
+        "dividendPercentage": 4.022627170082774
+      },
+      {
+        "date": "2021-03-11",
+        "dividendPercentage": 4.029139238616077
+      },
+      {
+        "date": "2021-03-12",
+        "dividendPercentage": 4.015776335886991
+      },
+      {
+        "date": "2021-03-15",
+        "dividendPercentage": 4.063492063492064
+      },
+      {
+        "date": "2021-03-16",
+        "dividendPercentage": 4.162021591992025
+      },
+      {
+        "date": "2021-03-17",
+        "dividendPercentage": 4.146996243145388
+      },
+      {
+        "date": "2021-03-18",
+        "dividendPercentage": 4.302727498000553
+      },
+      {
+        "date": "2021-03-19",
+        "dividendPercentage": 4.333526920106218
+      },
+      {
+        "date": "2021-03-22",
+        "dividendPercentage": 4.369026678671478
+      },
+      {
+        "date": "2021-03-23",
+        "dividendPercentage": 4.393449010557527
+      },
+      {
+        "date": "2021-03-24",
+        "dividendPercentage": 4.278892195192709
+      },
+      {
+        "date": "2021-03-25",
+        "dividendPercentage": 4.263824117255164
+      },
+      {
+        "date": "2021-03-26",
+        "dividendPercentage": 4.168217226417458
+      },
+      {
+        "date": "2021-03-29",
+        "dividendPercentage": 4.190048712870347
+      },
+      {
+        "date": "2021-03-30",
+        "dividendPercentage": 4.229207967525725
+      },
+      {
+        "date": "2021-03-31",
+        "dividendPercentage": 4.275217060070455
+      },
+      {
+        "date": "2021-04-01",
+        "dividendPercentage": 4.236406619385344
+      },
+      {
+        "date": "2021-04-05",
+        "dividendPercentage": 4.286671049915395
+      },
+      {
+        "date": "2021-04-06",
+        "dividendPercentage": 4.32515921364821
+      },
+      {
+        "date": "2021-04-07",
+        "dividendPercentage": 4.2998367540102365
+      },
+      {
+        "date": "2021-04-08",
+        "dividendPercentage": 4.348670287769471
+      },
+      {
+        "date": "2021-04-09",
+        "dividendPercentage": 4.3528955373668
+      },
+      {
+        "date": "2021-04-12",
+        "dividendPercentage": 4.401650662228834
+      },
+      {
+        "date": "2021-04-13",
+        "dividendPercentage": 4.381846721084639
+      },
+      {
+        "date": "2021-04-14",
+        "dividendPercentage": 4.296537958085872
+      },
+      {
+        "date": "2021-04-15",
+        "dividendPercentage": 4.3318507896316145
+      },
+      {
+        "date": "2021-04-16",
+        "dividendPercentage": 4.3512043934654665
+      },
+      {
+        "date": "2021-04-19",
+        "dividendPercentage": 4.33856276702377
+      },
+      {
+        "date": "2021-04-20",
+        "dividendPercentage": 4.42119797846249
+      },
+      {
+        "date": "2021-04-21",
+        "dividendPercentage": 4.36094604221904
+      },
+      {
+        "date": "2021-04-22",
+        "dividendPercentage": 4.4378406469888265
+      },
+      {
+        "date": "2021-04-23",
+        "dividendPercentage": 4.411619761350475
+      },
+      {
+        "date": "2021-04-26",
+        "dividendPercentage": 4.412923692265279
+      },
+      {
+        "date": "2021-04-27",
+        "dividendPercentage": 4.362220185848691
+      },
+      {
+        "date": "2021-04-28",
+        "dividendPercentage": 4.257745635261875
+      },
+      {
+        "date": "2021-04-29",
+        "dividendPercentage": 4.190832475381994
+      },
+      {
+        "date": "2021-04-30",
+        "dividendPercentage": 4.346560589890366
+      },
+      {
+        "date": "2021-05-03",
+        "dividendPercentage": 4.245238361084415
+      },
+      {
+        "date": "2021-05-04",
+        "dividendPercentage": 4.222033698783964
+      },
+      {
+        "date": "2021-05-05",
+        "dividendPercentage": 4.111600625106467
+      },
+      {
+        "date": "2021-05-06",
+        "dividendPercentage": 4.109337849275487
+      },
+      {
+        "date": "2021-05-07",
+        "dividendPercentage": 4.071987022504645
+      },
+      {
+        "date": "2021-05-10",
+        "dividendPercentage": 4.088710413434335
+      },
+      {
+        "date": "2021-05-11",
+        "dividendPercentage": 4.198688028079327
+      },
+      {
+        "date": "2021-05-12",
+        "dividendPercentage": 4.172487542912708
+      },
+      {
+        "date": "2021-05-13",
+        "dividendPercentage": 4.199475065616798
+      },
+      {
+        "date": "2021-05-14",
+        "dividendPercentage": 4.0924453814520385
+      },
+      {
+        "date": "2021-05-17",
+        "dividendPercentage": 4.042956484847153
+      },
+      {
+        "date": "2021-05-18",
+        "dividendPercentage": 4.219250329628932
+      },
+      {
+        "date": "2021-05-19",
+        "dividendPercentage": 4.341085397512173
+      },
+      {
+        "date": "2021-05-20",
+        "dividendPercentage": 4.325994676052428
+      },
+      {
+        "date": "2021-05-21",
+        "dividendPercentage": 4.302727498000553
+      },
+      {
+        "date": "2021-05-24",
+        "dividendPercentage": 4.242424322773188
+      },
+      {
+        "date": "2021-05-25",
+        "dividendPercentage": 4.31308353769856
+      },
+      {
+        "date": "2021-05-26",
+        "dividendPercentage": 4.302727498000553
+      },
+      {
+        "date": "2021-05-27",
+        "dividendPercentage": 4.349092236693676
+      },
+      {
+        "date": "2021-05-28",
+        "dividendPercentage": 4.316408090216706
+      },
+      {
+        "date": "2021-06-01",
+        "dividendPercentage": 4.200656273780473
+      },
+      {
+        "date": "2021-06-02",
+        "dividendPercentage": 4.145077643503376
+      },
+      {
+        "date": "2021-06-03",
+        "dividendPercentage": 4.163955912778359
+      },
+      {
+        "date": "2021-06-04",
+        "dividendPercentage": 4.13093602944037
+      },
+      {
+        "date": "2021-06-07",
+        "dividendPercentage": 4.1577726218097455
+      },
+      {
+        "date": "2021-06-08",
+        "dividendPercentage": 4.12029787215218
+      },
+      {
+        "date": "2021-06-09",
+        "dividendPercentage": 4.156615366084759
+      },
+      {
+        "date": "2021-06-10",
+        "dividendPercentage": 4.1324599526811205
+      },
+      {
+        "date": "2021-06-11",
+        "dividendPercentage": 4.151607667441103
+      },
+      {
+        "date": "2021-06-14",
+        "dividendPercentage": 4.1493006932546015
+      },
+      {
+        "date": "2021-06-15",
+        "dividendPercentage": 4.06164993485993
+      },
+      {
+        "date": "2021-06-16",
+        "dividendPercentage": 4.084982293881322
+      },
+      {
+        "date": "2021-06-17",
+        "dividendPercentage": 4.184178574764174
+      },
+      {
+        "date": "2021-06-18",
+        "dividendPercentage": 4.3482481252863066
+      },
+      {
+        "date": "2021-06-21",
+        "dividendPercentage": 4.2244223227414714
+      },
+      {
+        "date": "2021-06-22",
+        "dividendPercentage": 4.210526236644244
+      },
+      {
+        "date": "2021-06-23",
+        "dividendPercentage": 4.215677168034549
+      },
+      {
+        "date": "2021-06-24",
+        "dividendPercentage": 4.181444877556887
+      },
+      {
+        "date": "2021-06-25",
+        "dividendPercentage": 4.175209575716415
+      },
+      {
+        "date": "2021-06-28",
+        "dividendPercentage": 4.3081066315627785
+      },
+      {
+        "date": "2021-06-29",
+        "dividendPercentage": 4.317656046305783
+      },
+      {
+        "date": "2021-06-30",
+        "dividendPercentage": 4.277258053795266
+      },
+      {
+        "date": "2021-07-01",
+        "dividendPercentage": 4.218058602938129
+      },
+      {
+        "date": "2021-07-02",
+        "dividendPercentage": 4.223625907419629
+      },
+      {
+        "date": "2021-07-06",
+        "dividendPercentage": 4.3081066315627785
+      },
+      {
+        "date": "2021-07-07",
+        "dividendPercentage": 4.352472554163024
+      },
+      {
+        "date": "2021-07-08",
+        "dividendPercentage": 4.366471820009197
+      },
+      {
+        "date": "2021-07-09",
+        "dividendPercentage": 4.304794849620448
+      },
+      {
+        "date": "2021-07-12",
+        "dividendPercentage": 4.296125856311142
+      },
+      {
+        "date": "2021-07-13",
+        "dividendPercentage": 4.310593668815549
+      },
+      {
+        "date": "2021-07-14",
+        "dividendPercentage": 4.393449010557527
+      },
+      {
+        "date": "2021-07-15",
+        "dividendPercentage": 4.42250727277866
+      },
+      {
+        "date": "2021-07-16",
+        "dividendPercentage": 4.542688971526395
+      },
+      {
+        "date": "2021-07-19",
+        "dividendPercentage": 4.668611970285661
+      },
+      {
+        "date": "2021-07-20",
+        "dividendPercentage": 4.641044283031641
+      },
+      {
+        "date": "2021-07-21",
+        "dividendPercentage": 4.488078541374475
+      },
+      {
+        "date": "2021-07-22",
+        "dividendPercentage": 4.533495243877758
+      },
+      {
+        "date": "2021-07-23",
+        "dividendPercentage": 4.531660888815893
+      },
+      {
+        "date": "2021-07-26",
+        "dividendPercentage": 4.4378406469888265
+      },
+      {
+        "date": "2021-07-27",
+        "dividendPercentage": 4.452837645832049
+      },
+      {
+        "date": "2021-07-28",
+        "dividendPercentage": 4.427752520260921
+      },
+      {
+        "date": "2021-07-29",
+        "dividendPercentage": 4.367748854440871
+      },
+      {
+        "date": "2021-07-30",
+        "dividendPercentage": 4.40035368628531
+      },
+      {
+        "date": "2021-08-02",
+        "dividendPercentage": 4.4081473307531445
+      },
+      {
+        "date": "2021-08-03",
+        "dividendPercentage": 4.366471820009197
+      },
+      {
+        "date": "2021-08-04",
+        "dividendPercentage": 4.466600065804585
+      },
+      {
+        "date": "2021-08-05",
+        "dividendPercentage": 4.4255654126573525
+      },
+      {
+        "date": "2021-08-06",
+        "dividendPercentage": 4.3943110660415226
+      },
+      {
+        "date": "2021-08-09",
+        "dividendPercentage": 4.468827930174564
+      },
+      {
+        "date": "2021-08-10",
+        "dividendPercentage": 4.388714647556532
+      },
+      {
+        "date": "2021-08-11",
+        "dividendPercentage": 4.355858130400742
+      },
+      {
+        "date": "2021-08-12",
+        "dividendPercentage": 4.364770112673131
+      },
+      {
+        "date": "2021-08-13",
+        "dividendPercentage": 4.39387999601687
+      },
+      {
+        "date": "2021-08-16",
+        "dividendPercentage": 4.439159818453425
+      },
+      {
+        "date": "2021-08-17",
+        "dividendPercentage": 4.447532876575017
+      },
+      {
+        "date": "2021-08-18",
+        "dividendPercentage": 4.632885355725503
+      },
+      {
+        "date": "2021-08-19",
+        "dividendPercentage": 4.7512991329801775
+      },
+      {
+        "date": "2021-08-20",
+        "dividendPercentage": 4.750795182901532
+      },
+      {
+        "date": "2021-08-23",
+        "dividendPercentage": 4.6314482177778915
+      },
+      {
+        "date": "2021-08-24",
+        "dividendPercentage": 4.578904520805581
+      },
+      {
+        "date": "2021-08-25",
+        "dividendPercentage": 4.5477615562326354
+      },
+      {
+        "date": "2021-08-26",
+        "dividendPercentage": 4.6081052807230485
+      },
+      {
+        "date": "2021-08-27",
+        "dividendPercentage": 4.541768091461559
+      },
+      {
+        "date": "2021-08-30",
+        "dividendPercentage": 4.553308309313023
+      },
+      {
+        "date": "2021-08-31",
+        "dividendPercentage": 4.62953408999279
+      },
+      {
+        "date": "2021-09-01",
+        "dividendPercentage": 4.6808066521868845
+      },
+      {
+        "date": "2021-09-02",
+        "dividendPercentage": 4.5849964648960855
+      },
+      {
+        "date": "2021-09-03",
+        "dividendPercentage": 4.595343206387183
+      },
+      {
+        "date": "2021-09-07",
+        "dividendPercentage": 4.615701722969334
+      },
+      {
+        "date": "2021-09-08",
+        "dividendPercentage": 4.647785088160443
+      },
+      {
+        "date": "2021-09-09",
+        "dividendPercentage": 4.666666666666667
+      },
+      {
+        "date": "2021-09-10",
+        "dividendPercentage": 4.663266368273135
+      },
+      {
+        "date": "2021-09-13",
+        "dividendPercentage": 4.572828370186502
+      },
+      {
+        "date": "2021-09-14",
+        "dividendPercentage": 4.656964802192251
+      },
+      {
+        "date": "2021-09-15",
+        "dividendPercentage": 4.560260679158402
+      },
+      {
+        "date": "2021-09-16",
+        "dividendPercentage": 4.603370324702015
+      },
+      {
+        "date": "2021-09-17",
+        "dividendPercentage": 4.630012306117977
+      },
+      {
+        "date": "2021-09-20",
+        "dividendPercentage": 4.726735648098076
+      },
+      {
+        "date": "2021-09-21",
+        "dividendPercentage": 4.723247332066364
+      },
+      {
+        "date": "2021-09-22",
+        "dividendPercentage": 4.588283537364641
+      },
+      {
+        "date": "2021-09-23",
+        "dividendPercentage": 4.47731370132548
+      },
+      {
+        "date": "2021-09-24",
+        "dividendPercentage": 4.453280406625853
+      },
+      {
+        "date": "2021-09-27",
+        "dividendPercentage": 4.3507817388483865
+      },
+      {
+        "date": "2021-09-28",
+        "dividendPercentage": 4.334365283142751
+      },
+      {
+        "date": "2021-09-29",
+        "dividendPercentage": 4.335623645879733
+      },
+      {
+        "date": "2021-09-30",
+        "dividendPercentage": 4.41596858795373
+      },
+      {
+        "date": "2021-10-01",
+        "dividendPercentage": 4.294066820778936
+      },
+      {
+        "date": "2021-10-04",
+        "dividendPercentage": 4.278074825457652
+      },
+      {
+        "date": "2021-10-05",
+        "dividendPercentage": 4.232004494313202
+      },
+      {
+        "date": "2021-10-06",
+        "dividendPercentage": 4.269513008672448
+      },
+      {
+        "date": "2021-10-07",
+        "dividendPercentage": 4.239212717638153
+      },
+      {
+        "date": "2021-10-08",
+        "dividendPercentage": 4.146228482751639
+      },
+      {
+        "date": "2021-10-11",
+        "dividendPercentage": 4.1818352706572
+      },
+      {
+        "date": "2021-10-12",
+        "dividendPercentage": 4.181054518319095
+      },
+      {
+        "date": "2021-10-13",
+        "dividendPercentage": 4.156229667351057
+      },
+      {
+        "date": "2021-10-14",
+        "dividendPercentage": 4.117268709075797
+      },
+      {
+        "date": "2021-10-15",
+        "dividendPercentage": 4.087218282207662
+      },
+      {
+        "date": "2021-10-18",
+        "dividendPercentage": 4.089083681801455
+      },
+      {
+        "date": "2021-10-19",
+        "dividendPercentage": 4.010743169491759
+      },
+      {
+        "date": "2021-10-20",
+        "dividendPercentage": 3.958995971756947
+      },
+      {
+        "date": "2021-10-21",
+        "dividendPercentage": 4.009307392326963
+      },
+      {
+        "date": "2021-10-22",
+        "dividendPercentage": 3.9716311000452724
+      },
+      {
+        "date": "2021-10-25",
+        "dividendPercentage": 3.9350022649978444
+      },
+      {
+        "date": "2021-10-26",
+        "dividendPercentage": 3.926380436921656
+      },
+      {
+        "date": "2021-10-27",
+        "dividendPercentage": 3.997501561524048
+      },
+      {
+        "date": "2021-10-28",
+        "dividendPercentage": 3.9603959345722437
+      },
+      {
+        "date": "2021-10-29",
+        "dividendPercentage": 3.9130055710194003
+      },
+      {
+        "date": "2021-11-01",
+        "dividendPercentage": 3.9116389060651264
+      },
+      {
+        "date": "2021-11-02",
+        "dividendPercentage": 3.935693508992472
+      },
+      {
+        "date": "2021-11-03",
+        "dividendPercentage": 3.964250881085729
+      },
+      {
+        "date": "2021-11-04",
+        "dividendPercentage": 3.9467887596372346
+      },
+      {
+        "date": "2021-11-05",
+        "dividendPercentage": 3.9044797612773188
+      },
+      {
+        "date": "2021-11-08",
+        "dividendPercentage": 3.890577440024708
+      },
+      {
+        "date": "2021-11-09",
+        "dividendPercentage": 3.8620689655172415
+      },
+      {
+        "date": "2021-11-10",
+        "dividendPercentage": 3.924660465621368
+      },
+      {
+        "date": "2021-11-11",
+        "dividendPercentage": 3.9243166109209318
+      },
+      {
+        "date": "2021-11-12",
+        "dividendPercentage": 3.921911829066485
+      },
+      {
+        "date": "2021-11-15",
+        "dividendPercentage": 3.8349597671631575
+      },
+      {
+        "date": "2021-11-16",
+        "dividendPercentage": 3.8199181771821125
+      },
+      {
+        "date": "2021-11-17",
+        "dividendPercentage": 3.8814764145118077
+      },
+      {
+        "date": "2021-11-18",
+        "dividendPercentage": 3.9143731912898176
+      },
+      {
+        "date": "2021-11-19",
+        "dividendPercentage": 4.003216727612663
+      },
+      {
+        "date": "2021-11-22",
+        "dividendPercentage": 3.9329293676436006
+      },
+      {
+        "date": "2021-11-23",
+        "dividendPercentage": 3.852106521441793
+      },
+      {
+        "date": "2021-11-24",
+        "dividendPercentage": 3.822851713920101
+      },
+      {
+        "date": "2021-11-26",
+        "dividendPercentage": 3.9123219996101306
+      },
+      {
+        "date": "2021-11-29",
+        "dividendPercentage": 3.9007401637046613
+      },
+      {
+        "date": "2021-11-30",
+        "dividendPercentage": 3.9691679639629323
+      },
+      {
+        "date": "2021-12-01",
+        "dividendPercentage": 3.9964318286606932
+      },
+      {
+        "date": "2021-12-02",
+        "dividendPercentage": 3.8909154411231146
+      },
+      {
+        "date": "2021-12-03",
+        "dividendPercentage": 3.915741494074242
+      },
+      {
+        "date": "2021-12-06",
+        "dividendPercentage": 3.855421786284556
+      },
+      {
+        "date": "2021-12-07",
+        "dividendPercentage": 3.799185953174796
+      },
+      {
+        "date": "2021-12-08",
+        "dividendPercentage": 3.782186672406586
+      },
+      {
+        "date": "2021-12-09",
+        "dividendPercentage": 3.7921110867793395
+      },
+      {
+        "date": "2021-12-10",
+        "dividendPercentage": 3.785702341919971
+      },
+      {
+        "date": "2021-12-13",
+        "dividendPercentage": 3.866068446653481
+      },
+      {
+        "date": "2021-12-14",
+        "dividendPercentage": 3.8547581840065557
+      },
+      {
+        "date": "2021-12-15",
+        "dividendPercentage": 3.8767740373273463
+      },
+      {
+        "date": "2021-12-16",
+        "dividendPercentage": 3.840877947881327
+      },
+      {
+        "date": "2021-12-17",
+        "dividendPercentage": 3.9436620412616556
+      },
+      {
+        "date": "2021-12-20",
+        "dividendPercentage": 3.9419268993941596
+      },
+      {
+        "date": "2021-12-21",
+        "dividendPercentage": 3.879795584309383
+      },
+      {
+        "date": "2021-12-22",
+        "dividendPercentage": 3.8577457295551296
+      },
+      {
+        "date": "2021-12-23",
+        "dividendPercentage": 3.8484664943401263
+      },
+      {
+        "date": "2021-12-27",
+        "dividendPercentage": 3.7713611939442613
+      },
+      {
+        "date": "2021-12-28",
+        "dividendPercentage": 3.778677526630863
+      },
+      {
+        "date": "2021-12-29",
+        "dividendPercentage": 3.7982196811755755
+      },
+      {
+        "date": "2021-12-30",
+        "dividendPercentage": 3.815038746487269
+      },
+      {
+        "date": "2021-12-31",
+        "dividendPercentage": 3.8176396049022516
+      },
+      {
+        "date": "2022-01-03",
+        "dividendPercentage": 3.7564983438454083
+      },
+      {
+        "date": "2022-01-04",
+        "dividendPercentage": 3.689368360372231
+      },
+      {
+        "date": "2022-01-05",
+        "dividendPercentage": 3.6655211613032144
+      },
+      {
+        "date": "2022-01-06",
+        "dividendPercentage": 3.6345934831316975
+      },
+      {
+        "date": "2022-01-07",
+        "dividendPercentage": 3.5831400750471096
+      },
+      {
+        "date": "2022-01-10",
+        "dividendPercentage": 3.5808488243877488
+      },
+      {
+        "date": "2022-01-11",
+        "dividendPercentage": 3.500820477449243
+      },
+      {
+        "date": "2022-01-12",
+        "dividendPercentage": 3.518416657214849
+      },
+      {
+        "date": "2022-01-13",
+        "dividendPercentage": 3.5331229447999304
+      },
+      {
+        "date": "2022-01-14",
+        "dividendPercentage": 3.4739452208621553
+      },
+      {
+        "date": "2022-01-18",
+        "dividendPercentage": 3.4626679756273004
+      },
+      {
+        "date": "2022-01-19",
+        "dividendPercentage": 3.4752927321296188
+      },
+      {
+        "date": "2022-01-20",
+        "dividendPercentage": 3.4877385010760262
+      },
+      {
+        "date": "2022-01-21",
+        "dividendPercentage": 3.5300605616559593
+      },
+      {
+        "date": "2022-01-24",
+        "dividendPercentage": 3.52256644126435
+      },
+      {
+        "date": "2022-01-25",
+        "dividendPercentage": 3.378837118299634
+      },
+      {
+        "date": "2022-01-26",
+        "dividendPercentage": 3.376290551265498
+      },
+      {
+        "date": "2022-01-27",
+        "dividendPercentage": 3.3094483013019254
+      },
+      {
+        "date": "2022-01-28",
+        "dividendPercentage": 3.4300589278764346
+      },
+      {
+        "date": "2022-01-31",
+        "dividendPercentage": 3.4112540407941214
+      },
+      {
+        "date": "2022-02-01",
+        "dividendPercentage": 3.3236888735501307
+      },
+      {
+        "date": "2022-02-02",
+        "dividendPercentage": 3.3084704731269343
+      },
+      {
+        "date": "2022-02-03",
+        "dividendPercentage": 3.338301117845778
+      },
+      {
+        "date": "2022-02-04",
+        "dividendPercentage": 3.2970266670213917
+      },
+      {
+        "date": "2022-02-07",
+        "dividendPercentage": 3.2334896448901556
+      },
+      {
+        "date": "2022-02-08",
+        "dividendPercentage": 3.2834945282395998
+      },
+      {
+        "date": "2022-02-09",
+        "dividendPercentage": 3.25132464445368
+      },
+      {
+        "date": "2022-02-10",
+        "dividendPercentage": 3.2931492432523135
+      },
+      {
+        "date": "2022-02-11",
+        "dividendPercentage": 3.2274332285488545
+      },
+      {
+        "date": "2022-02-14",
+        "dividendPercentage": 3.2779688779976426
+      },
+      {
+        "date": "2022-02-15",
+        "dividendPercentage": 3.33680930049193
+      },
+      {
+        "date": "2022-02-16",
+        "dividendPercentage": 3.33581526427814
+      },
+      {
+        "date": "2022-02-17",
+        "dividendPercentage": 3.353042411847598
+      },
+      {
+        "date": "2022-02-18",
+        "dividendPercentage": 3.3578174690124043
+      },
+      {
+        "date": "2022-02-22",
+        "dividendPercentage": 3.383685953943473
+      },
+      {
+        "date": "2022-02-23",
+        "dividendPercentage": 3.305053412650976
+      },
+      {
+        "date": "2022-02-24",
+        "dividendPercentage": 3.322209714992523
+      },
+      {
+        "date": "2022-02-25",
+        "dividendPercentage": 3.191337683739219
+      },
+      {
+        "date": "2022-02-28",
+        "dividendPercentage": 3.111111111111111
+      },
+      {
+        "date": "2022-03-01",
+        "dividendPercentage": 2.9922521841286924
+      },
+      {
+        "date": "2022-03-02",
+        "dividendPercentage": 2.9064487018713425
+      },
+      {
+        "date": "2022-03-03",
+        "dividendPercentage": 2.8677505897596305
+      },
+      {
+        "date": "2022-03-04",
+        "dividendPercentage": 2.8238261389407935
+      },
+      {
+        "date": "2022-03-07",
+        "dividendPercentage": 2.764749564016582
+      },
+      {
+        "date": "2022-03-08",
+        "dividendPercentage": 2.6271037508186468
+      },
+      {
+        "date": "2022-03-09",
+        "dividendPercentage": 2.6944126374111357
+      },
+      {
+        "date": "2022-03-10",
+        "dividendPercentage": 2.6226436110613207
+      },
+      {
+        "date": "2022-03-11",
+        "dividendPercentage": 2.6214161248010344
+      },
+      {
+        "date": "2022-03-14",
+        "dividendPercentage": 2.6871400990454655
+      },
+      {
+        "date": "2022-03-15",
+        "dividendPercentage": 2.8304271091131357
+      },
+      {
+        "date": "2022-03-16",
+        "dividendPercentage": 2.8406567758252654
+      },
+      {
+        "date": "2022-03-17",
+        "dividendPercentage": 2.7923210821201567
+      },
+      {
+        "date": "2022-03-18",
+        "dividendPercentage": 2.7700489153539585
+      },
+      {
+        "date": "2022-03-21",
+        "dividendPercentage": 2.721088451901655
+      },
+      {
+        "date": "2022-03-22",
+        "dividendPercentage": 2.7302090981829266
+      },
+      {
+        "date": "2022-03-23",
+        "dividendPercentage": 2.7010731779749597
+      },
+      {
+        "date": "2022-03-24",
+        "dividendPercentage": 2.693926590007338
+      },
+      {
+        "date": "2022-03-25",
+        "dividendPercentage": 2.64603393356605
+      },
+      {
+        "date": "2022-03-28",
+        "dividendPercentage": 2.6931168250153235
+      },
+      {
+        "date": "2022-03-29",
+        "dividendPercentage": 2.726387420370546
+      },
+      {
+        "date": "2022-03-30",
+        "dividendPercentage": 2.707275869163062
+      },
+      {
+        "date": "2022-03-31",
+        "dividendPercentage": 2.7513357151466473
+      },
+      {
+        "date": "2022-04-01",
+        "dividendPercentage": 2.7280477242233125
+      },
+      {
+        "date": "2022-04-04",
+        "dividendPercentage": 2.7255582747934017
+      },
+      {
+        "date": "2022-04-05",
+        "dividendPercentage": 2.7424093857590024
+      },
+      {
+        "date": "2022-04-06",
+        "dividendPercentage": 2.718281690653258
+      },
+      {
+        "date": "2022-04-07",
+        "dividendPercentage": 2.68102922749147
+      },
+      {
+        "date": "2022-04-08",
+        "dividendPercentage": 2.636379794354491
+      },
+      {
+        "date": "2022-04-11",
+        "dividendPercentage": 2.7059676577188654
+      },
+      {
+        "date": "2022-04-12",
+        "dividendPercentage": 2.650730804411893
+      },
+      {
+        "date": "2022-04-13",
+        "dividendPercentage": 2.6096580952951376
+      },
+      {
+        "date": "2022-04-14",
+        "dividendPercentage": 2.610874820464475
+      },
+      {
+        "date": "2022-04-18",
+        "dividendPercentage": 2.5763413800468196
+      },
+      {
+        "date": "2022-04-19",
+        "dividendPercentage": 2.6072280439128437
+      },
+      {
+        "date": "2022-04-20",
+        "dividendPercentage": 2.596649873046136
+      },
+      {
+        "date": "2022-04-21",
+        "dividendPercentage": 2.722080414119815
+      },
+      {
+        "date": "2022-04-22",
+        "dividendPercentage": 2.783473180182787
+      },
+      {
+        "date": "2022-04-25",
+        "dividendPercentage": 2.844624965247795
+      },
+      {
+        "date": "2022-04-26",
+        "dividendPercentage": 2.862071186750599
+      },
+      {
+        "date": "2022-04-27",
+        "dividendPercentage": 2.867383420782661
+      },
+      {
+        "date": "2022-04-28",
+        "dividendPercentage": 2.769021690976895
+      },
+      {
+        "date": "2022-04-29",
+        "dividendPercentage": 2.8595136638732837
+      },
+      {
+        "date": "2022-05-02",
+        "dividendPercentage": 2.804381846635368
+      },
+      {
+        "date": "2022-05-03",
+        "dividendPercentage": 2.757092659330031
+      },
+      {
+        "date": "2022-05-04",
+        "dividendPercentage": 2.6731905882974067
+      },
+      {
+        "date": "2022-05-05",
+        "dividendPercentage": 2.6945748434552765
+      },
+      {
+        "date": "2022-05-06",
+        "dividendPercentage": 2.624641131587778
+      },
+      {
+        "date": "2022-05-09",
+        "dividendPercentage": 2.8131868131868134
+      },
+      {
+        "date": "2022-05-10",
+        "dividendPercentage": 2.7864162382536155
+      },
+      {
+        "date": "2022-05-11",
+        "dividendPercentage": 2.7457709549945837
+      },
+      {
+        "date": "2022-05-12",
+        "dividendPercentage": 2.719931886105743
+      },
+      {
+        "date": "2022-05-13",
+        "dividendPercentage": 2.6687318362045587
+      },
+      {
+        "date": "2022-05-16",
+        "dividendPercentage": 2.5894457716156807
+      },
+      {
+        "date": "2022-05-17",
+        "dividendPercentage": 2.574268819021254
+      },
+      {
+        "date": "2022-05-18",
+        "dividendPercentage": 2.6657146574522748
+      },
+      {
+        "date": "2022-05-19",
+        "dividendPercentage": 2.6848855166913252
+      },
+      {
+        "date": "2022-05-20",
+        "dividendPercentage": 2.669526762682116
+      },
+      {
+        "date": "2022-05-23",
+        "dividendPercentage": 2.6088981911897386
+      },
+      {
+        "date": "2022-05-24",
+        "dividendPercentage": 2.594995381110956
+      },
+      {
+        "date": "2022-05-25",
+        "dividendPercentage": 2.5540162464165963
+      },
+      {
+        "date": "2022-05-26",
+        "dividendPercentage": 2.536950054633899
+      },
+      {
+        "date": "2022-05-27",
+        "dividendPercentage": 2.512901068616228
+      },
+      {
+        "date": "2022-05-31",
+        "dividendPercentage": 2.5649833375705184
+      },
+      {
+        "date": "2022-06-01",
+        "dividendPercentage": 2.540834744862505
+      },
+      {
+        "date": "2022-06-02",
+        "dividendPercentage": 2.5454545454545454
+      },
+      {
+        "date": "2022-06-03",
+        "dividendPercentage": 2.52252243730217
+      },
+      {
+        "date": "2022-06-06",
+        "dividendPercentage": 2.5335067292483546
+      },
+      {
+        "date": "2022-06-07",
+        "dividendPercentage": 2.486126567471586
+      },
+      {
+        "date": "2022-06-08",
+        "dividendPercentage": 2.473361605659979
+      },
+      {
+        "date": "2022-06-09",
+        "dividendPercentage": 2.523659249128904
+      },
+      {
+        "date": "2022-06-10",
+        "dividendPercentage": 2.5541620029929994
+      },
+      {
+        "date": "2022-06-13",
+        "dividendPercentage": 2.6773441382018275
+      },
+      {
+        "date": "2022-06-14",
+        "dividendPercentage": 2.6738286599732266
+      },
+      {
+        "date": "2022-06-15",
+        "dividendPercentage": 2.7273834995550805
+      },
+      {
+        "date": "2022-06-16",
+        "dividendPercentage": 2.8813996110470703
+      },
+      {
+        "date": "2022-06-17",
+        "dividendPercentage": 3.0192747331421104
+      },
+      {
+        "date": "2022-06-21",
+        "dividendPercentage": 2.897988301907971
+      },
+      {
+        "date": "2022-06-22",
+        "dividendPercentage": 3.0296883421143015
+      },
+      {
+        "date": "2022-06-23",
+        "dividendPercentage": 3.145404914820153
+      },
+      {
+        "date": "2022-06-24",
+        "dividendPercentage": 3.094563705337744
+      },
+      {
+        "date": "2022-06-27",
+        "dividendPercentage": 3.035847250451103
+      },
+      {
+        "date": "2022-06-28",
+        "dividendPercentage": 2.987861771537125
+      },
+      {
+        "date": "2022-06-29",
+        "dividendPercentage": 3.0480338290388853
+      },
+      {
+        "date": "2022-06-30",
+        "dividendPercentage": 3.0943500697219926
+      },
+      {
+        "date": "2022-07-01",
+        "dividendPercentage": 3.057811857818984
+      },
+      {
+        "date": "2022-07-05",
+        "dividendPercentage": 3.1403335724005736
+      },
+      {
+        "date": "2022-07-06",
+        "dividendPercentage": 3.1822702314410445
+      },
+      {
+        "date": "2022-07-07",
+        "dividendPercentage": 3.1215160779956506
+      },
+      {
+        "date": "2022-07-08",
+        "dividendPercentage": 3.137914039702626
+      },
+      {
+        "date": "2022-07-11",
+        "dividendPercentage": 3.165854115110385
+      },
+      {
+        "date": "2022-07-12",
+        "dividendPercentage": 3.2248776738392992
+      },
+      {
+        "date": "2022-07-13",
+        "dividendPercentage": 3.246611955699256
+      },
+      {
+        "date": "2022-07-14",
+        "dividendPercentage": 3.295571527209482
+      },
+      {
+        "date": "2022-07-15",
+        "dividendPercentage": 3.254631453162287
+      },
+      {
+        "date": "2022-07-18",
+        "dividendPercentage": 3.2096288406701703
+      },
+      {
+        "date": "2022-07-19",
+        "dividendPercentage": 3.097987669607996
+      },
+      {
+        "date": "2022-07-20",
+        "dividendPercentage": 3.0576029741304134
+      },
+      {
+        "date": "2022-07-21",
+        "dividendPercentage": 3.08115556043283
+      },
+      {
+        "date": "2022-07-22",
+        "dividendPercentage": 3.1070115388444206
+      },
+      {
+        "date": "2022-07-25",
+        "dividendPercentage": 3.0172414605937896
+      },
+      {
+        "date": "2022-07-26",
+        "dividendPercentage": 3.0409990409517156
+      },
+      {
+        "date": "2022-07-27",
+        "dividendPercentage": 3.0014740386397576
+      },
+      {
+        "date": "2022-07-28",
+        "dividendPercentage": 2.9789214906504524
+      },
+      {
+        "date": "2022-07-29",
+        "dividendPercentage": 2.7353767415763635
+      },
+      {
+        "date": "2022-08-01",
+        "dividendPercentage": 2.791103444991074
+      },
+      {
+        "date": "2022-08-02",
+        "dividendPercentage": 2.81513134859326
+      },
+      {
+        "date": "2022-08-03",
+        "dividendPercentage": 2.883625110172341
+      },
+      {
+        "date": "2022-08-04",
+        "dividendPercentage": 2.964139228292572
+      },
+      {
+        "date": "2022-08-05",
+        "dividendPercentage": 2.9159073347820064
+      },
+      {
+        "date": "2022-08-08",
+        "dividendPercentage": 2.920278914796196
+      },
+      {
+        "date": "2022-08-09",
+        "dividendPercentage": 2.882697306924978
+      },
+      {
+        "date": "2022-08-10",
+        "dividendPercentage": 2.875112179914098
+      },
+      {
+        "date": "2022-08-11",
+        "dividendPercentage": 2.806665919266569
+      },
+      {
+        "date": "2022-08-12",
+        "dividendPercentage": 2.8026273580496457
+      },
+      {
+        "date": "2022-08-15",
+        "dividendPercentage": 2.856960689458079
+      },
+      {
+        "date": "2022-08-16",
+        "dividendPercentage": 2.8642669173514
+      },
+      {
+        "date": "2022-08-17",
+        "dividendPercentage": 2.8408370863824435
+      },
+      {
+        "date": "2022-08-18",
+        "dividendPercentage": 2.817255620242596
+      },
+      {
+        "date": "2022-08-19",
+        "dividendPercentage": 2.841017149584411
+      },
+      {
+        "date": "2022-08-22",
+        "dividendPercentage": 2.8553219702481316
+      },
+      {
+        "date": "2022-08-23",
+        "dividendPercentage": 2.7656027296252015
+      },
+      {
+        "date": "2022-08-24",
+        "dividendPercentage": 2.7452662204146554
+      },
+      {
+        "date": "2022-08-25",
+        "dividendPercentage": 2.7214191082924044
+      },
+      {
+        "date": "2022-08-26",
+        "dividendPercentage": 2.7415702162273985
+      },
+      {
+        "date": "2022-08-29",
+        "dividendPercentage": 2.7212536378165084
+      },
+      {
+        "date": "2022-08-30",
+        "dividendPercentage": 2.7891919682851447
+      },
+      {
+        "date": "2022-08-31",
+        "dividendPercentage": 2.8343667320557606
+      },
+      {
+        "date": "2022-09-01",
+        "dividendPercentage": 2.88028815842881
+      },
+      {
+        "date": "2022-09-02",
+        "dividendPercentage": 2.838137364404028
+      },
+      {
+        "date": "2022-09-06",
+        "dividendPercentage": 2.851323919657712
+      },
+      {
+        "date": "2022-09-07",
+        "dividendPercentage": 2.888272820009846
+      },
+      {
+        "date": "2022-09-08",
+        "dividendPercentage": 2.8727156692410842
+      },
+      {
+        "date": "2022-09-09",
+        "dividendPercentage": 2.800525080949397
+      },
+      {
+        "date": "2022-09-12",
+        "dividendPercentage": 2.7569230769230773
+      },
+      {
+        "date": "2022-09-13",
+        "dividendPercentage": 2.810363143833809
+      },
+      {
+        "date": "2022-09-14",
+        "dividendPercentage": 2.74392104504389
+      },
+      {
+        "date": "2022-09-15",
+        "dividendPercentage": 2.7891919682851447
+      },
+      {
+        "date": "2022-09-16",
+        "dividendPercentage": 2.8635347305247953
+      },
+      {
+        "date": "2022-09-19",
+        "dividendPercentage": 2.8553219702481316
+      },
+      {
+        "date": "2022-09-20",
+        "dividendPercentage": 2.8666496216192066
+      },
+      {
+        "date": "2022-09-21",
+        "dividendPercentage": 2.890136213474493
+      },
+      {
+        "date": "2022-09-22",
+        "dividendPercentage": 2.892375252710797
+      },
+      {
+        "date": "2022-09-23",
+        "dividendPercentage": 3.094563705337744
+      },
+      {
+        "date": "2022-09-26",
+        "dividendPercentage": 3.178206425599852
+      },
+      {
+        "date": "2022-09-27",
+        "dividendPercentage": 3.1768542567904055
+      },
+      {
+        "date": "2022-09-28",
+        "dividendPercentage": 3.0731239063871856
+      },
+      {
+        "date": "2022-09-29",
+        "dividendPercentage": 3.094563705337744
+      },
+      {
+        "date": "2022-09-30",
+        "dividendPercentage": 3.1182571604128517
+      },
+      {
+        "date": "2022-10-03",
+        "dividendPercentage": 2.9526132723288283
+      },
+      {
+        "date": "2022-10-04",
+        "dividendPercentage": 2.842098495143739
+      },
+      {
+        "date": "2022-10-05",
+        "dividendPercentage": 2.8259635578500193
+      },
+      {
+        "date": "2022-10-06",
+        "dividendPercentage": 2.7753686380295957
+      },
+      {
+        "date": "2022-10-07",
+        "dividendPercentage": 2.799475115912486
+      },
+      {
+        "date": "2022-10-10",
+        "dividendPercentage": 2.8509609447051103
+      },
+      {
+        "date": "2022-10-11",
+        "dividendPercentage": 2.850416782470151
+      },
+      {
+        "date": "2022-10-12",
+        "dividendPercentage": 2.8419183128769245
+      },
+      {
+        "date": "2022-10-13",
+        "dividendPercentage": 2.7105518073000474
+      },
+      {
+        "date": "2022-10-14",
+        "dividendPercentage": 2.7975521593452743
+      },
+      {
+        "date": "2022-10-17",
+        "dividendPercentage": 2.7772612085705934
+      },
+      {
+        "date": "2022-10-18",
+        "dividendPercentage": 2.7531956566298206
+      },
+      {
+        "date": "2022-10-19",
+        "dividendPercentage": 2.666666666666667
+      },
+      {
+        "date": "2022-10-20",
+        "dividendPercentage": 2.6515150416630844
+      },
+      {
+        "date": "2022-10-21",
+        "dividendPercentage": 2.586754401677298
+      },
+      {
+        "date": "2022-10-24",
+        "dividendPercentage": 2.5876508234375666
+      },
+      {
+        "date": "2022-10-25",
+        "dividendPercentage": 2.561024512245879
+      },
+      {
+        "date": "2022-10-26",
+        "dividendPercentage": 2.529787171038165
+      },
+      {
+        "date": "2022-10-27",
+        "dividendPercentage": 2.5182687752086155
+      },
+      {
+        "date": "2022-10-28",
+        "dividendPercentage": 2.4891655181501395
+      },
+      {
+        "date": "2022-10-31",
+        "dividendPercentage": 2.4765064392428893
+      },
+      {
+        "date": "2022-11-01",
+        "dividendPercentage": 2.4585665543926765
+      },
+      {
+        "date": "2022-11-02",
+        "dividendPercentage": 2.509803921568628
+      },
+      {
+        "date": "2022-11-03",
+        "dividendPercentage": 2.473361605659979
+      },
+      {
+        "date": "2022-11-04",
+        "dividendPercentage": 2.4424817625393285
+      },
+      {
+        "date": "2022-11-07",
+        "dividendPercentage": 2.4136630439434135
+      },
+      {
+        "date": "2022-11-08",
+        "dividendPercentage": 2.417179290324362
+      },
+      {
+        "date": "2022-11-09",
+        "dividendPercentage": 2.5178441950481054
+      },
+      {
+        "date": "2022-11-10",
+        "dividendPercentage": 2.471042430153738
+      },
+      {
+        "date": "2022-11-11",
+        "dividendPercentage": 2.4026599977549075
+      },
+      {
+        "date": "2022-11-14",
+        "dividendPercentage": 2.4015008994666167
+      },
+      {
+        "date": "2022-11-15",
+        "dividendPercentage": 2.3823450829724266
+      },
+      {
+        "date": "2022-11-16",
+        "dividendPercentage": 2.421752461707323
+      },
+      {
+        "date": "2022-11-17",
+        "dividendPercentage": 2.4335923175314753
+      },
+      {
+        "date": "2022-11-18",
+        "dividendPercentage": 2.4482211473790607
+      },
+      {
+        "date": "2022-11-21",
+        "dividendPercentage": 2.4718604482492705
+      },
+      {
+        "date": "2022-11-22",
+        "dividendPercentage": 2.4100274485449864
+      },
+      {
+        "date": "2022-11-23",
+        "dividendPercentage": 2.431610876258932
+      },
+      {
+        "date": "2022-11-25",
+        "dividendPercentage": 2.438758885771784
+      },
+      {
+        "date": "2022-11-28",
+        "dividendPercentage": 2.511773926262761
+      },
+      {
+        "date": "2022-11-29",
+        "dividendPercentage": 2.4747279593146327
+      },
+      {
+        "date": "2022-11-30",
+        "dividendPercentage": 2.4439474381533732
+      },
+      {
+        "date": "2022-12-01",
+        "dividendPercentage": 2.454928969945505
+      },
+      {
+        "date": "2022-12-02",
+        "dividendPercentage": 2.4747279593146327
+      },
+      {
+        "date": "2022-12-05",
+        "dividendPercentage": 2.537381089005223
+      },
+      {
+        "date": "2022-12-06",
+        "dividendPercentage": 2.6044998140951057
+      },
+      {
+        "date": "2022-12-07",
+        "dividendPercentage": 2.596800310762803
+      },
+      {
+        "date": "2022-12-08",
+        "dividendPercentage": 2.5815375018483495
+      },
+      {
+        "date": "2022-12-09",
+        "dividendPercentage": 2.666666666666667
+      },
+      {
+        "date": "2022-12-12",
+        "dividendPercentage": 2.6391752577319587
+      },
+      {
+        "date": "2022-12-13",
+        "dividendPercentage": 2.5816861786531793
+      },
+      {
+        "date": "2022-12-14",
+        "dividendPercentage": 2.5996634062593467
+      },
+      {
+        "date": "2022-12-15",
+        "dividendPercentage": 2.6192704533143893
+      },
+      {
+        "date": "2022-12-16",
+        "dividendPercentage": 2.655286850075351
+      },
+      {
+        "date": "2022-12-19",
+        "dividendPercentage": 2.637155561656594
+      },
+      {
+        "date": "2022-12-20",
+        "dividendPercentage": 2.5945445369148614
+      },
+      {
+        "date": "2022-12-21",
+        "dividendPercentage": 2.5643961516496194
+      },
+      {
+        "date": "2022-12-22",
+        "dividendPercentage": 2.603440230085539
+      },
+      {
+        "date": "2022-12-23",
+        "dividendPercentage": 2.5253664890202874
+      },
+      {
+        "date": "2022-12-27",
+        "dividendPercentage": 2.4940154068358455
+      },
+      {
+        "date": "2022-12-28",
+        "dividendPercentage": 2.531359532859296
+      },
+      {
+        "date": "2022-12-29",
+        "dividendPercentage": 2.5123372723959125
+      },
+      {
+        "date": "2022-12-30",
+        "dividendPercentage": 2.4959607082299655
+      },
+      {
+        "date": "2023-01-03",
+        "dividendPercentage": 2.5748605501793054
+      },
+      {
+        "date": "2023-01-04",
+        "dividendPercentage": 2.6025328372402283
+      },
+      {
+        "date": "2023-01-05",
+        "dividendPercentage": 2.5564938782100586
+      },
+      {
+        "date": "2023-01-06",
+        "dividendPercentage": 2.537381089005223
+      },
+      {
+        "date": "2023-01-09",
+        "dividendPercentage": 2.5573696649251496
+      },
+      {
+        "date": "2023-01-10",
+        "dividendPercentage": 2.5448762657017374
+      },
+      {
+        "date": "2023-01-11",
+        "dividendPercentage": 2.557077669356353
+      },
+      {
+        "date": "2023-01-12",
+        "dividendPercentage": 2.529929946578609
+      },
+      {
+        "date": "2023-01-13",
+        "dividendPercentage": 2.5230908146326967
+      },
+      {
+        "date": "2023-01-17",
+        "dividendPercentage": 2.48213190530966
+      },
+      {
+        "date": "2023-01-18",
+        "dividendPercentage": 2.5277888061341494
+      }
+    ],
+    "averageDividendPercentage": 3.971,
+    "currentDividendPercentage": 3.159736
+  }
+}

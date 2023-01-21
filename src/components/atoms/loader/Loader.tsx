@@ -1,25 +1,32 @@
 import * as React from 'react';
+import tw from 'twin.macro';
+import styled from 'styled-components';
+
+type SpinnerSizes = 'small' | 'medium' | 'large';
 
 interface ILoaderProps {
-	className?: string;
-	size?: number;
-	border?: number;
+	className?: React.ComponentProps<'div'>['className'];
+	size?: SpinnerSizes;
 }
 
-const Loader: React.FC<ILoaderProps> = ({
-	className,
-	size = 8,
-	border = 4,
-}) => {
+const Container = styled.div(({ className }: { className?: string }) => [
+	tw`flex items-center justify-center h-full`,
+	className && tw`${className}`,
+]);
+
+const Spinner = styled.div(({ size }: { size: SpinnerSizes }) => [
+	tw`animate-spin inline-block border-t-indigo-600 border-l-indigo-600 border-r-indigo-600 border-b-transparent rounded-full `,
+	size === 'small' && tw`h-4 w-4 border-2`,
+	size === 'medium' && tw`h-8 w-8 border-4`,
+]);
+
+const Loader: React.FC<ILoaderProps> = ({ className, size = 'medium' }) => {
 	return (
-		<div className={`flex items-center justify-center h-full ${className}`}>
-			<div
-				className={`spinner-border animate-spin inline-block w-${size} h-${size} border-${border} border-t-indigo-600 border-l-indigo-600 border-r-indigo-600 border-b-transparent rounded-full`}
-				role='status'
-			>
+		<Container className={className}>
+			<Spinner size={size}>
 				<span className='hidden'>Loading...</span>
-			</div>
-		</div>
+			</Spinner>
+		</Container>
 	);
 };
 
