@@ -44,7 +44,7 @@ const IconButton: React.FC<IIconButton> = props => {
 		>
 			<ButtonBody $variant={variant} loading={loading}>
 				{icon && icon}
-				{loading && <Loader className='mr-2' size={6} />}
+				{loading && <Loader className='mr-2' size='small' />}
 				{text && <p className='my-2'>{text}</p>}
 			</ButtonBody>
 		</button>

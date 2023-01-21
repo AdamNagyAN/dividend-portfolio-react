@@ -6,6 +6,10 @@ const CustomStyles = createGlobalStyle`
   body {
     ${tw`bg-gray-100`}
   }
+
+  #root {
+    ${tw`min-h-screen flex flex-col`}
+  }
 `;
 
 const GlobalStyles = () => (

@@ -5,6 +5,9 @@ const pause = require('connect-pause');
 
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'mock-db.json'));
+const dividendPercentages = jsonServer.router(
+	path.join(__dirname, 'dividend-percentages-history.json')
+);
 const middlewares = jsonServer.defaults();
 
 server.use(pause(500)); // delay in MS to simulate slower response
@@ -23,8 +26,16 @@ server.post('/v1/auth/login', (req, res) => {
 	});
 });
 
+server.get('/v1/symbol/:symbol', (req, res) => {
+	res.send(lowdb.get('stock-summary'));
+});
+
 server.get('/v1/symbol/:symbol/dividend-history', (req, res) => {
 	res.send(lowdb.get('dividend-history'));
+});
+
+server.get('/v1/symbol/:symbol/dividend-percentage-history', (req, res) => {
+	res.send(dividendPercentages.db.get('dividend-percentage'));
 });
 
 server.use(router);

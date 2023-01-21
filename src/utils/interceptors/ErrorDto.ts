@@ -1,6 +1,6 @@
 interface ErrorDto {
-	code: string;
-	description: string;
+	code?: string;
+	message: string;
 	attributes: {
 		[key: string]: string;
 	};

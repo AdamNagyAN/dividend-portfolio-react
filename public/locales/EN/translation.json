@@ -1,32 +1,51 @@
 {
-	"brand-name": "Dividend Investing",
-	"brand-short-name": "DI",
-    "page-title": "{{value}} - DividendInvesting.com",
-	"validation": {
-		"required": "The field is required!",
-		"email": "Wrong email address!"
-	},
-	"appbar": {
-		"search-text": "Ticker...",
-		"portfolio": "Portfolio",
-		"login": "Log In",
-		"signup": "Sign Up",
-		"unknown-user": "Unknown",
-		"logout": "Logout"
-	},
-	"home": {
-		"title": "Home"
-	},
-	"dividend-history": {
-		"chart-title": "Dividend history of {{symbol}}"
-	},
-	"login": {
-		"title": "Log In",
-		"email": "E-Mail",
-		"password": "Password",
-		"login": "Log In",
-		"with-google": "Sign In With Google",
-		"dont-have-account": "Don't have an account?",
-		"sign-up": "Sign Up"
-	}
+  "brand-name": "Dividend Investing",
+  "brand-short-name": "DI",
+  "page-title": "{{value}} - DividendInvesting.com",
+  "validation": {
+    "required": "The field is required!",
+    "email": "Wrong email address!"
+  },
+  "error": {
+    "title": "Error happened!",
+    "OO_INVALID_ARGUMENT_ERROR": "Wrong attributes:\n",
+    "OO_GENERAL_ERROR": "Unexpected error happened.",
+    "OO_USER_ALREADY_EXISTS": "This email is already exists.",
+    "OO_INVALID_CREDENTIALS": "Invalid credentials. Please log in."
+  },
+  "appbar": {
+    "search-text": "Ticker...",
+    "portfolio": "Portfolio",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "unknown-user": "Unknown",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "ticker": {
+    "chart-title": "Dividend history of {{symbol}}",
+    "summary": {
+      "market-cap": "Market Cap:",
+      "eps": "Earnings / Share:",
+      "dividend-yield": "Forward Div Yield:",
+      "pe": "Price / Earnings:",
+      "one-year-target-price": "1 Yr Target Price",
+      "earnings-announcement": "Earnings Announcement"
+    },
+    "charts": {
+      "dividend-history": "Div Growth History",
+      "dividend-percentage-history": "Div Percentage History"
+    }
+  },
+  "login": {
+    "title": "Log In",
+    "email": "E-Mail",
+    "password": "Password",
+    "login": "Log In",
+    "with-google": "Sign In With Google",
+    "dont-have-account": "Don't have an account?",
+    "sign-up": "Sign Up"
+  }
 }

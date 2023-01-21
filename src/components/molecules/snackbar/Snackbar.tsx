@@ -16,6 +16,16 @@ const Snackbar: React.FC<ISnackbarProps> = ({
 	title,
 	open,
 }) => {
+	React.useEffect(() => {
+		const closeInterval = setInterval(() => {
+			if (onClose) {
+				onClose();
+			}
+		}, 5000);
+
+		return () => clearInterval(closeInterval);
+	}, [onClose]);
+
 	if (!open) return null;
 
 	return (

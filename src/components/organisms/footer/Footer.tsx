@@ -9,7 +9,7 @@ const Social = tw.a`text-gray-500`;
 
 const Footer: React.FC = () => {
 	return (
-		<footer className='text-white body-font bg-gray-700'>
+		<footer className='text-white body-font bg-gray-700 mt-auto'>
 			<Copyright>
 				<CopyrightContainer>
 					<CopyrightText>
