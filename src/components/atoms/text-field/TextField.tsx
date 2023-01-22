@@ -3,7 +3,8 @@ import tw from 'twin.macro';
 import styled from 'styled-components';
 import HelperText from '../helper-text/HelperText';
 
-interface ITextFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
+export interface ITextFieldProps
+	extends React.InputHTMLAttributes<HTMLInputElement> {
 	helperText?: string;
 	error?: boolean;
 }

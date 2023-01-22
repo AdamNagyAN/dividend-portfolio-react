@@ -3,7 +3,7 @@ import { CustomStyles } from '../../../styles/GlobalStyles';
 
 export default {
 	component: 'div',
-	title: 'Typography',
+	title: 'atoms/Typography',
 };
 
 const Template = () => (

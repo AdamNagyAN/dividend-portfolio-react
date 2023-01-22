@@ -6,7 +6,7 @@ import Loader from '../../atoms/loader/Loader';
 
 type buttonVariant = 'primary' | 'secondary' | 'icon';
 
-interface IIconButton extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface IIconButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 	icon?: React.ReactNode;
 	text?: string;
 	className?: string;
@@ -21,9 +21,9 @@ interface StyledButtonProps {
 
 const ButtonBody = styled.div(
 	({ $variant = 'primary', loading }: StyledButtonProps) => [
-		tw`w-full h-full text-black bg-red-light focus:outline-none font-medium text-sm text-center inline-flex items-center justify-center`,
+		tw`w-full h-full text-black bg-red-light focus:outline-none font-medium text-sm text-center inline-flex items-center justify-center px-4`,
 		tw`rounded-md flex items-center justify-center`,
-		$variant === 'icon' && tw`hover:bg-gray-light bg-white focus:bg-gray-light`,
+		$variant === 'icon' && tw`bg-inherit hover:text-indigo-dark`,
 		$variant === 'primary' &&
 			tw`text-white hover:bg-indigo-dark bg-indigo focus:bg-indigo-dark`,
 		$variant === 'secondary' &&
@@ -32,7 +32,7 @@ const ButtonBody = styled.div(
 	]
 );
 
-const IconButton: React.FC<IIconButton> = props => {
+const IconButton: React.FC<IIconButtonProps> = props => {
 	const { icon, text, className, variant, loading, ...otherProps } = props;
 	const handleOnClick = () => {};
 	return (

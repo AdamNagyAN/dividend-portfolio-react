@@ -6,7 +6,7 @@ import InputWithDropdown, {
 
 export default {
 	component: InputWithDropdown,
-	title: 'InputWithDropdown',
+	title: 'molecules/InputWithDropdown',
 };
 
 const Template = (args: IInputWithDropdownProps) => (

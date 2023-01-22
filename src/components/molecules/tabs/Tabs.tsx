@@ -2,7 +2,7 @@ import * as React from 'react';
 import tw, { TwStyle } from 'twin.macro';
 import styled, { css } from 'styled-components';
 
-interface ITabs {
+export interface ITabsProps {
 	selectedValue?: string;
 	handleSelect: (value: string) => void;
 	children: React.ReactElement[];
@@ -18,7 +18,7 @@ const CustomTabs = styled.div(
 	`
 );
 
-const Tabs: React.FC<ITabs> = ({
+const Tabs: React.FC<ITabsProps> = ({
 	selectedValue,
 	handleSelect,
 	children,

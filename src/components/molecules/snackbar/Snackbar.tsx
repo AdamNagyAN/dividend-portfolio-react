@@ -29,7 +29,7 @@ const Snackbar: React.FC<ISnackbarProps> = ({
 	if (!open) return null;
 
 	return (
-		<div className='fixed bottom-10 bg-gray-300 text-sm rounded-sm w-5/6 mx-auto right-1/2 translate-x-1/2'>
+		<div className='fixed bottom-10 bg-gray-light text-sm rounded-sm w-5/6 mx-auto right-1/2 translate-x-1/2'>
 			<div className='relative p-6'>
 				<IconButton
 					className='absolute right-4 top-4'

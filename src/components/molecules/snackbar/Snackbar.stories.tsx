@@ -3,7 +3,7 @@ import Snackbar, { ISnackbarProps } from './Snackbar';
 
 export default {
 	component: Snackbar,
-	title: 'Snackbar',
+	title: 'molecules/Snackbar',
 };
 
 const Template = (args: ISnackbarProps) => <Snackbar {...args} />;
