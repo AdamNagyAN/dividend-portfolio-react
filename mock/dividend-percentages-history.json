@@ -6043,6 +6043,13 @@
       }
     ],
     "averageDividendPercentage": 3.971,
-    "currentDividendPercentage": 3.159736
+    "currentDividendPercentage": 3.159736,
+    "validTimeFrames": [
+      "1y",
+      "3y",
+      "5y",
+      "10y",
+      "max"
+    ]
   }
 }

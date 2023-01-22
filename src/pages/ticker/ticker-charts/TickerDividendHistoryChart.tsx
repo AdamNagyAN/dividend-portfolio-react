@@ -15,7 +15,6 @@ import Tab from '../../../components/molecules/tabs/Tab';
 
 interface ITickerContainerProps {
 	data: DividendHistoryResponseDto;
-	// eslint-disable-next-line no-unused-vars
 	setRange: (value: string) => void;
 	range: string;
 }
@@ -28,9 +27,18 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
 	const { historicalDividends, validTimeFrames } = data;
 
 	const transformedHistoryPayments = historicalDividends.map(it => ({
-		amount: it.adjDividend,
+		Dividend: it.adjDividend,
 		date: it.date,
 	}));
+
+	const dataFormatter = (number: number) => {
+		const formattedNumber = Intl.NumberFormat(undefined, {
+			maximumFractionDigits: 2,
+		})
+			.format(number)
+			.toString();
+		return `$${formattedNumber}`;
+	};
 
 	const handleSelect = (value: string) => {
 		setRange(value);
@@ -56,10 +64,11 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
 
 				<AreaChart
 					data={transformedHistoryPayments}
-					categories={['amount']}
+					categories={['Dividend']}
 					dataKey='date'
 					height='h-72'
-					colors={['indigo', 'cyan']}
+					colors={['indigo']}
+					valueFormatter={dataFormatter}
 					marginTop='mt-4'
 					autoMinValue
 				/>
