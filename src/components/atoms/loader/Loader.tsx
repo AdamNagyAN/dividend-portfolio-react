@@ -15,7 +15,7 @@ const Container = styled.div(({ className }: { className?: string }) => [
 ]);
 
 const Spinner = styled.div(({ size }: { size: SpinnerSizes }) => [
-	tw`animate-spin inline-block border-t-indigo-600 border-l-indigo-600 border-r-indigo-600 border-b-transparent rounded-full `,
+	tw`animate-spin inline-block border-t-indigo border-l-indigo border-r-indigo border-b-transparent rounded-full `,
 	size === 'small' && tw`h-4 w-4 border-2`,
 	size === 'medium' && tw`h-8 w-8 border-4`,
 ]);

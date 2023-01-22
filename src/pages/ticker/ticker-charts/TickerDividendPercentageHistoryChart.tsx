@@ -43,8 +43,8 @@ const TickerDividendPercentageHistoryChart: React.FC<
 					<Tabs
 						selectedValue={range}
 						handleSelect={handleSelect}
-						customCss={tw`bg-gray-100`}
-						tw='bg-gray-200'
+						customCss={tw`bg-gray-light`}
+						tw='bg-gray-light'
 					>
 						{validTimeFrames.map((it: string) => (
 							<Tab key={it} value={it}>

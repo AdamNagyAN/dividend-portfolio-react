@@ -9,8 +9,8 @@ interface ITextFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
 }
 
 const StyledTextField = styled.input(({ error }: { error?: boolean }) => [
-	tw`w-full bg-white rounded font-normal text-xs focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`,
-	error && tw`border border-red-500`,
+	tw`w-full bg-white rounded font-normal text-xs focus:border-indigo focus:ring-2 focus:ring-indigo-light text-base outline-none text-gray-dark py-1 px-3 leading-8 transition-colors duration-200 ease-in-out`,
+	error && tw`border border-red`,
 ]);
 
 const TextField: React.FC<ITextFieldProps> = props => {

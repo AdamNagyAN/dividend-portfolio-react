@@ -1,15 +1,15 @@
 import * as React from 'react';
 import tw from 'twin.macro';
 
-const Copyright = tw.div`bg-gray-900`;
+const Copyright = tw.div`bg-gray-dark`;
 const CopyrightContainer = tw.div`container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row`;
-const CopyrightText = tw.p`text-gray-500 text-sm text-center sm:text-left`;
+const CopyrightText = tw.p`text-gray-light text-sm text-center sm:text-left`;
 const SocialButtons = tw.div`inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start space-x-3`;
-const Social = tw.a`text-gray-500`;
+const Social = tw.a`text-gray-light`;
 
 const Footer: React.FC = () => {
 	return (
-		<footer className='text-white body-font bg-gray-700 mt-auto'>
+		<footer className='text-white body-font bg-gray-dark mt-auto'>
 			<Copyright>
 				<CopyrightContainer>
 					<CopyrightText>
@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 						<a
 							href='https://github.com/AdamNagyAN'
 							rel='noopener noreferrer'
-							className='text-gray-300 ml-1'
+							className='text-gray-light ml-1'
 							target='_blank'
 							data-bcup-haslogintext='no'
 						>

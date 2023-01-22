@@ -10,6 +10,7 @@
     "@heroicons/react": "^2.0.13",
     "@hookform/resolvers": "^2.9.10",
     "@storybook/react": "^6.5.14",
+    "@tailwindcss/typography": "^0.5.9",
     "@tanstack/react-query": "^4.0.8",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -109,6 +110,7 @@
   },
   "babelMacros": {
     "twin": {
+      "config": "./tailwind.config.js",
       "preset": "styled-components"
     }
   }

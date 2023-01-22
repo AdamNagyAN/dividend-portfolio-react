@@ -11,6 +11,7 @@ const HomePage: React.FC = () => {
 	return (
 		<>
 			<AppBar />
+			<h1>Test typography</h1>
 			<Footer />
 		</>
 	);

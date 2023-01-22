@@ -14,7 +14,7 @@ import { AuthContextActionTypes } from '../../../context/AuthReducer';
 interface IUserInfoProps {}
 
 const Container = tw.div`relative`;
-const Dropdown = tw.div`absolute z-10 divide-y overflow-y-auto w-full left-0 max-h-72 bg-white border-gray-200 divide-gray-200 mt-1 mb-1 rounded-md border shadow-lg`;
+const Dropdown = tw.div`absolute z-10 divide-y overflow-y-auto w-full left-0 max-h-72 bg-white border-gray-light divide-gray-light mt-1 mb-1 rounded-md border shadow-lg`;
 
 const UserInfo: React.FC<IUserInfoProps> = () => {
 	const { t } = useTranslation();

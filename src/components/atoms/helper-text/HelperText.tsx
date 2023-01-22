@@ -10,8 +10,8 @@ interface IHelperTextProps extends React.HTMLAttributes<HTMLParagraphElement> {
 }
 
 const StyledParagraph = styled.p(({ color }: { color?: ColorType }) => [
-	tw`text-xs text-gray-800 mt-2`,
-	color === 'error' && tw`text-red-700`,
+	tw`text-xs text-gray-dark mt-2`,
+	color === 'error' && tw`text-red-dark`,
 ]);
 
 const HelperText: React.FC<IHelperTextProps> = props => {

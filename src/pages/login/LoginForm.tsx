@@ -56,7 +56,7 @@ const LoginForm: React.FC = () => {
 	return (
 		<form
 			onSubmit={handleSubmit(onSubmit)}
-			className='lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col gap-6 w-full mt-10 md:mt-0'
+			className='lg:w-2/6 md:w-1/2 bg-gray-light rounded-lg p-8 flex flex-col gap-6 w-full mt-10 md:mt-0'
 		>
 			<Controller
 				control={control}
@@ -93,7 +93,7 @@ const LoginForm: React.FC = () => {
 				text={t('login.login') ?? ''}
 				loading={isLoading}
 				disabled={isLoading}
-				className='bg-indigo-600'
+				className='bg-indigo'
 			/>
 			<IconButton
 				type='button'
