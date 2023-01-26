@@ -30,6 +30,9 @@ module.exports = {
 				DEFAULT: colors.red['600'],
 				dark: colors.red['800'],
 			},
+			green: {
+				DEFAULT: colors.green['600'],
+			},
 		},
 		extend: {},
 	},
