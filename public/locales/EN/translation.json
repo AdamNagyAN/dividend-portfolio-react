@@ -37,6 +37,55 @@
     "charts": {
       "dividend-history": "Div Growth History",
       "dividend-percentage-history": "Div Percentage History"
+    },
+    "financials": {
+      "income-statements": {
+        "title": "Income Statements",
+        "total-revenue": "Total Revenue",
+        "cost-of-revenue": "Cost Of Revenue",
+        "gross-profit": "Gross Profit",
+        "research-development": "Research Development",
+        "selling-general-administrative": "Selling General Administrative",
+        "non-recurring": "Non Recurring",
+        "other-operating-expenses": "Other Operating Expenses",
+        "total-operating-expenses": "Total Operating Expenses",
+        "operating-income": "Operating Income",
+        "total-other-income-expense-net": "Total Other Income Expense Net",
+        "ebit": "Ebit",
+        "interest-expense": "Interest Expense",
+        "income-before-tax": "Income Before Tax",
+        "income-tax-expense": "Income Tax Expense",
+        "minority-interest": "Minority Interest",
+        "net-income-from-continuing-ops": "Net Income From Continuing Ops",
+        "discontinued-operations": "Discontinued Operations",
+        "extraordinary-items": "Extraordinary Items",
+        "effect-of-accounting-charges": "Effect Of Accounting Charges",
+        "other-items": "Other Items",
+        "net-income": "Net Income",
+        "net-income-applicable-to-common-shares": "Net Income Applicable To Common Shares"
+      },
+      "balance-sheet": {
+        "title": "Balance Sheet"
+      },
+      "cashflow-statements": {
+        "title": "Cashflow",
+        "total-cash-from-operating-activities": "Total Cash From Operating Activities",
+        "net-income": "Net Income",
+        "total-cashflows-from-investing-activities": "Total Cashflows From Investing Activities",
+        "other-cashflows-from-investing-activities": "Other Cashflows From Investing Activities",
+        "total-cash-from-financing-activities": "Total Cash From Financing Activities",
+        "other-cashflows-from-financing-activities": "Other Cashflows From Financing Activities",
+        "depreciation": "Depreciation",
+        "capital-expenditures": "Capital Expenditures",
+        "investments": "Investments",
+        "dividends-paid": "Dividends Paid",
+        "net-borrowings": "Net Borrowings",
+        "effect-of-exchange-rate": "Effect Of Exchange Rate",
+        "change-in-cash": "Change In Cash",
+        "issuance-of-stock": "Issuance Of Stock",
+        "free-cash-flow": "Free Cashflow",
+        "dividend-per-cashflow": "Div Paid / Free Cashflow Ratio"
+      }
     }
   },
   "login": {

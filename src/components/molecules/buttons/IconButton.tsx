@@ -4,9 +4,10 @@ import styled from 'styled-components';
 import 'styled-components/macro';
 import Loader from '../../atoms/loader/Loader';
 
-type buttonVariant = 'primary' | 'secondary' | 'icon';
+type buttonVariant = 'primary' | 'secondary' | 'icon' | 'text';
 
-export interface IIconButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface IIconButtonProps
+	extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 	icon?: React.ReactNode;
 	text?: string;
 	className?: string;
@@ -27,6 +28,8 @@ const ButtonBody = styled.div(
 		$variant === 'primary' &&
 			tw`text-white hover:bg-indigo-dark bg-indigo focus:bg-indigo-dark`,
 		$variant === 'secondary' &&
+			tw`text-black hover:bg-gray-50 bg-white focus:bg-gray-light`,
+		$variant === 'text' &&
 			tw`text-black hover:bg-gray-50 bg-white focus:bg-gray-light`,
 		loading && tw`bg-gray-dark hover:bg-gray-dark cursor-default`,
 	]

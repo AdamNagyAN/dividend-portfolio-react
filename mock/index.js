@@ -22,7 +22,7 @@ server.post('/example', (req, res) => {
 server.post('/v1/auth/login', (req, res) => {
 	res.send({
 		token:
-			'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE'
+			'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE',
 	});
 });
 
@@ -36,6 +36,10 @@ server.get('/v1/symbol/:symbol/dividend-history', (req, res) => {
 
 server.get('/v1/symbol/:symbol/dividend-percentage-history', (req, res) => {
 	res.send(dividendPercentages.db.get('dividend-percentage'));
+});
+
+server.get('/v1/symbol/:symbol/financials', (req, res) => {
+	res.send(lowdb.get('financial-data'));
 });
 
 server.use(router);
