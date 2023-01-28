@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AreaChart, Card, Flex } from '@tremor/react';
+import { AreaChart, Flex } from '@tremor/react';
 import tw from 'twin.macro';
 import DividendHistoryResponseDto from '../../../service/stock/dto/DividendHistoryResponseDto';
 import Tabs from '../../../components/molecules/tabs/Tabs';
@@ -45,34 +45,32 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
   };
 
   return (
-    <div>
-      <Card>
-        <Flex justifyContent='justify-end'>
-          <Tabs
-            selectedValue={range}
-            handleSelect={handleSelect}
-            customCss={tw`bg-gray-100`}
-          >
-            {validTimeFrames.map((it: string) => (
-              <Tab key={it} value={it}>
-                {it}
-              </Tab>
-            ))}
-          </Tabs>
-        </Flex>
+    <>
+      <Flex justifyContent='justify-end'>
+        <Tabs
+          selectedValue={range}
+          handleSelect={handleSelect}
+          customCss={tw`bg-gray-100`}
+        >
+          {validTimeFrames.map((it: string) => (
+            <Tab key={it} value={it}>
+              {it}
+            </Tab>
+          ))}
+        </Tabs>
+      </Flex>
 
-        <AreaChart
-          data={transformedHistoryPayments}
-          categories={['Dividend']}
-          dataKey='date'
-          height='h-72'
-          colors={['indigo']}
-          valueFormatter={dataFormatter}
-          marginTop='mt-4'
-          autoMinValue
-        />
-      </Card>
-    </div>
+      <AreaChart
+        data={transformedHistoryPayments}
+        categories={['Dividend']}
+        dataKey='date'
+        height='h-72'
+        colors={['indigo']}
+        valueFormatter={dataFormatter}
+        marginTop='mt-4'
+        autoMinValue
+      />
+    </>
   );
 };
 
