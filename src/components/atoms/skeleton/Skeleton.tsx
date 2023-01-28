@@ -1,18 +1,29 @@
 import * as React from 'react';
+import styled, { css as styledCss } from 'styled-components';
+import tw, { TwStyle } from 'twin.macro';
 
-export interface ISkeletonProps {}
+export interface ISkeletonProps {
+  variant?: 'rectangular' | 'typography';
+  css?: TwStyle[];
+}
 
-const Skeleton: React.FC<ISkeletonProps> = () => {
-	return (
-		<div
-			role='status'
-			className='p-4 w-full rounded border border-gray-light shadow animate-pulse md:p-6 dark:border-gray-light bg-white'
-		>
-			<div className='h-6 bg-gray-light rounded-full dark:bg-gray-300 w-64 mb-6' />
-			<div className='w-full h-72 bg-gray-light rounded-sm dark:bg-gray-300' />
-			<span className='sr-only'>Loading...</span>
-		</div>
-	);
+const CustomSkeleton = styled.div(
+  ({ variant, css }: ISkeletonProps) => styledCss`
+  ${tw`shadow animate-pulse w-full bg-gray-light`}
+  ${variant === 'rectangular' && tw`h-72 rounded-sm`}
+  ${variant === 'typography' && tw`h-3 rounded-full`}
+  ${css}
+  
+`
+);
+
+const Skeleton: React.FC<ISkeletonProps> = props => {
+  const { variant, ...other } = props;
+  return (
+    <CustomSkeleton variant={variant ?? 'rectangular'} {...other}>
+      <span className='sr-only'>Loading...</span>
+    </CustomSkeleton>
+  );
 };
 
 export default Skeleton;

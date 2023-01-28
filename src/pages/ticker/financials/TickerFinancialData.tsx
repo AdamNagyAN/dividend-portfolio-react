@@ -8,6 +8,8 @@ import TickerCashflowStatements from './TickerCashflowStatements';
 import Tabs from '../../../components/molecules/tabs/Tabs';
 import Tab from '../../../components/molecules/tabs/Tab';
 import TickerIncomeStatements from './TickerIncomeStatements';
+import Skeleton from '../../../components/atoms/skeleton/Skeleton';
+import 'styled-components/macro';
 
 interface ITickerFinancialData {}
 
@@ -15,7 +17,7 @@ const TickerFinancialData: React.FC<ITickerFinancialData> = () => {
   const { t } = useTranslation('translation', {
     keyPrefix: 'ticker.financials',
   });
-  const [tabIndex, setTabIndex] = React.useState('3');
+  const [tabIndex, setTabIndex] = React.useState('1');
   const { symbol } = useParams<{ symbol: string }>();
   const { data } = useGetFinancialData(symbol);
   return (
@@ -31,6 +33,7 @@ const TickerFinancialData: React.FC<ITickerFinancialData> = () => {
         </Tab>
         <Tab value='3'>{t('cashflow-statements.title')}</Tab>
       </Tabs>
+      {!data && <Skeleton css={[tw`h-[800px]`]} />}
       {data && tabIndex === '1' && (
         <TickerIncomeStatements data={data.incomeStatements} />
       )}

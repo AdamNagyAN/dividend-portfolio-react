@@ -1,5 +1,7 @@
 import * as React from 'react';
+import { Card } from '@tremor/react';
 import { useParams } from 'react-router-dom';
+import tw from 'twin.macro';
 import useGetDividendPercentage from '../../../query/stock/useGetDividendPercentage';
 import Skeleton from '../../../components/atoms/skeleton/Skeleton';
 import TickerDividendPercentageHistoryChart from './TickerDividendPercentageHistoryChart';
@@ -9,7 +11,7 @@ const TickerDividendPercentageHistory: React.FC = () => {
   const { symbol } = useParams<{ symbol: string }>();
   const { data } = useGetDividendPercentage(symbol, range);
   return (
-    <div>
+    <Card>
       {data ? (
         <TickerDividendPercentageHistoryChart
           data={data}
@@ -17,9 +19,12 @@ const TickerDividendPercentageHistory: React.FC = () => {
           setRange={setRange}
         />
       ) : (
-        <Skeleton />
+        <div className='flex flex-col items-end'>
+          <Skeleton css={[tw`h-8 mb-4 w-64`]} />
+          <Skeleton />
+        </div>
       )}
-    </div>
+    </Card>
   );
 };
 

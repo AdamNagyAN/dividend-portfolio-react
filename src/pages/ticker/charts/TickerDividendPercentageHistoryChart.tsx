@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AreaChart, Card, Flex } from '@tremor/react';
+import { AreaChart, Flex } from '@tremor/react';
 import tw from 'twin.macro';
 import DividendPercentageHistoryResponseDto from '../../../service/stock/dto/DividendPercentageHistoryResponseDto';
 import Tabs from '../../../components/molecules/tabs/Tabs';
@@ -40,35 +40,33 @@ const TickerDividendPercentageHistoryChart: React.FC<
   };
 
   return (
-    <div>
-      <Card>
-        <Flex justifyContent='justify-end'>
-          <Tabs
-            selectedValue={range}
-            handleSelect={handleSelect}
-            customCss={tw`bg-gray-100`}
-          >
-            {validTimeFrames.map((it: string) => (
-              <Tab key={it} value={it}>
-                {it}
-              </Tab>
-            ))}
-          </Tabs>
-        </Flex>
+    <>
+      <Flex justifyContent='justify-end'>
+        <Tabs
+          selectedValue={range}
+          handleSelect={handleSelect}
+          customCss={tw`bg-gray-100`}
+        >
+          {validTimeFrames.map((it: string) => (
+            <Tab key={it} value={it}>
+              {it}
+            </Tab>
+          ))}
+        </Tabs>
+      </Flex>
 
-        <AreaChart
-          data={transformedHistoryPayments}
-          categories={['Dividend Percentage', 'Average']}
-          dataKey='date'
-          height='h-72'
-          colors={['indigo', 'cyan']}
-          marginTop='mt-4'
-          autoMinValue
-          showXAxis={false}
-          valueFormatter={dataFormatter}
-        />
-      </Card>
-    </div>
+      <AreaChart
+        data={transformedHistoryPayments}
+        categories={['Dividend Percentage', 'Average']}
+        dataKey='date'
+        height='h-72'
+        colors={['indigo', 'cyan']}
+        marginTop='mt-4'
+        autoMinValue
+        showXAxis={false}
+        valueFormatter={dataFormatter}
+      />
+    </>
   );
 };
 
