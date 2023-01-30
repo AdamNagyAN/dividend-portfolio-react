@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Card } from '@tremor/react';
-import { useParams } from 'react-router-dom';
 import tw from 'twin.macro';
+import { useParams } from 'react-router-dom';
 import useGetDividendPercentage from '../../../query/stock/useGetDividendPercentage';
 import Skeleton from '../../../components/atoms/skeleton/Skeleton';
 import TickerDividendPercentageHistoryChart from './TickerDividendPercentageHistoryChart';

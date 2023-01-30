@@ -10,6 +10,7 @@ import Tab from '../../../components/molecules/tabs/Tab';
 import TickerIncomeStatements from './TickerIncomeStatements';
 import Skeleton from '../../../components/atoms/skeleton/Skeleton';
 import 'styled-components/macro';
+import TickerBalanceSheets from './TickerBalanceSheets';
 
 interface ITickerFinancialData {}
 
@@ -28,14 +29,15 @@ const TickerFinancialData: React.FC<ITickerFinancialData> = () => {
         selectedValue={tabIndex}
       >
         <Tab value='1'>{t('income-statements.title')}</Tab>
-        <Tab disabled value='2'>
-          {t('balance-sheet.title')}
-        </Tab>
+        <Tab value='2'>{t('balance-sheets.title')}</Tab>
         <Tab value='3'>{t('cashflow-statements.title')}</Tab>
       </Tabs>
       {!data && <Skeleton css={[tw`h-[800px]`]} />}
       {data && tabIndex === '1' && (
         <TickerIncomeStatements data={data.incomeStatements} />
+      )}
+      {data && tabIndex === '2' && (
+        <TickerBalanceSheets data={data.balanceSheets} />
       )}
       {data && tabIndex === '3' && (
         <TickerCashflowStatements data={data.cashFlowStatements} />

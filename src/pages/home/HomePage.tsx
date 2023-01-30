@@ -5,16 +5,15 @@ import Footer from '../../components/organisms/footer/Footer';
 import useTitle from '../../utils/hooks/useTitle';
 
 const HomePage: React.FC = () => {
-	const { t } = useTranslation();
-	useTitle(t('page-title', { value: t('home.title') }));
+  const { t } = useTranslation();
+  useTitle(t('page-title', { value: t('home.title') }));
 
-	return (
-		<>
-			<AppBar />
-			<h1>Test typography</h1>
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <AppBar />
+      <Footer />
+    </>
+  );
 };
 
 export default HomePage;

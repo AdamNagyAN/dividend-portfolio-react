@@ -3,6 +3,7 @@ import { Bold, TableCell, TableRow } from '@tremor/react';
 import { useTranslation } from 'react-i18next';
 import CashflowStatementsDto from '../../../service/stock/dto/CashflowStatementsDto';
 import IncomeStatementDto from '../../../service/stock/dto/IncomeStatementDto';
+import BalanceSheetDto from '../../../service/stock/dto/BalanceSheetDto';
 
 interface IFinancialTableRowForIncomeStatements {
   translationKey: 'income-statements';
@@ -16,21 +17,20 @@ interface IFinancialTableRowForCashflowStatements {
   dataKey: keyof CashflowStatementsDto;
 }
 
+interface IFinancialTableRowForBalanceSheets {
+  translationKey: 'balance-sheets';
+  data: BalanceSheetDto[];
+  dataKey: keyof BalanceSheetDto;
+}
+
 const camelCaseToHyphen = (str: string) => {
   return str.replace(/[A-Z]/g, m => `-${m.toLowerCase()}`);
-};
-
-const test = (str: string) => {
-  const string = str.replace(/[A-Z]/g, m => ` ${m}`);
-  return `"${string.slice(0, 1).toUpperCase()}${string.slice(
-    1,
-    string.length
-  )}"`;
 };
 
 const FinancialTableRow: React.FC<
   | IFinancialTableRowForIncomeStatements
   | IFinancialTableRowForCashflowStatements
+  | IFinancialTableRowForBalanceSheets
 > = ({ translationKey, data, dataKey }) => {
   const { t } = useTranslation('translation', {
     keyPrefix: `ticker.financials.${translationKey}`,
