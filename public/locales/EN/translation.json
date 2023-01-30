@@ -64,8 +64,36 @@
         "net-income": "Net Income",
         "net-income-applicable-to-common-shares": "Net Income Applicable To Common Shares"
       },
-      "balance-sheet": {
-        "title": "Balance Sheet"
+      "balance-sheets": {
+        "title": "Balance Sheet",
+        "cash": "Cash",
+        "short-term-investments": "Short Term Investments",
+        "net-receivables": "Net Receivables",
+        "inventory": "Inventory",
+        "other-current-assets": "Other Current Assets",
+        "total-current-assets": "Total Current Assets",
+        "long-term-investments": "Long Term Investments",
+        "property-plant-equipment": "Property Plant Equipment",
+        "good-will": "Good Will",
+        "other-assets": "Other Assets",
+        "deferred-long-term-asset-charges": "Deferred Long Term Asset Charges",
+        "total-assets": "Total Assets",
+        "accounts-payable": "Accounts Payable",
+        "short-long-term-debt": "Short Long Term Debt",
+        "other-current-liab": "Other Current Liab",
+        "long-term-debt": "Long Term Debt",
+        "other-liab": "Other Liab",
+        "deferred-long-term-liab": "Deferred Long Term Liab",
+        "minority-interest": "Minority Interest",
+        "total-current-liabilities": "Total Current Liabilities",
+        "total-liab": "Total Liab",
+        "common-stock": "Common Stock",
+        "retained-earnings": "Retained Earnings",
+        "treasury-stock": "Treasury Stock",
+        "capital-surplus": "Capital Surplus",
+        "other-stockholder-equity": "Other Stockholder Equity",
+        "total-stockholder-equity": "Total Stockholder Equity",
+        "net-tangible-assets": "Net Tangible Assets"
       },
       "cashflow-statements": {
         "title": "Cashflow",

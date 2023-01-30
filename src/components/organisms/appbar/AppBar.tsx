@@ -11,6 +11,7 @@ import InputWithDropdown from '../../molecules/input-with-dropdown/InputWithDrop
 import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
 import UserInfo from './UserInfo';
 import { useAuthContextState } from '../../../context/AuthContext';
+import 'styled-components/macro';
 
 const NavContainer = tw.div`py-3 px-10 bg-white text-black`;
 const Brand = tw(Link)`uppercase font-medium text-lg`;

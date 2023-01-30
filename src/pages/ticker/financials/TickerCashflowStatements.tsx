@@ -123,7 +123,11 @@ const TickerCashflowStatements: React.FC<ITickerCashflowStatements> = ({
             const ratio = (it.dividendsPaid / it.freeCashFlow) * -1;
             return (
               <TableCell key={it.endDate} textAlignment='text-center'>
-                <span className={ratio > 0.75 ? 'text-red' : 'text-green'}>
+                <span
+                  className={
+                    ratio > 0.75 || ratio < 0 ? 'text-red' : 'text-green'
+                  }
+                >
                   {percentFormatter.format(ratio)}
                 </span>
               </TableCell>
