@@ -1,5 +1,5 @@
 {
-  "name": "dividend-portfolio",
+  "name": "todo-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,6 @@
     "axios": "^0.27.2",
     "date-fns": "^2.29.3",
     "env-cmd": "^10.1.0",
-    "http-proxy-middleware": "^2.0.6",
     "i18next": "^22.4.5",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.1.0",
