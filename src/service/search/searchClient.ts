@@ -1,10 +1,7 @@
-import { AxiosPromise } from 'axios';
-import axiosBase from '../axiosBase';
+import axios, { AxiosPromise } from 'axios';
 
 const search = (query?: string): AxiosPromise<any> => {
-  return axiosBase.get(
-    `https://query1.finance.yahoo.com/v1/finance/search?q=${query}`
-  );
+  return axios.get(`/v1/finance/search?q=${query}`);
 };
 
 const searchClient = {
