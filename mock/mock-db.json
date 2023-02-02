@@ -85,6 +85,12 @@
         "adjDividend": 1.42
       }
     ],
+    "divGrowthRates": {
+      "dgr5": 0.0562650689989983,
+      "dgr3": 0.06067042876865303,
+      "dgr1": 0.05970149253731338,
+      "dgr10": 0.04665748479749032
+    },
     "validTimeFrames": ["1y", "3y", "5y", "10y", "max"]
   },
   "stock-summary": {
@@ -318,6 +324,7 @@
         "treasuryStock": -45593000000,
         "capitalSurplus": 17282000000,
         "otherStockholderEquity": -4129000000,
+        "totalStockholderEquity": 139067000000,
         "totalStockholderEquity": 139067000000,
         "netTangibleAssets": 134682000000
       },

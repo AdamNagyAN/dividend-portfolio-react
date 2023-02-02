@@ -36,6 +36,10 @@
     },
     "charts": {
       "dividend-history": "Div Growth History",
+      "dgr1": "DGR1:",
+      "dgr3": "DGR3:",
+      "dgr5": "DGR5:",
+      "dgr10": "DGR10:",
       "dividend-percentage-history": "Div Percentage History"
     },
     "financials": {
