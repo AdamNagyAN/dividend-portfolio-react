@@ -36,17 +36,17 @@ export const CustomStyles = createGlobalStyle`
   }
 	
 	p{
-			${tw`font-medium text-gray-dark dark:text-gray-100`}
+			${tw`font-normal text-gray-dark dark:text-gray-100 text-sm`}
 	}
 
 
 `;
 
 const GlobalStyles = () => (
-	<>
-		<BaseStyles />
-		<CustomStyles />
-	</>
+  <>
+    <BaseStyles />
+    <CustomStyles />
+  </>
 );
 
 export default GlobalStyles;

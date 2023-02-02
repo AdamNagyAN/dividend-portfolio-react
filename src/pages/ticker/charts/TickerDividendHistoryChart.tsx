@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { AreaChart, Flex } from '@tremor/react';
 import tw from 'twin.macro';
+import { useTranslation } from 'react-i18next';
 import DividendHistoryResponseDto from '../../../service/stock/dto/DividendHistoryResponseDto';
 import Tabs from '../../../components/molecules/tabs/Tabs';
 import Tab from '../../../components/molecules/tabs/Tab';
+import DgrItem from './DgrItem';
 
 // const CustomToggle = styled.div`
 // 	${css`
@@ -24,7 +26,8 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
   setRange,
   range,
 }) => {
-  const { historicalDividends, validTimeFrames } = data;
+  const { t } = useTranslation('translation', { keyPrefix: 'ticker.charts' });
+  const { historicalDividends, validTimeFrames, divGrowthRates } = data;
 
   const transformedHistoryPayments = historicalDividends.map(it => ({
     Dividend: it.adjDividend,
@@ -59,7 +62,6 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
           ))}
         </Tabs>
       </Flex>
-
       <AreaChart
         data={transformedHistoryPayments}
         categories={['Dividend']}
@@ -70,6 +72,12 @@ const TickerDividendHistoryChart: React.FC<ITickerContainerProps> = ({
         marginTop='mt-4'
         autoMinValue
       />
+      <div className='flex justify-center items-center mt-4 space-x-4'>
+        <DgrItem label={t('dgr1')} value={divGrowthRates.dgr1} />
+        <DgrItem label={t('dgr3')} value={divGrowthRates.dgr3} />
+        <DgrItem label={t('dgr5')} value={divGrowthRates.dgr5} />
+        <DgrItem label={t('dgr10')} value={divGrowthRates.dgr10} />
+      </div>
     </>
   );
 };
