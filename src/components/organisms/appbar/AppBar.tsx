@@ -72,7 +72,9 @@ const AppBar: React.FC = () => {
             {!isLogged && (
               <Flex spaceX='space-x-1'>
                 <StyledLink to={ROUTES.LOGIN}>{t('appbar.login')}</StyledLink>
-                <StyledLink to={ROUTES.LOGIN}>{t('appbar.signup')}</StyledLink>
+                <StyledLink to={ROUTES.REGISTER}>
+                  {t('appbar.signup')}
+                </StyledLink>
               </Flex>
             )}
           </Flex>
