@@ -1,6 +1,6 @@
 export const ROUTES = {
-	HOME: '/',
-	LOGIN: '/login',
-	SIGNUP: '/signup',
-	TICKER: (symbol: string) => `/ticker/${symbol}`,
+  HOME: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  TICKER: (symbol: string) => `/ticker/${symbol}`,
 };
