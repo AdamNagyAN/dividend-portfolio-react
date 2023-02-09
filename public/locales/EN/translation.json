@@ -16,7 +16,12 @@
     "OO_INVALID_ARGUMENT_ERROR": "Wrong attributes:\n",
     "OO_GENERAL_ERROR": "Unexpected error happened.",
     "OO_USER_ALREADY_EXISTS": "This email is already exists.",
-    "OO_INVALID_CREDENTIALS": "Invalid credentials. Please log in."
+    "OO_INVALID_CREDENTIALS": "Wrong email or password.",
+    "OO_DISABLED_USER": "Please verify your email.",
+    "OO_USER_NOT_FOUND":  "Account with this email was not found.",
+    "OO_CONFIRMATION_TOKEN_NOT_FOUND": "Invalid confirmation token.",
+    "OO_CONFIRMATION_TOKEN_EXPIRED": "Expired confirmation token."
+
   },
   "appbar": {
     "search-text": "Ticker...",
@@ -146,6 +151,17 @@
     "already-have-account": "Do you already have an account?",
     "password-does-not-match-error": "Password and confirm password does not match!",
     "success": "Success",
-    "success-message": "Account successfully created! Please check your email and confirm your account."
+    "success-message": "Account was successfully created! Please check your email and confirm your account."
+  },
+  "confirm": {
+    "success": "Success",
+    "success-message": "Account was successfully verified! Now you can log in."
+  },
+  "resend-token": {
+    "title": "Resend email",
+    "email": "E-Mail",
+    "resend": "Send",
+    "success": "Success",
+    "success-message": "Confirmation email was sent."
   }
 }

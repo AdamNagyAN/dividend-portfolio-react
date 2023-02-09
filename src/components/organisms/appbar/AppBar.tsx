@@ -55,7 +55,7 @@ const AppBar: React.FC = () => {
                   {!isLoading &&
                     data &&
                     data.length !== 0 &&
-                    data.map((it: any) => (
+                    data?.map((it: any) => (
                       <DropdownItem
                         key={it.symbol}
                         tw='flex flex-col justify-items-start items-start'

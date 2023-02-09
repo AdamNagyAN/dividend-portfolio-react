@@ -7,12 +7,12 @@ import authClient from '../../service/auth/authClient';
 export const AUTH_LOGIN_KEY = 'auth-login-key';
 
 const useLogin = (): UseMutationResult<
-	AxiosResponse<LoginResponseDto>,
-	unknown,
-	LoginRequestDto
+  AxiosResponse<LoginResponseDto>,
+  unknown,
+  LoginRequestDto
 > =>
-	useMutation(request => authClient.login(request), {
-		mutationKey: [AUTH_LOGIN_KEY],
-	});
+  useMutation(request => authClient.login(request), {
+    mutationKey: [AUTH_LOGIN_KEY],
+  });
 
 export default useLogin;

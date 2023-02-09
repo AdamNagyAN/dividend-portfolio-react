@@ -42,6 +42,7 @@ const InputWithDropdown: React.FC<IInputWithDropdownProps> = ({
       {isFocused && showDropdown && (
         <Dropdown onMouseDown={e => e.preventDefault()}>
           {React.Children.map(children, child =>
+            child &&
             React.cloneElement(child, {
               onClick: () => {
                 child.props.onClick();
