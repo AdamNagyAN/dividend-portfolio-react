@@ -11,11 +11,13 @@ import { ROUTES } from '../../Routes';
 import { registerSchema, RegisterValues } from './Register.schema';
 import useRegister from '../../query/auth/useRegister';
 import { useSnackbar } from '../../components/molecules/snackbar/SnackbarProvider';
+import useTitle from '../../utils/hooks/useTitle';
 
 interface IRegisterForm {}
 
 const RegisterForm: React.FC<IRegisterForm> = () => {
   const { t } = useTranslation();
+  useTitle(t('page-title', { value: t('resend-token.title') }));
   const navigate = useNavigate();
   const snackbar = useSnackbar();
   const { mutateAsync, isLoading } = useRegister();
@@ -44,7 +46,7 @@ const RegisterForm: React.FC<IRegisterForm> = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='lg:w-3/6 md:w-4/6 bg-gray-light rounded-lg p-8 flex flex-col gap-6 w-full mt-10 md:mt-0'
+      className='lg:w-3/6 md:w-4/6 max-w-xl bg-gray-light rounded-lg p-8 flex flex-col gap-6 w-full mt-10 md:mt-0'
     >
       <div className='flex space-x-4 w-full'>
         <Controller

@@ -9,7 +9,7 @@ export interface RegisterValues {
   password2: string;
 }
 
-const EMAIL_REGEX = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+export const EMAIL_REGEX = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 export const registerSchema = (t: TFunction) => {
   return yup.object().shape(

@@ -15,18 +15,34 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 const lowdb = router.db;
 
+const error = {
+  code: 'OO_DISABLED_USER',
+  timestamp: '2023-02-09T01:26:10.525+00:00',
+  parameter: null,
+  message: null,
+};
+
 server.post('/example', (req, res) => {
   res.send(lowdb.get('example'));
 });
 
 server.post('/v1/auth/login', (req, res) => {
-  res.send({
-    token:
-      'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE',
-  });
+  // res.send({
+  //   token:
+  //     'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE',
+  // });
+  res.status(400).send(error);
+});
+
+server.post('/v1/auth/resend-email', (req, res) => {
+  res.send();
 });
 
 server.post('/v1/auth/register', (req, res) => {
+  res.send();
+});
+
+server.get('/v1/auth/confirm', (req, res) => {
   res.send();
 });
 
