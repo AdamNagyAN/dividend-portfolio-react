@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Navigate, useNavigate, useSearchParams } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import {Navigate, useNavigate, useSearchParams} from 'react-router-dom';
+import {useTranslation} from 'react-i18next';
 import useConfirmToken from '../../query/auth/useConfirmToken';
-import { ROUTES } from '../../Routes';
-import { useSnackbar } from '../../components/molecules/snackbar/SnackbarProvider';
+import {ROUTES} from '../../Routes';
+import {useSnackbar} from '../../components/molecules/snackbar/SnackbarProvider';
 
 const ConfirmPage: React.FC = () => {
   const [params] = useSearchParams();

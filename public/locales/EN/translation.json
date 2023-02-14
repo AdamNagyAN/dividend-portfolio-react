@@ -19,9 +19,11 @@
     "OO_INVALID_CREDENTIALS": "Wrong email or password.",
     "OO_DISABLED_USER": "Please verify your email.",
     "OO_USER_NOT_FOUND":  "Account with this email was not found.",
+    "OO_USER_ALREADY_ENABLED": "Account with this email is already enabled",
     "OO_CONFIRMATION_TOKEN_NOT_FOUND": "Invalid confirmation token.",
-    "OO_CONFIRMATION_TOKEN_EXPIRED": "Expired confirmation token."
-
+    "OO_CONFIRMATION_TOKEN_EXPIRED": "Expired confirmation token.",
+    "OO_RECAPTCHA_ERROR": "Please verify the captcha",
+    "OO_MAIL_SENDING_ERROR": "Email sending was failed"
   },
   "appbar": {
     "search-text": "Ticker...",

@@ -1,22 +1,24 @@
 import * as React from 'react';
-import { Controller, useForm } from 'react-hook-form';
-import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router-dom';
-import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
+import {Controller, useForm} from 'react-hook-form';
+import {useTranslation} from 'react-i18next';
+import {useNavigate} from 'react-router-dom';
+import {yupResolver} from '@hookform/resolvers/yup/dist/yup';
+import {useGoogleReCaptcha} from 'react-google-recaptcha-v3';
 import TextField from '../../components/atoms/text-field/TextField';
 import IconButton from '../../components/molecules/buttons/IconButton';
 import HelperText from '../../components/atoms/helper-text/HelperText';
 import Link from '../../components/atoms/link/Link';
-import { ROUTES } from '../../Routes';
-import { registerSchema, RegisterValues } from './Register.schema';
+import {ROUTES} from '../../Routes';
+import {registerSchema, RegisterValues} from './Register.schema';
 import useRegister from '../../query/auth/useRegister';
-import { useSnackbar } from '../../components/molecules/snackbar/SnackbarProvider';
+import {useSnackbar} from '../../components/molecules/snackbar/SnackbarProvider';
 import useTitle from '../../utils/hooks/useTitle';
 
 interface IRegisterForm {}
 
 const RegisterForm: React.FC<IRegisterForm> = () => {
   const { t } = useTranslation();
+  const { executeRecaptcha } = useGoogleReCaptcha();
   useTitle(t('page-title', { value: t('resend-token.title') }));
   const navigate = useNavigate();
   const snackbar = useSnackbar();
@@ -33,7 +35,17 @@ const RegisterForm: React.FC<IRegisterForm> = () => {
   });
 
   const onSubmit = async (formValues: RegisterValues) => {
-    await mutateAsync(formValues);
+    if (!executeRecaptcha) return;
+    const recaptchaResponse = await executeRecaptcha();
+    await mutateAsync({
+      request: {
+        email: formValues.email,
+        password: formValues.password,
+        firstname: formValues.firstname,
+        lastname: formValues.lastname,
+      },
+      captchaToken: recaptchaResponse,
+    });
     navigate(ROUTES.LOGIN);
     snackbar({
       title: t('register.success') as string,
