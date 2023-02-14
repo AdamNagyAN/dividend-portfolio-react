@@ -1,18 +1,20 @@
 import * as React from 'react';
-import { Title } from '@tremor/react';
-import { useTranslation } from 'react-i18next';
-import { Controller, useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
+import {Title} from '@tremor/react';
+import {useTranslation} from 'react-i18next';
+import {Controller, useForm} from 'react-hook-form';
+import {yupResolver} from '@hookform/resolvers/yup/dist/yup';
+import {useGoogleReCaptcha} from 'react-google-recaptcha-v3';
 import AppBar from '../../../components/organisms/appbar/AppBar';
 import Footer from '../../../components/organisms/footer/Footer';
-import { resendTokenSchema, ResendTokenValues } from './ResendToken.schema';
+import {resendTokenSchema, ResendTokenValues} from './ResendToken.schema';
 import TextField from '../../../components/atoms/text-field/TextField';
 import IconButton from '../../../components/molecules/buttons/IconButton';
-import { useSnackbar } from '../../../components/molecules/snackbar/SnackbarProvider';
+import {useSnackbar} from '../../../components/molecules/snackbar/SnackbarProvider';
 import useResendEmail from '../../../query/auth/useResendEmail';
 
 const ResendTokenPage: React.FC = () => {
   const { t } = useTranslation();
+  const { executeRecaptcha } = useGoogleReCaptcha();
   const snackbar = useSnackbar();
   const { isLoading, mutateAsync } = useResendEmail();
   const {
@@ -26,7 +28,12 @@ const ResendTokenPage: React.FC = () => {
   });
 
   const onSubmit = async (formValues: ResendTokenValues) => {
-    await mutateAsync({ email: formValues.email });
+    if (!executeRecaptcha) return;
+    const recaptchaResponse = await executeRecaptcha();
+    await mutateAsync({
+      request: { email: formValues.email },
+      captchaToken: recaptchaResponse,
+    });
     snackbar({
       title: t('resend-token.success') ?? '',
       message: t('resend-token.success-message') ?? '',

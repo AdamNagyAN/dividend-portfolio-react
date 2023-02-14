@@ -27,11 +27,11 @@ server.post('/example', (req, res) => {
 });
 
 server.post('/v1/auth/login', (req, res) => {
-  // res.send({
-  //   token:
-  //     'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE',
-  // });
-  res.status(400).send(error);
+  res.send({
+    token:
+      'eyJhbGciOiJIUzI1NiJ9.eyJmaXJzdG5hbWUiOiJOYWd5IiwibGFzdG5hbWUiOiJBZGFtIiwic3ViIjoiYWRtaW5AZ21haWwuY29tIiwiaWF0IjoxNjc0MzMxNDI5LCJleHAiOjE2NzQzMzI4Njl9.nu1h_C4AhOkSNcftxSss7-LfD9GC0OOIK8Eh-QGonLE',
+  });
+  // res.status(400).send(error);
 });
 
 server.post('/v1/auth/resend-email', (req, res) => {

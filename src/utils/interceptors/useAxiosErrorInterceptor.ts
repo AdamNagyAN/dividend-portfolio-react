@@ -1,11 +1,11 @@
 import React from 'react';
 import axiosBase from 'service/axiosBase';
-import { useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { useSnackbar } from '../../components/molecules/snackbar/SnackbarProvider';
-import { ROUTES } from '../../Routes';
-import { useAuthContextDispatch } from '../../context/AuthContext';
-import { AuthContextActionTypes } from '../../context/AuthReducer';
+import {useNavigate} from 'react-router-dom';
+import {useTranslation} from 'react-i18next';
+import {useSnackbar} from '../../components/molecules/snackbar/SnackbarProvider';
+import {ROUTES} from '../../Routes';
+import {useAuthContextDispatch} from '../../context/AuthContext';
+import {AuthContextActionTypes} from '../../context/AuthReducer';
 import ErrorDto from './ErrorDto';
 
 const useAxiosErrorInterceptor = (): void => {
@@ -15,6 +15,14 @@ const useAxiosErrorInterceptor = (): void => {
   const dispatch = useAuthContextDispatch();
   const interceptor = React.useCallback(
     (error: any) => {
+      if(!error.response.status){
+        snackbar({
+          title: t('error.title') ?? '',
+          message: t('error.general') || '',
+          open: true,
+        });
+        return Promise.reject(error);
+      }
       if (error.response?.status === 401) {
         dispatch({
           type: AuthContextActionTypes.LOG_OUT,
