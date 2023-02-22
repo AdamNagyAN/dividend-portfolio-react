@@ -2,8 +2,7 @@
   "brand-name": "Dividend Investing",
   "brand-short-name": "DI",
   "page-title": "{{value}} - DividendInvesting.com",
-  "common": {
-  },
+  "common": {},
   "validation": {
     "required": "The field is required!",
     "email": "Invalid email address!",
@@ -18,7 +17,7 @@
     "OO_USER_ALREADY_EXISTS": "This email is already exists.",
     "OO_INVALID_CREDENTIALS": "Wrong email or password.",
     "OO_DISABLED_USER": "Please verify your email.",
-    "OO_USER_NOT_FOUND":  "Account with this email was not found.",
+    "OO_USER_NOT_FOUND": "Account with this email was not found.",
     "OO_USER_ALREADY_ENABLED": "Account with this email is already enabled",
     "OO_CONFIRMATION_TOKEN_NOT_FOUND": "Invalid confirmation token.",
     "OO_CONFIRMATION_TOKEN_EXPIRED": "Expired confirmation token.",
@@ -140,7 +139,16 @@
     "login": "Log In",
     "with-google": "Sign In With Google",
     "dont-have-account": "Don't have an account?",
-    "sign-up": "Sign Up"
+    "sign-up": "Sign Up",
+    "forgotten-password": "Do you forgot your password?",
+    "reset-password": "Reset password"
+  },
+  "reset-password": {
+    "title": "Reset Password",
+    "email": "E-Mail",
+    "send": "Send",
+    "password": "Password",
+    "confirm-password": "Confirm password"
   },
   "register": {
     "title": "Sign Up",

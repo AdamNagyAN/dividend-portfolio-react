@@ -1,20 +1,20 @@
-import * as React from 'react';
-import {Controller, useForm} from 'react-hook-form';
-import {useTranslation} from 'react-i18next';
-import {useGoogleReCaptcha} from 'react-google-recaptcha-v3';
-import {yupResolver} from '@hookform/resolvers/yup';
-import {useLocation, useNavigate} from 'react-router-dom';
-import {loginSchema, LoginValues} from './Login.schema';
-import TextField from '../../components/atoms/text-field/TextField';
-import IconButton from '../../components/molecules/buttons/IconButton';
-import HelperText from '../../components/atoms/helper-text/HelperText';
-import Link from '../../components/atoms/link/Link';
-import {ROUTES} from '../../Routes';
-import {AuthContextActionTypes} from '../../context/AuthReducer';
-import {useAuthContextDispatch} from '../../context/AuthContext';
-import useLogin from '../../query/auth/useLogin';
-import parseJwt from '../../utils/jwt/parseJwt';
-import SessionStorageUtils from '../../utils/storage/SessionStorageUtils';
+import * as React from "react";
+import { Controller, useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { useLocation, useNavigate } from "react-router-dom";
+import { loginSchema, LoginValues } from "./Login.schema";
+import TextField from "../../components/atoms/text-field/TextField";
+import IconButton from "../../components/molecules/buttons/IconButton";
+import HelperText from "../../components/atoms/helper-text/HelperText";
+import Link from "../../components/atoms/link/Link";
+import { ROUTES } from "../../Routes";
+import { AuthContextActionTypes } from "../../context/AuthReducer";
+import { useAuthContextDispatch } from "../../context/AuthContext";
+import useLogin from "../../query/auth/useLogin";
+import parseJwt from "../../utils/jwt/parseJwt";
+import SessionStorageUtils from "../../utils/storage/SessionStorageUtils";
 
 export interface LocationState {
   from: {
@@ -109,10 +109,16 @@ const LoginForm: React.FC = () => {
         variant='secondary'
         disabled
       />
-      <HelperText>
-        {t('login.dont-have-account')}{' '}
-        <Link to={ROUTES.REGISTER}>{t('login.sign-up')}</Link>
-      </HelperText>
+      <div className='flex flex-col gap-2'>
+        <HelperText>
+          {t('login.forgotten-password')}{' '}
+          <Link to={ROUTES.RESET_PASSWORD}>{t('login.reset-password')}</Link>
+        </HelperText>
+        <HelperText>
+          {t('login.dont-have-account')}{' '}
+          <Link to={ROUTES.REGISTER}>{t('login.sign-up')}</Link>
+        </HelperText>
+      </div>
     </form>
   );
 };

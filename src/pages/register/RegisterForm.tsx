@@ -1,18 +1,18 @@
-import * as React from 'react';
-import {Controller, useForm} from 'react-hook-form';
-import {useTranslation} from 'react-i18next';
-import {useNavigate} from 'react-router-dom';
-import {yupResolver} from '@hookform/resolvers/yup/dist/yup';
-import {useGoogleReCaptcha} from 'react-google-recaptcha-v3';
-import TextField from '../../components/atoms/text-field/TextField';
-import IconButton from '../../components/molecules/buttons/IconButton';
-import HelperText from '../../components/atoms/helper-text/HelperText';
-import Link from '../../components/atoms/link/Link';
-import {ROUTES} from '../../Routes';
-import {registerSchema, RegisterValues} from './Register.schema';
-import useRegister from '../../query/auth/useRegister';
-import {useSnackbar} from '../../components/molecules/snackbar/SnackbarProvider';
-import useTitle from '../../utils/hooks/useTitle';
+import * as React from "react";
+import { Controller, useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
+import { yupResolver } from "@hookform/resolvers/yup/dist/yup";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import TextField from "../../components/atoms/text-field/TextField";
+import IconButton from "../../components/molecules/buttons/IconButton";
+import HelperText from "../../components/atoms/helper-text/HelperText";
+import Link from "../../components/atoms/link/Link";
+import { ROUTES } from "../../Routes";
+import { registerSchema, RegisterValues } from "./Register.schema";
+import useRegister from "../../query/auth/useRegister";
+import { useSnackbar } from "../../components/molecules/snackbar/SnackbarProvider";
+import useTitle from "../../utils/hooks/useTitle";
 
 interface IRegisterForm {}
 
@@ -60,7 +60,7 @@ const RegisterForm: React.FC<IRegisterForm> = () => {
       onSubmit={handleSubmit(onSubmit)}
       className='lg:w-3/6 md:w-4/6 max-w-xl bg-gray-light rounded-lg p-8 flex flex-col gap-6 w-full mt-10 md:mt-0'
     >
-      <div className='flex space-x-4 w-full'>
+      <div className='flex flex-col md:flex-row gap-6 md:gap-0 md:space-x-4 w-full'>
         <Controller
           control={control}
           name='firstname'
