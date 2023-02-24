@@ -1,13 +1,15 @@
 import * as React from 'react';
+import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import tw from 'twin.macro';
-import IconButton from '../../molecules/buttons/IconButton';
+import IconButton from '../../../molecules/buttons/IconButton';
 import {
   useAuthContextDispatch,
   useAuthContextState,
-} from '../../../context/AuthContext';
-import DropdownItem from '../../atoms/dropdown-item/DropdownItem';
-import { AuthContextActionTypes } from '../../../context/AuthReducer';
+} from '../../../../context/AuthContext';
+import DropdownItem from '../../../atoms/dropdown-item/DropdownItem';
+import { AuthContextActionTypes } from '../../../../context/AuthReducer';
+import useOutsideAlerter from '../../../../utils/hooks/useOutsideAlerter';
 
 interface IUserInfoProps {}
 
@@ -19,6 +21,10 @@ const UserInfo: React.FC<IUserInfoProps> = () => {
   const { userData } = useAuthContextState();
   const dispatch = useAuthContextDispatch();
   const [isShowDropdown, setIsShowDropdown] = React.useState(false);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  useOutsideAlerter(dropdownRef, () => {
+    setIsShowDropdown(false);
+  });
 
   const concatenatedName = [userData?.firstname, userData?.lastname].join(' ');
 
@@ -37,7 +43,7 @@ const UserInfo: React.FC<IUserInfoProps> = () => {
           onClick={() => setIsShowDropdown(prev => !prev)}
         />
         {isShowDropdown && (
-          <Dropdown>
+          <Dropdown ref={dropdownRef}>
             <DropdownItem>
               <span>{t('appbar.portfolio')}</span>
             </DropdownItem>

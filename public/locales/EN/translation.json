@@ -27,6 +27,7 @@
   },
   "appbar": {
     "search-text": "Ticker...",
+    "home": "Home",
     "portfolio": "Portfolio",
     "login": "Log In",
     "signup": "Sign Up",
