@@ -1,11 +1,19 @@
-import * as React from "react";
-import { Title } from "@tremor/react";
-import { Controller, useForm } from "react-hook-form";
-import { useTranslation } from "react-i18next";
-import { ResetPasswordValues } from "./ResetPassword.schema";
-import TextField from "../../../components/atoms/text-field/TextField";
-import IconButton from "../../../components/molecules/buttons/IconButton";
-
+import * as React from 'react';
+import { Title } from '@tremor/react';
+import { Controller, useForm } from 'react-hook-form';
+import { useTranslation } from 'react-i18next';
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import { yupResolver } from '@hookform/resolvers/yup/dist/yup';
+import { useNavigate } from 'react-router-dom';
+import {
+  resetPasswordSchema,
+  ResetPasswordValues,
+} from './ResetPassword.schema';
+import TextField from '../../../components/atoms/text-field/TextField';
+import IconButton from '../../../components/molecules/buttons/IconButton';
+import useSendResetPasswordEmail from '../../../query/auth/useSendResetPasswordEmail';
+import { useSnackbar } from '../../../components/molecules/snackbar/SnackbarProvider';
+import { ROUTES } from '../../../Routes';
 
 const ResendPasswordForm: React.FC = () => {
   const { t } = useTranslation();
@@ -13,9 +21,31 @@ const ResendPasswordForm: React.FC = () => {
     control,
     handleSubmit,
     formState: { errors },
-  } = useForm<ResetPasswordValues>();
-  const isLoading = false;
-  const onSubmit = () => {};
+  } = useForm<ResetPasswordValues>({
+    resolver: yupResolver(resetPasswordSchema(t)),
+    mode: 'onBlur',
+    reValidateMode: 'onChange',
+  });
+  const { mutateAsync, isLoading } = useSendResetPasswordEmail();
+  const { executeRecaptcha } = useGoogleReCaptcha();
+  const snackbar = useSnackbar();
+  const navigate = useNavigate();
+  const onSubmit = async (formValues: ResetPasswordValues) => {
+    if (!executeRecaptcha) return;
+    const capchaResponse = await executeRecaptcha();
+
+    await mutateAsync({
+      request: formValues,
+      captchaToken: capchaResponse,
+    });
+    snackbar({
+      title: t('reset-password.email-sending-success') as string,
+      message: t('reset-password.email-sending-success-message') as string,
+      color: 'success',
+      autoHide: false,
+    });
+    navigate(ROUTES.HOME);
+  };
 
   return (
     <section id='resend-token'>

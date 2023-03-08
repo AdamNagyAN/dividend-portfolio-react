@@ -56,10 +56,10 @@ const MobileNavigationBar: React.FC<MobileNavigationBarProps> = ({
           animate={{ x: 0 }}
           exit={{ x: '100%' }}
           transition={{ duration: 0.3 }}
-          className='w-1/2 min-w-[400px] h-full bg-white fixed top-0 right-0 flex flex-col items-center pt-30 px-4 z-50'
+          className='w-1/2 min-w-[300px] h-full bg-white fixed top-0 right-0 flex flex-col items-center pt-30 px-4 z-50'
         >
           <IconButton
-            className='self-end p-4'
+            className='self-end my-4'
             icon={<XMarkIcon className='h-6 w-6 m-2' />}
             variant='icon'
             onClick={onClose}

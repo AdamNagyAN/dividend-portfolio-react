@@ -148,7 +148,11 @@
     "email": "E-Mail",
     "send": "Send",
     "password": "Password",
-    "confirm-password": "Confirm password"
+    "confirm-password": "Confirm password",
+    "email-sending-success": "Success!",
+    "email-sending-success-message": "Email was sent successfully.",
+    "password-change-success": "Success!",
+    "password-change-success-message": "Password has been changed."
   },
   "register": {
     "title": "Sign Up",
