@@ -34,7 +34,45 @@
     "logout": "Logout"
   },
   "home": {
-    "title": "Home"
+    "title": "Home",
+    "hero": {
+      "title": "Welcome to our Dividend Investing Database!",
+      "text": "We are a comprehensive platform designed to provide you with everything you need to make informed decisions about dividend investing. Our platform includes a range of features and tools to help you find the best dividend-paying stocks, analyze their financial data, and connect with other investors. Whether you are a seasoned investor or just starting out, our database is the perfect resource for all your dividend investing needs."
+    },
+    "features": {
+      "title": "Our Features",
+      "db-title": "Comprehensive Database",
+      "db-text": "Our database includes thousands of dividend-paying stocks, making it easy for you to find and compare stocks based on your investment goals.",
+      "tools-title": "Data Analysis Tools",
+      "tools-text": "Our platform includes a range of data analysis tools to help you make informed decisions about your investments, including financial data charts and graphs.",
+      "forum-title": "Community Forum",
+      "forum-text": "Connect with other investors and share your thoughts and experiences on our community forum. Get insights, feedback, and advice from fellow dividend investors."
+    },
+    "how": {
+      "title": "How it Works?",
+      "text": "Welcome to our Dividend Investing Database! We are a comprehensive platform designed to provide you with everything you need to make informed decisions about dividend investing. Our platform includes a range of features and tools to help you find the best dividend-paying stocks, analyze their financial data, and connect with other investors. Whether you are a seasoned investor or just starting out, our database is the perfect resource for all your dividend investing needs."
+    },
+    "subscriptions": {
+      "title": "Choose Your Subscription Plan",
+      "basic":{
+        "title": "Basic",
+        "price": "9.99",
+        "new-price": "FREE",
+        "text": "Access to our comprehensive database\nBasic data analysis tools\nCommunity forum access"
+      },
+      "pro":{
+        "title": "Pro",
+        "price": "19.99",
+        "new-price": "FREE",
+        "text": "Access to our comprehensive database\nAdvanced data analysis tools\nCommunity forum access\nEmail alerts for stock updates"
+      },
+      "premium":{
+        "title": "Premium",
+        "price": "29.99",
+        "new-price": "FREE",
+        "text": "Access to our comprehensive database\nAdvanced data analysis tools\nCommunity forum access\nEmail alerts for stock updates\nPriority customer support"
+      }
+    }
   },
   "ticker": {
     "summary": {

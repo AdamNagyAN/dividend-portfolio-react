@@ -41,7 +41,11 @@ module.exports = {
         dark: colors.lime['800'],
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
+    },
   },
   plugins: [typography],
 };

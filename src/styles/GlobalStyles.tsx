@@ -4,7 +4,7 @@ import tw, { GlobalStyles as BaseStyles } from 'twin.macro';
 
 export const CustomStyles = createGlobalStyle`
   body {
-    ${tw`bg-gray-light`}
+    ${tw`bg-gray-light font-montserrat`}
   }
 
   #root {
@@ -12,24 +12,17 @@ export const CustomStyles = createGlobalStyle`
   }
 		
 		h1{
-				${tw`text-5xl font-extrabold dark:text-white`}
+				${tw`text-3xl font-extrabold dark:text-white`}
 		}
 
   h2{
-    ${tw`text-4xl font-bold dark:text-white`}
-  }
-
-  h3{
-    ${tw`text-3xl font-bold dark:text-white`}
-  }
-
-  h4{
     ${tw`text-2xl font-bold dark:text-white`}
   }
 
-	h5{
-    ${tw`text-xl font-bold dark:text-white`}
+  h3{
+    ${tw`text-lg font-bold dark:text-white`}
   }
+  
 
 	h6{
     ${tw`text-lg font-bold dark:text-white`}

@@ -3,14 +3,8 @@
   "name": "Dividend Portfolio",
   "icons": [
     {
-      "src": "maskable_icon.png",
-      "size": "1024x1024",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
       "src": "favicon.ico",
-      "sizes": "32x32 16x16",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
@@ -24,8 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
