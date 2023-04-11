@@ -36,7 +36,7 @@ const Subsciption: React.FC<ISubsciption> = ({
       <Icon className='h-16 mb-4 text-indigo-dark' />
       <ul className='text-sm  leading-7 mb-4 text-left'>
         {text.map(it => (
-          <li className='flex items-center'>
+          <li className='flex items-center' key={it}>
             <CheckIcon className='h-4 mr-2 text-indigo-dark' /> {it}
           </li>
         ))}
