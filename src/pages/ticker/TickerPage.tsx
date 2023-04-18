@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useParams } from 'react-router-dom';
+import tw from 'twin.macro';
 import AppBar from '../../components/organisms/appbar/AppBar';
 import Footer from '../../components/organisms/footer/Footer';
 import TickerSummary from './TickerSummary';
@@ -15,7 +16,7 @@ const TickerPage: React.FC = () => {
     <>
       <AppBar />
       {!data ? (
-        <Loader className='mt-24' />
+        <Loader customCss={tw`mt-24`} />
       ) : (
         <div className='w-full max-w-screen-xl mx-auto my-4'>
           <TickerSummary data={data} />

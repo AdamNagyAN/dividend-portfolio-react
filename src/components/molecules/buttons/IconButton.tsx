@@ -47,7 +47,7 @@ const IconButton: React.FC<IIconButtonProps> = props => {
     >
       <ButtonBody $variant={variant} loading={loading}>
         {icon && icon}
-        {loading && <Loader className='mr-2' size='small' />}
+        {loading && <Loader customCss={tw`mr-2`} size='small' />}
         {text && <span className='my-2'>{text}</span>}
       </ButtonBody>
     </button>
