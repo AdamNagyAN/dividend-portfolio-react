@@ -46,7 +46,7 @@
   "scripts": {
     "start": "react-scripts start",
     "start-local-dev": "env-cmd -f .env.localdev react-scripts start",
-    "start-prod": "env-cmd -f .env.prod react-scripts start",
+    "start-prod": "env-cmd -f .env.production react-scripts start",
     "run-all": "yarn start&yarn mock",
     "build": "react-scripts build",
     "test": "react-scripts test",
